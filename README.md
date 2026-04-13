@@ -477,8 +477,9 @@ data: {"stage": "result", "data": { /* 完整结果对象 */ }}
 
 | 依赖 | 版本要求 | 说明 |
 |------|----------|------|
-| Node.js | >= 14.0.0 | 推荐使用LTS版本 |
+| Node.js | >= 14.0.0 | 推荐使用LTS版本（生产环境使用v16.9.0） |
 | npm | >= 6.0.0 | 随Node.js安装 |
+| PM2 | >= 4.0.0 | 生产环境进程管理（可选） |
 
 ### 本地开发部署
 
@@ -505,23 +506,29 @@ PORT=3000
 
 # 智谱GLM配置（推荐）
 GLM_API_KEY=your_glm_api_key
-GLM_API_URL=https://open.bigmodel.cn/api/paas/v4/chat/completions
+GLM_API_URL=https://open.bigmodel.cn/api/paas/v4
 GLM_MODEL=glm-4-flash
 
 # DeepSeek配置（可选）
 DEEPSEEK_API_KEY=your_deepseek_api_key
-DEEPSEEK_API_URL=https://api.deepseek.com/v1/chat/completions
+DEEPSEEK_API_URL=https://api.deepseek.com/v1
 DEEPSEEK_MODEL=deepseek-chat
 
-# 千问配置（可选）
+# 千问配置（可选，阿里云百炼）
 QWEN_API_KEY=your_qwen_api_key
-QWEN_API_URL=https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions
+QWEN_API_URL=https://dashscope.aliyuncs.com/compatible-mode/v1
 
 # 火山引擎/豆包配置（可选）
 VOLCANO_API_KEY=your_volcano_api_key
-VOLCANO_API_URL=https://ark.cn-beijing.volces.com/api/v3/chat/completions
-VOLCANO_MODEL=doubao-pro-32k
+VOLCANO_API_URL=https://ark.cn-beijing.volces.com/api/v3
+# 火山引擎接入点ID（需要在火山引擎控制台创建）
+VOLCANO_ENDPOINT_SEED_2_LITE=ep-m-xxxxxxxxxxxxx
+VOLCANO_ENDPOINT_SEED_1_6=ep-m-xxxxxxxxxxxxx
 ```
+
+**⚠️ 重要说明**：
+- API URL 只需填写基础地址，代码会自动拼接 `/chat/completions` 端点
+- 火山引擎需要额外配置接入点ID，在火山引擎控制台创建推理接入点后获取
 
 #### 步骤4：启动服务
 
@@ -537,42 +544,222 @@ npm run dev
 
 打开浏览器访问 `http://localhost:3000`
 
-### 生产环境部署
+### 生产环境部署（宝塔面板）
 
-#### 使用PM2部署
+#### 步骤1：安装Node.js
+
+在宝塔面板 → 软件商店 → 搜索 "Node.js版本管理器" → 安装
+
+安装完成后，选择Node.js版本（推荐v16.x LTS）
+
+#### 步骤2：上传项目文件
+
+将项目文件上传到服务器目录，例如 `/www/wwwroot/mbti/`
 
 ```bash
-# 安装PM2
-npm install -g pm2
+# 项目目录结构
+/www/wwwroot/mbti/
+├── index.html
+├── server.js
+├── package.json
+├── .env              # 环境变量配置
+├── assets/           # 静态资源
+├── config/           # 配置文件
+├── css/              # 样式文件
+├── data/             # 数据文件
+├── js/               # 前端JS
+├── routes/           # 后端路由
+└── services/         # 后端服务
+```
+
+#### 步骤3：安装依赖
+
+```bash
+cd /www/wwwroot/mbti
+/www/server/nodejs/v16.9.0/bin/npm install
+```
+
+#### 步骤4：配置环境变量
+
+创建 `.env` 文件（参考上文配置）
+
+#### 步骤5：使用PM2管理进程
+
+```bash
+# 安装PM2（如果未安装）
+/www/server/nodejs/v16.9.0/bin/npm install -g pm2
 
 # 启动服务
-pm2 start server.js --name opti
+cd /www/wwwroot/mbti
+pm2 start server.js --name mbti
 
 # 设置开机自启
 pm2 startup
 pm2 save
+
+# 查看进程状态
+pm2 list
+
+# 查看日志
+pm2 logs mbti
+
+# 重启服务
+pm2 restart mbti
 ```
 
-#### Nginx反向代理配置
+#### 步骤6：配置Nginx反向代理
+
+在宝塔面板 → 网站 → 添加站点 → 配置Nginx：
 
 ```nginx
 server {
-    listen 80;
+    listen 8080;
     server_name your-domain.com;
-
-    location / {
+    
+    # 允许访问 about_test.json（关于本测试）
+    location = /data/about_test.json {
         proxy_pass http://127.0.0.1:3000;
-        proxy_http_version 1.1;
-        proxy_set_header Upgrade $http_upgrade;
-        proxy_set_header Connection 'upgrade';
         proxy_set_header Host $host;
-        proxy_cache_bypass $http_upgrade;
+        proxy_set_header X-Real-IP $remote_addr;
+    }
+    
+    # 允许访问统计数据文件（公开访问）
+    location ~* ^/data/(mbti_statistics|mbti_compatibility_stats)\.json$ {
+        proxy_pass http://127.0.0.1:3000;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+    }
+    
+    # 允许访问题目文件
+    location ~* ^/data/questions/ {
+        proxy_pass http://127.0.0.1:3000;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+    }
+    
+    # 禁止访问 data 目录下的其他 JSON 文件（用户数据保护）
+    location ~* ^/data/.*\.json$ {
+        deny all;
+        return 403;
+    }
+    
+    # 禁止访问隐藏文件
+    location ~ /\. {
+        deny all;
+        return 403;
+    }
+    
+    # 禁止访问 node_modules
+    location ~* /node_modules/ {
+        deny all;
+        return 403;
+    }
+    
+    # 禁止访问服务端文件
+    location ~* ^/(routes|services)/.*\.js$ {
+        deny all;
+        return 403;
+    }
+    
+    # 禁止访问配置文件
+    location ~* \.(env|git|gitignore)$ {
+        deny all;
+        return 403;
+    }
+    
+    # 静态资源缓存
+    location ~* \.(jpg|jpeg|png|gif|webp|svg|ico|mp4|webm|mp3|ogg|wav|css|js|woff|woff2|ttf|eot)$ {
+        proxy_pass http://127.0.0.1:3000;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        expires 7d;
+        add_header Cache-Control "public, immutable";
+    }
+    
+    # SSE 流式响应配置（AI分析接口）
+    location ~* ^/api/mallm/ {
+        proxy_pass http://127.0.0.1:3000;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+        proxy_set_header Connection '';
         
-        # SSE支持
+        # SSE 关键配置
         proxy_buffering off;
         proxy_cache off;
+        proxy_read_timeout 86400s;
+        proxy_send_timeout 86400s;
+        gzip off;
     }
+    
+    # 默认代理
+    location / {
+        proxy_pass http://127.0.0.1:3000;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+        proxy_read_timeout 86400;
+    }
+    
+    # 日志
+    access_log /www/wwwroot/mbti/access.log;
+    error_log /www/wwwroot/mbti/error.log;
 }
+```
+
+#### 步骤7：验证部署
+
+```bash
+# 检查Node.js进程
+ps -ef | grep node
+
+# 检查端口监听
+ss -lntp | grep 3000
+
+# 测试API
+curl http://127.0.0.1:3000/api/ai-models
+```
+
+### 常见问题
+
+#### Q1: npm命令找不到
+
+宝塔面板的Node.js安装路径需要使用完整路径：
+
+```bash
+# 使用完整路径
+/www/server/nodejs/v16.9.0/bin/npm install
+
+# 或添加到PATH
+export PATH=$PATH:/www/server/nodejs/v16.9.0/bin
+```
+
+#### Q2: PM2进程无法开机自启
+
+```bash
+# 重新生成启动脚本
+pm2 unstartup
+pm2 startup
+pm2 save
+```
+
+#### Q3: AI分析接口超时
+
+检查Nginx配置中的SSE相关设置：
+- `proxy_buffering off`
+- `proxy_cache off`
+- `proxy_read_timeout 86400s`
+
+#### Q4: 端口被占用
+
+```bash
+# 查看端口占用
+ss -lntp | grep 3000
+
+# 杀死进程
+kill -9 <PID>
 ```
 
 ---
