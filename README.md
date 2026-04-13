@@ -764,6 +764,75 @@ ss -lntp | grep 3000
 curl http://127.0.0.1:3000/api/ai-models
 ```
 
+#### 步骤8：防火墙与端口开放
+
+**宝塔面板配置**：
+
+1. **安全设置**：宝塔面板 → 安全 → 添加端口规则
+   - 开放 `8080` 端口（HTTP访问）
+   - 开放 `3000` 端口（Node.js服务，可选，一般通过Nginx代理）
+
+2. **防火墙命令行配置**（如果使用firewalld）：
+
+```bash
+# 查看防火墙状态
+systemctl status firewalld
+
+# 开放8080端口
+firewall-cmd --zone=public --add-port=8080/tcp --permanent
+
+# 重载防火墙
+firewall-cmd --reload
+
+# 查看已开放端口
+firewall-cmd --list-ports
+```
+
+3. **云服务商安全组**（如果使用云服务器）：
+
+需要在云服务商控制台配置安全组规则：
+- 阿里云：安全组 → 入方向规则 → 添加规则
+- 腾讯云：安全组 → 入站规则 → 添加规则
+- 华为云：安全组 → 入方向规则 → 添加规则
+
+**规则配置**：
+| 协议 | 端口 | 来源 | 说明 |
+|------|------|------|------|
+| TCP | 8080 | 0.0.0.0/0 | HTTP访问 |
+| TCP | 22 | 0.0.0.0/0 | SSH（已有） |
+
+4. **验证端口开放**：
+
+```bash
+# 本地测试
+curl http://127.0.0.1:8080
+
+# 外部测试（在本地电脑执行）
+curl http://your-server-ip:8080
+
+# 或使用telnet测试
+telnet your-server-ip 8080
+```
+
+#### 步骤9：更新与维护
+
+```bash
+# 进入项目目录
+cd /www/wwwroot/mbti
+
+# 拉取最新代码
+git pull origin main
+
+# 重新安装依赖（如有更新）
+/www/server/nodejs/v16.9.0/bin/npm install
+
+# 重启服务
+pm2 restart mbti
+
+# 查看日志确认
+pm2 logs mbti
+```
+
 ### 常见问题
 
 #### Q1: npm命令找不到
@@ -802,6 +871,30 @@ ss -lntp | grep 3000
 
 # 杀死进程
 kill -9 <PID>
+```
+
+#### Q5: 无法访问网站（端口已开放）
+
+排查步骤：
+
+```bash
+# 1. 检查服务是否运行
+pm2 list
+
+# 2. 检查端口是否监听
+ss -lntp | grep 3000
+
+# 3. 检查Nginx是否运行
+systemctl status nginx
+
+# 4. 检查防火墙
+firewall-cmd --list-ports
+
+# 5. 检查Nginx配置
+nginx -t
+
+# 6. 查看Nginx错误日志
+tail -f /www/wwwroot/mbti/error.log
 ```
 
 ---
