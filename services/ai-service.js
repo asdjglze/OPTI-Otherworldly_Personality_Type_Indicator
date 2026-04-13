@@ -1,4 +1,3 @@
-// 版本号: v1.0.0
 /**
  * AI 服务模块
  * 
@@ -135,8 +134,7 @@ async function callAIApi(prompt, provider = 'glm', model = null, onReasoning = n
                 role: 'user',
                 content: prompt
             }
-        ],
-        max_tokens: 8000
+        ]
     };
     
     const useStreaming = true; // 始终使用流式响应以获取实时思考内容
@@ -295,16 +293,25 @@ async function callAIApi(prompt, provider = 'glm', model = null, onReasoning = n
         const jsonMatch = content.match(/\{[\s\S]*\}/);
         if (jsonMatch) {
             try {
-                return JSON.parse(jsonMatch[0]);
+                // 清理JSON字符串：移除换行符、制表符等特殊字符
+                let cleanedJson = jsonMatch[0]
+                    .replace(/[\r\n\t]+/g, ' ')  // 替换换行符和制表符为空格
+                    .replace(/[\t]+/g, ' ')     // 替换制表符
+                    .replace(/[\n\r]+/g, ' ')   // 替换回车符
+                    .replace(/\\n/g, '')        // 替换转义的换行符
+                    .replace(/\\"/g, '"')       // 替换转义的引号
+                    .replace(/\\\\/g, '\\');     // 替换转义的反斜杠
+                
+                return JSON.parse(cleanedJson);
             } catch (innerError) {
-                console.error(`[${provider}] JSON 提取后仍然解析失败:`, innerError.message);
-                console.error(`[${provider}] 提取的 JSON 片段 (前500字符):`, jsonMatch[0].substring(0, 500));
-                throw new Error(`AI 返回的 JSON 格式不完整，请重试或更换模型`);
+                console.error(`[${provider}] JSON 清理后仍然解析失败:`, innerError.message);
+                console.error(`[${provider}] 清理后的 JSON (前500字符):`, cleanedJson.substring(0, 500));
+                throw new Error(`AI 返回的 JSON 格式不完整，请重试或更换模型`)
             }
         }
         console.error(`[${provider}] 无法从 AI 响应中提取 JSON`);
         console.error(`[${provider}] AI 响应内容 (前500字符):`, content.substring(0, 500));
-        throw new Error(`AI 返回内容无法解析为 JSON，请重试或更换模型`);
+        throw new Error(`AI 返回内容无法解析为 JSON，请重试或更换模型`)
     }
 }
 
@@ -584,8 +591,9 @@ function buildAnalysisPrompt(questions, answers, gender = null, skippedQuestions
 2. 严禁私自增加字段或修改字段名称
 3. 本次测试共有${questionCount}道题目，请在detailed_evidence中为每道题提供分析
 4. 在所有分析文本中，请使用"您"来称呼测试者，不要使用"用户"
-5. skipped_questions_analysis字段：如果用户跳过了题目（共${skippedCount}道），请对这些跳过的题目进行整体分析，总结用户可能回避的情境类型或心理模式，写成一段简短的分析文字。如果跳过题目数量为0，则该字段可以省略或为空字符串
-6. **语言规范**：在所有分析类文本字段（analysis_summary、detailed_evidence中的reasoning、alternative_hypotheses_excluded中的reason_excluded、skipped_questions_analysis、caveats等）中，请使用中文表达，尽量减少使用英文词汇。但以下情况除外：
+5. **输出长度限制**：整个JSON输出的总字符数不得超过16000个字符。请精简分析内容，确保在限制内完成输出
+6. skipped_questions_analysis字段：如果用户跳过了题目（共${skippedCount}道），请对这些跳过的题目进行整体分析，总结用户可能回避的情境类型或心理模式，写成一段简短的分析文字。如果跳过题目数量为0，则该字段可以省略或为空字符串
+7. **语言规范**：在所有分析类文本字段（analysis_summary、detailed_evidence中的reasoning、alternative_hypotheses_excluded中的reason_excluded、skipped_questions_analysis、caveats等）中，请使用中文表达，尽量减少使用英文词汇。但以下情况除外：
    - MBTI类型缩写（如INFP、INTJ等）必须使用英文
    - 认知功能缩写（如Fi、Fe、Ti、Te、Ni、Ne、Si、Se）必须使用英文
    - 维度缩写（如E/I、S/N、T/F、J/P）必须使用英文
