@@ -897,6 +897,148 @@ nginx -t
 tail -f /www/wwwroot/mbti/error.log
 ```
 
+#### Q6: AI分析接口报错 - 余额不足
+
+**错误特征**：
+- HTTP 402 Payment Required
+- 错误信息包含 "insufficient_quota"、"余额不足"、"账户余额不足"
+
+**排查步骤**：
+
+```bash
+# 查看服务日志
+pm2 logs mbti --lines 100
+
+# 检查错误详情
+grep -i "quota\|balance\|余额" /www/wwwroot/mbti/error.log
+```
+
+**解决方案**：
+1. 登录对应AI服务商控制台充值：
+   - 智谱GLM：https://open.bigmodel.cn/
+   - DeepSeek：https://platform.deepseek.com/
+   - 千问（阿里云百炼）：https://bailian.console.aliyun.com/
+   - 火山引擎：https://console.volcengine.com/ark
+
+2. 切换到其他已充值的AI服务商：
+   ```bash
+   # 修改 .env 文件，更换默认模型
+   # 前端会自动获取可用模型列表
+   ```
+
+#### Q7: AI分析接口报错 - 请求频繁/限流
+
+**错误特征**：
+- HTTP 429 Too Many Requests
+- 错误信息包含 "rate_limit"、"请求过于频繁"、"QPS超限"
+
+**排查步骤**：
+
+```bash
+# 查看请求频率
+grep -i "rate\|limit\|频繁" /www/wwwroot/mbti/error.log | tail -20
+```
+
+**解决方案**：
+1. 等待一段时间后重试（通常1分钟内）
+2. 降低请求频率，避免并发请求
+3. 升级AI服务商套餐，提高QPS限制
+4. 切换到其他AI服务商
+
+**各服务商QPS限制参考**：
+| 服务商 | 免费版 | 付费版 |
+|--------|--------|--------|
+| 智谱GLM | 3 RPM | 60+ RPM |
+| DeepSeek | 30 RPM | 60+ RPM |
+| 千问 | 3 RPM | 60+ RPM |
+| 火山引擎 | 按接入点配置 | 按接入点配置 |
+
+#### Q8: AI分析接口报错 - API Key无效
+
+**错误特征**：
+- HTTP 401 Unauthorized
+- 错误信息包含 "invalid_api_key"、"API密钥无效"、"认证失败"
+
+**排查步骤**：
+
+```bash
+# 检查环境变量是否配置
+cat /www/wwwroot/mbti/.env | grep API_KEY
+
+# 测试API Key是否有效
+curl -H "Authorization: Bearer your_api_key" https://open.bigmodel.cn/api/paas/v4/models
+```
+
+**解决方案**：
+1. 检查 `.env` 文件中的API Key是否正确
+2. 确认API Key没有过期或被禁用
+3. 重新生成API Key并更新配置
+4. 重启服务：`pm2 restart mbti`
+
+#### Q9: AI分析接口报错 - 模型不存在
+
+**错误特征**：
+- HTTP 404 Not Found
+- 错误信息包含 "model_not_found"、"模型不存在"
+
+**解决方案**：
+1. 检查模型名称是否正确（区分大小写）
+2. 确认该模型在你的账户中已开通
+3. 火山引擎需要检查接入点ID是否正确
+
+#### Q10: AI分析接口报错 - 请求超时
+
+**错误特征**：
+- HTTP 504 Gateway Timeout
+- 错误信息包含 "timeout"、"超时"
+
+**排查步骤**：
+
+```bash
+# 检查Nginx超时配置
+grep -i "timeout" /www/server/panel/vhost/nginx/*.conf
+
+# 检查服务日志
+pm2 logs mbti --lines 50
+```
+
+**解决方案**：
+1. 增加Nginx超时时间：
+   ```nginx
+   proxy_read_timeout 120s;
+   proxy_send_timeout 120s;
+   ```
+2. 检查网络连接是否稳定
+3. 尝试使用响应更快的模型（如 glm-4-flash）
+
+#### Q11: AI分析接口报错 - 内容审核
+
+**错误特征**：
+- HTTP 400 Bad Request
+- 错误信息包含 "content_filter"、"内容审核"、"敏感词"
+
+**解决方案**：
+1. 修改用户输入，避免敏感内容
+2. AI服务商对输入/输出内容有审核机制
+3. 检查是否有违规词汇触发审核
+
+#### Q12: AI分析返回空结果或格式错误
+
+**排查步骤**：
+
+```bash
+# 查看完整响应
+pm2 logs mbti --lines 200 | grep -A 50 "AI分析"
+
+# 检查服务是否正常
+curl http://127.0.0.1:3000/api/ai-models
+```
+
+**解决方案**：
+1. 检查AI模型是否支持深度思考模式
+2. 检查prompt是否过长或格式异常
+3. 尝试切换其他模型测试
+
 ---
 
 ## 配置说明
