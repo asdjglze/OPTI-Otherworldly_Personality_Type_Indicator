@@ -505,19 +505,22 @@ PORT=3000
 
 # 智谱GLM配置（推荐）
 GLM_API_KEY=your_glm_api_key
-GLM_API_URL=https://open.bigmodel.cn/api/paas/v4
+GLM_API_URL=https://open.bigmodel.cn/api/paas/v4/chat/completions
+GLM_MODEL=glm-4-flash
 
 # DeepSeek配置（可选）
 DEEPSEEK_API_KEY=your_deepseek_api_key
-DEEPSEEK_API_URL=https://api.deepseek.com/v1
+DEEPSEEK_API_URL=https://api.deepseek.com/v1/chat/completions
+DEEPSEEK_MODEL=deepseek-chat
 
 # 千问配置（可选）
 QWEN_API_KEY=your_qwen_api_key
-QWEN_API_URL=https://dashscope.aliyuncs.com/compatible-mode/v1
+QWEN_API_URL=https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions
 
 # 火山引擎/豆包配置（可选）
 VOLCANO_API_KEY=your_volcano_api_key
-VOLCANO_API_URL=https://ark.cn-beijing.volces.com/api/v3
+VOLCANO_API_URL=https://ark.cn-beijing.volces.com/api/v3/chat/completions
+VOLCANO_MODEL=doubao-pro-32k
 ```
 
 #### 步骤4：启动服务
@@ -584,10 +587,10 @@ server {
 
 | 提供商 | 环境变量 | 支持的模型 |
 |--------|----------|------------|
-| 智谱GLM | `GLM_API_KEY`, `GLM_API_URL` | glm-5.1, glm-5, glm-4.7, glm-4.6, glm-4.5-flash |
-| DeepSeek | `DEEPSEEK_API_KEY`, `DEEPSEEK_API_URL` | deepseek-reasoner, deepseek-chat |
+| 智谱GLM | `GLM_API_KEY`, `GLM_API_URL`, `GLM_MODEL` | glm-5.1, glm-5, glm-4.7, glm-4.6, glm-4.5-flash |
+| DeepSeek | `DEEPSEEK_API_KEY`, `DEEPSEEK_API_URL`, `DEEPSEEK_MODEL` | deepseek-reasoner, deepseek-chat |
 | 千问 | `QWEN_API_KEY`, `QWEN_API_URL` | qwen3-max, qwen3.6-plus, qwen3.5-plus, qwen3.5-flash, qwen-turbo |
-| 火山引擎 | `VOLCANO_API_KEY`, `VOLCANO_API_URL` | doubao-seed-2-0-pro, doubao-seed-2-0-lite, doubao-seed-1-8 |
+| 火山引擎 | `VOLCANO_API_KEY`, `VOLCANO_API_URL`, `VOLCANO_MODEL` | doubao-seed-2-0-pro-260215, doubao-seed-2-0-lite-260215, doubao-seed-1-8-251228 |
 
 ### 模型选择建议
 
