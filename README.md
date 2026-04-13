@@ -552,24 +552,36 @@ npm run dev
 
 安装完成后，选择Node.js版本（推荐v16.x LTS）
 
-#### 步骤2：上传项目文件
-
-将项目文件上传到服务器目录，例如 `/www/wwwroot/mbti/`
+#### 步骤2：克隆仓库
 
 ```bash
-# 项目目录结构
+# 进入网站目录
+cd /www/wwwroot
+
+# 克隆仓库
+git clone https://github.com/asdjglze/OPTI-Otherworldly_Personality_Type_Indicator.git mbti
+
+# 进入项目目录
+cd mbti
+
+# 查看项目结构
+ls -la
+```
+
+**项目目录结构**：
+```
 /www/wwwroot/mbti/
-├── index.html
-├── server.js
-├── package.json
-├── .env              # 环境变量配置
-├── assets/           # 静态资源
-├── config/           # 配置文件
-├── css/              # 样式文件
-├── data/             # 数据文件
-├── js/               # 前端JS
-├── routes/           # 后端路由
-└── services/         # 后端服务
+├── index.html            # 前端入口
+├── server.js             # 服务器入口
+├── package.json          # 依赖配置
+├── .env                  # 环境变量（需自行创建）
+├── assets/               # 静态资源
+├── config/               # 配置文件
+├── css/                  # 样式文件
+├── data/                 # 数据文件
+├── js/                   # 前端JS
+├── routes/               # 后端路由
+└── services/             # 后端服务
 ```
 
 #### 步骤3：安装依赖
@@ -581,7 +593,37 @@ cd /www/wwwroot/mbti
 
 #### 步骤4：配置环境变量
 
-创建 `.env` 文件（参考上文配置）
+创建 `.env` 文件：
+
+```bash
+# 创建环境变量文件
+cat > /www/wwwroot/mbti/.env << 'EOF'
+# 服务端口
+PORT=3000
+
+# 智谱GLM配置
+GLM_API_KEY=your_glm_api_key
+GLM_API_URL=https://open.bigmodel.cn/api/paas/v4
+GLM_MODEL=glm-4-flash
+
+# DeepSeek配置
+DEEPSEEK_API_KEY=your_deepseek_api_key
+DEEPSEEK_API_URL=https://api.deepseek.com/v1
+DEEPSEEK_MODEL=deepseek-chat
+
+# 千问配置
+QWEN_API_KEY=your_qwen_api_key
+QWEN_API_URL=https://dashscope.aliyuncs.com/compatible-mode/v1
+
+# 火山引擎配置
+VOLCANO_API_KEY=your_volcano_api_key
+VOLCANO_API_URL=https://ark.cn-beijing.volces.com/api/v3
+VOLCANO_ENDPOINT_SEED_2_LITE=ep-m-xxxxxxxxxxxxx
+VOLCANO_ENDPOINT_SEED_1_6=ep-m-xxxxxxxxxxxxx
+EOF
+```
+
+**⚠️ 安全提示**：`.env` 文件包含敏感信息，确保不要提交到仓库（已在.gitignore中排除）
 
 #### 步骤5：使用PM2管理进程
 
