@@ -1,5 +1,9 @@
 # OPTI - Otherworldly Personality Type Indicator
 
+[![Version](https://img.shields.io/badge/version-v1.0.0-blue.svg)](https://github.com/asdjglze/OPTI-Otherworldly_Personality_Type_Indicator)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Node](https://img.shields.io/badge/node-%3E%3D14.0.0-brightgreen.svg)](https://nodejs.org/)
+
 基于原神角色的MBTI人格测试系统
 
 ## 项目简介
