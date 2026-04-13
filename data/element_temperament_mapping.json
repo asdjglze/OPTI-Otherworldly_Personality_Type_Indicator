@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "version": "1.0",
+    "description": "MBTI气质类型与原神元素的映射关系"
+  },
+  "temperaments": {
+    "NT": {
+      "name": "岩雷本命",
+      "badge_color": "#5b8def",
+      "description": "岩雷代表深邃与决断（直觉-思考），这些人注重理性、分析和推理，强调知识和思考能力，擅长解决复杂问题和创新。"
+    },
+    "NF": {
+      "name": "岩草本命",
+      "badge_color": "#a855f7",
+      "description": "岩草代表稳固与生机（直觉-情感），这些人注重自我认识和他人的感受，重视人际关系和情感表达，寻求内在的意义和价值。"
+    },
+    "SJ": {
+      "name": "火冰本命",
+      "badge_color": "#22c55e",
+      "description": "火冰代表热情与秩序（感觉-判断），这些人喜欢传统、安全、稳定，注重秩序和组织，习惯于遵循规则和流程。"
+    },
+    "SP": {
+      "name": "火原本命",
+      "badge_color": "#f59e0b",
+      "description": "火原代表热情与真实（感觉-知觉），这些人喜欢尝试新事物，行动敏捷，重视即时体验，不喜欢被限制，擅长适应变化。"
+    }
+  },
+  "type_mapping": {
+    "INTJ": "NT",
+    "INTP": "NT",
+    "ENTJ": "NT",
+    "ENTP": "NT",
+    "INFJ": "NF",
+    "INFP": "NF",
+    "ENFJ": "NF",
+    "ENFP": "NF",
+    "ISTJ": "SJ",
+    "ISFJ": "SJ",
+    "ESTJ": "SJ",
+    "ESFJ": "SJ",
+    "ISTP": "SP",
+    "ISFP": "SP",
+    "ESTP": "SP",
+    "ESFP": "SP"
+  }
+}

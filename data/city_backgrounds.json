@@ -1,0 +1,44 @@
+{
+  "mondstadt": {
+    "name": "蒙德城",
+    "name_en": "Mondstadt",
+    "bg1": "assets/backgrounds/mondstadt_1.jpg",
+    "bg2": "assets/backgrounds/mondstadt_2.jpg"
+  },
+  "liyue": {
+    "name": "璃月港",
+    "name_en": "Liyue",
+    "bg1": "assets/backgrounds/liyue_1.jpg",
+    "bg2": "assets/backgrounds/liyue_2.jpg"
+  },
+  "inazuma": {
+    "name": "稻妻城",
+    "name_en": "Inazuma",
+    "bg1": "assets/backgrounds/inazuma_1.jpg",
+    "bg2": "assets/backgrounds/inazuma_2.jpg"
+  },
+  "sumeru": {
+    "name": "须弥城",
+    "name_en": "Sumeru",
+    "bg1": "assets/backgrounds/sumeru_1.jpg",
+    "bg2": "assets/backgrounds/sumeru_2.jpg"
+  },
+  "fontaine": {
+    "name": "枫丹廷",
+    "name_en": "Fontaine",
+    "bg1": "assets/backgrounds/fontaine_1.jpg",
+    "bg2": "assets/backgrounds/fontaine_2.jpg"
+  },
+  "natlan": {
+    "name": "纳塔",
+    "name_en": "Natlan",
+    "bg1": "assets/backgrounds/natlan_1.jpg",
+    "bg2": "assets/backgrounds/natlan_2.jpg"
+  },
+  "snezhnaya": {
+    "name": "至冬国",
+    "name_en": "Snezhnaya",
+    "bg1": "assets/backgrounds/snezhnaya_1.jpg",
+    "bg2": "assets/backgrounds/snezhnaya_2.jpg"
+  }
+}

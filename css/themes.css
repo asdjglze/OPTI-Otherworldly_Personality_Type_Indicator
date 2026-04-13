@@ -1,0 +1,279 @@
+/*
+ * 原神版MBTI - 主题样式
+ * 
+ * 功能: 定义CSS变量和样式
+ */
+
+:root {
+  /* 主题配色 */
+  --ys-primary: #4cb4e7;
+  --ys-primary-light: #7ed4f7;
+  --ys-primary-dark: #2a9fd9;
+  --ys-secondary: #ffd700;
+  --ys-secondary-light: #ffe44d;
+  
+  /* 背景色 */
+  --ys-bg-dark: #0a0e14;
+  --ys-bg-darker: #050709;
+  --ys-bg-card: rgba(10, 20, 30, 0.85);
+  --ys-bg-card-hover: rgba(20, 35, 50, 0.9);
+  --ys-bg-overlay: rgba(0, 0, 0, 0.85);
+  
+  /* 文字颜色 */
+  --ys-text-primary: #ffffff;
+  --ys-text-secondary: #b8c5d6;
+  --ys-text-muted: #6b7a8c;
+  --ys-text-highlight: #ffd700;
+  
+  /* 边框和阴影 */
+  --ys-border-primary: rgba(76, 180, 231, 0.5);
+  --ys-border-light: rgba(255, 255, 255, 0.1);
+  --ys-border-active: rgba(76, 180, 231, 0.8);
+  
+  --ys-shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
+  --ys-shadow-md: 0 4px 16px rgba(0, 0, 0, 0.5);
+  --ys-shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.7);
+  --ys-shadow-glow: 0 0 30px rgba(76, 180, 231, 0.4);
+  
+  /* 渐变 */
+  --ys-gradient-primary: linear-gradient(135deg, #4cb4e7 0%, #2a9fd9 50%, #4cb4e7 100%);
+  --ys-gradient-gold: linear-gradient(135deg, #ffd700 0%, #ffaa00 50%, #ffd700 100%);
+  --ys-gradient-dark: linear-gradient(180deg, #0a0e14 0%, #050709 100%);
+  --ys-gradient-card: linear-gradient(145deg, rgba(20, 35, 50, 0.9) 0%, rgba(10, 20, 30, 0.95) 100%);
+  
+  /* 元素颜色 */
+  --anemo: #74c2a8;
+  --anemo-glow: rgba(116, 194, 168, 0.6);
+  --hydro: #4cc2f1;
+  --hydro-glow: rgba(76, 194, 241, 0.6);
+  --pyro: #ef7938;
+  --pyro-glow: rgba(239, 121, 56, 0.6);
+  --geo: #f0b232;
+  --geo-glow: rgba(240, 178, 50, 0.6);
+  --electro: #af8ec1;
+  --electro-glow: rgba(175, 142, 193, 0.6);
+  --dendro: #a5c83b;
+  --dendro-glow: rgba(165, 200, 59, 0.6);
+  --cryo: #9fd6e3;
+  --cryo-glow: rgba(159, 214, 227, 0.6);
+  --physical: #c5c5c5;
+  --physical-glow: rgba(197, 197, 197, 0.6);
+  
+  /* ========== 元素反应功能颜色（认知功能分级） ========== */
+  
+  /* ========== 超导 (Te) - 雷+冰，蓝紫系 ========== */
+  --reaction-Te-dominant: #b48cd9;
+  --reaction-Te-dominant-glow: rgba(180, 140, 217, 0.7);
+  --reaction-Te-auxiliary: #9fa3cf;
+  --reaction-Te-auxiliary-glow: rgba(159, 163, 207, 0.5);
+  --reaction-Te-tertiary: #8ab0d4;
+  --reaction-Te-tertiary-glow: rgba(138, 176, 212, 0.4);
+  --reaction-Te-inferior: #7da5c5;
+  --reaction-Te-inferior-glow: rgba(125, 165, 197, 0.3);
+ 
+  /* ========== 感电 (Ti) - 雷+水，紫蓝系 ========== */
+  --reaction-Ti-dominant: #b87cd9;
+  --reaction-Ti-dominant-glow: rgba(184, 124, 217, 0.7);
+  --reaction-Ti-auxiliary: #9a89cf;
+  --reaction-Ti-auxiliary-glow: rgba(154, 137, 207, 0.5);
+  --reaction-Ti-tertiary: #7c9fd4;
+  --reaction-Ti-tertiary-glow: rgba(124, 159, 212, 0.4);
+  --reaction-Ti-inferior: #6e9ac0;
+  --reaction-Ti-inferior-glow: rgba(110, 154, 192, 0.3);
+ 
+  /* ========== 扩散 (Fe) - 草+风，黄绿系 ========== */
+  --reaction-Fe-dominant: #b8e068;
+  --reaction-Fe-dominant-glow: rgba(184, 224, 104, 0.7);
+  --reaction-Fe-auxiliary: #a2c97a;
+  --reaction-Fe-auxiliary-glow: rgba(162, 201, 122, 0.5);
+  --reaction-Fe-tertiary: #8cb58c;
+  --reaction-Fe-tertiary-glow: rgba(140, 181, 140, 0.4);
+  --reaction-Fe-inferior: #7aa58a;
+  --reaction-Fe-inferior-glow: rgba(122, 165, 138, 0.3);
+ 
+  /* ========== 绽放 (Fi) - 草+水，翠绿系 ========== */
+  --reaction-Fi-dominant: #6ed44a;
+  --reaction-Fi-dominant-glow: rgba(110, 212, 74, 0.7);
+  --reaction-Fi-auxiliary: #5ebf5e;
+  --reaction-Fi-auxiliary-glow: rgba(94, 191, 94, 0.5);
+  --reaction-Fi-tertiary: #4eaa72;
+  --reaction-Fi-tertiary-glow: rgba(78, 170, 114, 0.4);
+  --reaction-Fi-inferior: #3e957a;
+  --reaction-Fi-inferior-glow: rgba(62, 149, 122, 0.3);
+ 
+  /* ========== 激化 (Ne) - 岩+风，金黄系 ========== */
+  --reaction-Ne-dominant: #f0c048;
+  --reaction-Ne-dominant-glow: rgba(240, 192, 72, 0.7);
+  --reaction-Ne-auxiliary: #dbb550;
+  --reaction-Ne-auxiliary-glow: rgba(219, 181, 80, 0.5);
+  --reaction-Ne-tertiary: #c6a858;
+  --reaction-Ne-tertiary-glow: rgba(198, 168, 88, 0.4);
+  --reaction-Ne-inferior: #b19a60;
+  --reaction-Ne-inferior-glow: rgba(177, 154, 96, 0.3);
+ 
+  /* ========== 结晶 (Ni) - 岩+水，晶黄/晶蓝系 ========== */
+  --reaction-Ni-dominant: #f0d87c;
+  --reaction-Ni-dominant-glow: rgba(240, 216, 124, 0.7);
+  --reaction-Ni-auxiliary: #cfc084;
+  --reaction-Ni-auxiliary-glow: rgba(207, 192, 132, 0.5);
+  --reaction-Ni-tertiary: #aea88c;
+  --reaction-Ni-tertiary-glow: rgba(174, 168, 140, 0.4);
+  --reaction-Ni-inferior: #8d9088;
+  --reaction-Ni-inferior-glow: rgba(141, 144, 136, 0.3);
+ 
+  /* ========== 燃烧 (Se) - 火+风，橙红系 ========== */
+  --reaction-Se-dominant: #f09c4a;
+  --reaction-Se-dominant-glow: rgba(240, 156, 74, 0.7);
+  --reaction-Se-auxiliary: #db9a5a;
+  --reaction-Se-auxiliary-glow: rgba(219, 154, 90, 0.5);
+  --reaction-Se-tertiary: #c6986a;
+  --reaction-Se-tertiary-glow: rgba(198, 152, 106, 0.4);
+  --reaction-Se-inferior: #b1967a;
+  --reaction-Se-inferior-glow: rgba(177, 150, 122, 0.3);
+ 
+  /* ========== 蒸发 (Si) - 火+水，橙蓝系 ========== */
+  --reaction-Si-dominant: #f0ac8c;
+  --reaction-Si-dominant-glow: rgba(240, 172, 140, 0.7);
+  --reaction-Si-auxiliary: #d4aa9c;
+  --reaction-Si-auxiliary-glow: rgba(212, 170, 156, 0.5);
+  --reaction-Si-tertiary: #b8a8ac;
+  --reaction-Si-tertiary-glow: rgba(184, 168, 172, 0.4);
+  --reaction-Si-inferior: #9ca6bc;
+  --reaction-Si-inferior-glow: rgba(156, 166, 188, 0.3);
+  
+  /* 字体 */
+  --font-primary: "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+  --font-display: "Microsoft YaHei", "微软雅黑", serif;
+  
+  /* 字号 */
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 1.875rem;
+  --text-4xl: 2.25rem;
+  --text-5xl: 3rem;
+  --text-6xl: 3.75rem;
+  
+  /* 间距 */
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+  --spacing-2xl: 3rem;
+  --spacing-3xl: 4rem;
+  
+  /* 圆角 */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-full: 9999px;
+  
+  /* 过渡 */
+  --transition-fast: 150ms ease;
+  --transition-normal: 300ms ease;
+  --transition-slow: 500ms ease;
+  
+  /* 层级 */
+  --z-dropdown: 100;
+  --z-modal: 200;
+  --z-tooltip: 300;
+  --z-notification: 400;
+
+  /* ========== 气质类型色系（严格按此色值，禁止自行生成） ========== */
+
+  /* NT 紫色系 */
+  --temperament-NT-primary: #C084FC;
+  --temperament-NT-light: #D8B4FE;
+  --temperament-NT-dark: #A855F7;
+  --temperament-NT-lighter: #E9D5FF;
+  --temperament-NT-darker: #9333EA;
+  --temperament-NT-bg-light: #FCF5FF;
+  --temperament-NT-bg-medium: #F3E8FF;
+  --temperament-NT-bg-dark: #EDE9FE;
+
+  /* NF 绿色系 */
+  --temperament-NF-primary: #6EE7B3;
+  --temperament-NF-light: #8FECBE;
+  --temperament-NF-dark: #34D399;
+  --temperament-NF-lighter: #B3F5D6;
+  --temperament-NF-darker: #10B981;
+  --temperament-NF-bg-light: #F5FFFB;
+  --temperament-NF-bg-medium: #DCFCE7;
+  --temperament-NF-bg-dark: #C7F9E0;
+
+  /* SJ 蓝色系 */
+  --temperament-SJ-primary: #60A5FA;
+  --temperament-SJ-light: #93C5FD;
+  --temperament-SJ-dark: #3B82F6;
+  --temperament-SJ-lighter: #BFDBFE;
+  --temperament-SJ-darker: #2563EB;
+  --temperament-SJ-bg-light: #F5FAFF;
+  --temperament-SJ-bg-medium: #DBEAFE;
+  --temperament-SJ-bg-dark: #C3DDFD;
+
+  /* SP 橙色系 */
+  --temperament-SP-primary: #FBBF24;
+  --temperament-SP-light: #FCD34D;
+  --temperament-SP-dark: #F59E0B;
+  --temperament-SP-lighter: #FDE68A;
+  --temperament-SP-darker: #D97706;
+  --temperament-SP-bg-light: #FFF9EF;
+  --temperament-SP-bg-medium: #FEF3C7;
+  --temperament-SP-bg-dark: #FDE68A;
+
+  /* ========== 动态气质变量（由JS动态设置） ========== */
+  --temperament-primary: #60A5FA;
+  --temperament-light: #93C5FD;
+  --temperament-dark: #3B82F6;
+  --temperament-lighter: #BFDBFE;
+  --temperament-darker: #2563EB;
+  --temperament-bg-light: #F5FAFF;
+  --temperament-bg-medium: #DBEAFE;
+  --temperament-bg-dark: #C3DDFD;
+}
+
+/* ==================== 全局样式 ==================== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-primary);
+  background: var(--ys-bg-dark);
+  color: var(--ys-text-primary);
+  min-height: 100vh;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+/* 背景装饰 - 星空效果 */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    radial-gradient(ellipse at 20% 20%, rgba(76, 180, 231, 0.08) 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 80%, rgba(175, 142, 193, 0.08) 0%, transparent 50%),
+    radial-gradient(ellipse at 50% 50%, rgba(255, 215, 0, 0.03) 0%, transparent 70%),
+    linear-gradient(180deg, rgba(10, 14, 20, 0.9) 0%, rgba(5, 7, 9, 1) 100%);
+  pointer-events: none;
+  z-index: -1;
+}
+
+

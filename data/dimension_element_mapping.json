@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "version": "1.0",
+    "description": "MBTI维度与原神元素的映射关系"
+  },
+  "dimensions": {
+    "EI": {
+      "letter": "E",
+      "element": "anemo",
+      "leftElement": "anemo",
+      "rightElement": "hydro",
+      "leftName": "风",
+      "rightName": "水"
+    },
+    "SN": {
+      "letter": "S",
+      "element": "pyro",
+      "leftElement": "pyro",
+      "rightElement": "geo",
+      "leftName": "火",
+      "rightName": "岩"
+    },
+    "TF": {
+      "letter": "T",
+      "element": "electro",
+      "leftElement": "electro",
+      "rightElement": "dendro",
+      "leftName": "雷",
+      "rightName": "草"
+    },
+    "JP": {
+      "letter": "J",
+      "element": "cryo",
+      "leftElement": "cryo",
+      "rightElement": "physical",
+      "leftName": "冰",
+      "rightName": "原"
+    }
+  },
+  "letterToElement": {
+    "E": "anemo",
+    "I": "hydro",
+    "S": "pyro",
+    "N": "geo",
+    "T": "electro",
+    "F": "dendro",
+    "J": "cryo",
+    "P": "physical"
+  },
+  "elementNames": {
+    "anemo": "风",
+    "hydro": "水",
+    "pyro": "火",
+    "geo": "岩",
+    "electro": "雷",
+    "dendro": "草",
+    "cryo": "冰",
+    "physical": "原"
+  }
+}

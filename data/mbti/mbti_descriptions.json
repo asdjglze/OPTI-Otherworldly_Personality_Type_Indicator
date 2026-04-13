@@ -1,0 +1,146 @@
+{
+  "mbti_types_overview": {
+    "meta": {
+      "version": "1.0",
+      "last_updated": "2026-03-03",
+      "source": "Based on Myers & Briggs Foundation and academic references",
+      "description": "16种MBTI人格类型精准概览，按四种气质分类"
+    },
+    "analysts": {
+      "name": "分析师型 (NT)",
+      "description": "理性、逻辑性强，善于战略思考和创新，追求知识和能力。",
+      "types": [
+        {
+          "code": "INTJ",
+          "nickname": "建筑师",
+          "short_desc": "富有想象力和战略性的思想家，一切皆在计划之中。",
+          "traits": ["独立", "果断", "善于洞察模式", "高标准"],
+          "role": "策略家"
+        },
+        {
+          "code": "INTP",
+          "nickname": "逻辑学家",
+          "short_desc": "具有创造力的发明家，对知识有着止不住的渴望。",
+          "traits": ["理性", "好奇", "喜欢理论模型", "善于分析"],
+          "role": "思想家"
+        },
+        {
+          "code": "ENTJ",
+          "nickname": "指挥官",
+          "short_desc": "大胆、富有想象力且意志强大的领导者，总能找到或创造解决方法。",
+          "traits": ["果断", "善于统筹", "目标导向", "天生的领导者"],
+          "role": "统帅"
+        },
+        {
+          "code": "ENTP",
+          "nickname": "辩论家",
+          "short_desc": "聪明好奇的思想者，不会放弃任何智力上的挑战。",
+          "traits": ["机智", "善于辩论", "创新", "适应力强"],
+          "role": "创新者"
+        }
+      ]
+    },
+    "diplomats": {
+      "name": "外交家型 (NF)",
+      "description": "关注人际关系和内在价值，富有理想主义和同理心，善于激励他人。",
+      "types": [
+        {
+          "code": "INFJ",
+          "nickname": "提倡者",
+          "short_desc": "安静而神秘，同时鼓舞人心且不知疲倦的理想主义者。",
+          "traits": ["洞察力强", "有信念", "深沉", "理想主义"],
+          "role": "倡导者"
+        },
+        {
+          "code": "INFP",
+          "nickname": "调停者",
+          "short_desc": "诗意、善良的利他主义者，总是热情地为正当理由提供帮助。",
+          "traits": ["理想主义", "敏感", "重视内在和谐", "创造力强"],
+          "role": "调和者"
+        },
+        {
+          "code": "ENFJ",
+          "nickname": "主人公",
+          "short_desc": "富有魅力鼓舞人心的领导者，有使听众着迷的能力。",
+          "traits": ["热情", "有感染力", "善于沟通", "乐于奉献"],
+          "role": "引导者"
+        },
+        {
+          "code": "ENFP",
+          "nickname": "竞选者",
+          "short_desc": "热情、有创造力爱社交的自由自在的人，总能找到微笑的理由。",
+          "traits": ["充满活力", "好奇心强", "富有同情心", "追求可能"],
+          "role": "激励者"
+        }
+      ]
+    },
+    "guardians": {
+      "name": "守护者型 (SJ)",
+      "description": "注重责任和传统，务实可靠，维护秩序和稳定。",
+      "types": [
+        {
+          "code": "ISTJ",
+          "nickname": "物流师",
+          "short_desc": "实际且注重事实的个人，其可靠性不容置疑。",
+          "traits": ["严谨", "负责", "守时", "遵循规则"],
+          "role": "监管者"
+        },
+        {
+          "code": "ISFJ",
+          "nickname": "守护者",
+          "short_desc": "非常专注而温暖的守护者，时刻准备着保护爱着的人们。",
+          "traits": ["体贴", "细致", "乐于奉献", "重视归属感"],
+          "role": "保护者"
+        },
+        {
+          "code": "ESTJ",
+          "nickname": "总经理",
+          "short_desc": "出色的管理者，在管理事情或人员方面无与伦比。",
+          "traits": ["务实", "强势", "条理清晰", "讲究效率"],
+          "role": "执行者"
+        },
+        {
+          "code": "ESFJ",
+          "nickname": "执政官",
+          "short_desc": "极有同情心和爱心的社交者，总是热心提供帮助。",
+          "traits": ["热心", "合群", "尽责", "重视和谐"],
+          "role": "组织者"
+        }
+      ]
+    },
+    "explorers": {
+      "name": "探险家型 (SP)",
+      "description": "灵活务实，善于应对当下，追求体验和行动。",
+      "types": [
+        {
+          "code": "ISTP",
+          "nickname": "鉴赏家",
+          "short_desc": "大胆而实际的实验家，擅长使用任何形式的工具。",
+          "traits": ["冷静", "敏锐", "擅长动手", "追求刺激"],
+          "role": "手艺人"
+        },
+        {
+          "code": "ISFP",
+          "nickname": "探险家",
+          "short_desc": "灵活有魅力的艺术家，时刻准备着探索和体验新鲜事物。",
+          "traits": ["敏感", "随和", "热爱自然", "注重审美"],
+          "role": "艺术家"
+        },
+        {
+          "code": "ESTP",
+          "nickname": "企业家",
+          "short_desc": "聪明、精力充沛、善于感知的领导者，真心享受生活在边缘。",
+          "traits": ["果断", "大胆", "善于谈判", "活在当下"],
+          "role": "实干家"
+        },
+        {
+          "code": "ESFP",
+          "nickname": "表演者",
+          "short_desc": "自发的、精力充沛而热情的表演者，生活在他们周围永不无聊。",
+          "traits": ["热情", "外向", "爱开玩笑", "善于社交"],
+          "role": "表演者"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,4409 @@
+{
+    "code": 0,
+    "data": {
+        "id": "8",
+        "name": "MBTI性格测试（200题）",
+        "list": [
+            {
+                "id": 2723,
+                "name": "你有一个各方面都非常喜欢但在当前版本强度低的角色，会难以换下他吗？",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 8897,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 2723,
+                        "character_type": "J"
+                    },
+                    {
+                        "id": 8898,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 2723,
+                        "character_type": "P"
+                    }
+                ]
+            },
+            {
+                "id": 2724,
+                "name": "如果有人没立刻回复你的消息，你会担心是不是自己说错了话",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 8899,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 2724,
+                        "character_type": "I"
+                    },
+                    {
+                        "id": 8900,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 2724,
+                        "character_type": "E"
+                    }
+                ]
+            },
+            {
+                "id": 2725,
+                "name": "看到别人哭很容易让你觉得自己也想哭",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 8901,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 2725,
+                        "character_type": "F"
+                    },
+                    {
+                        "id": 8902,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 2725,
+                        "character_type": "T"
+                    }
+                ]
+            },
+            {
+                "id": 2726,
+                "name": "如果原神降临现实世界，在挑战深境螺旋时，你会根据每层敌人的元素属性准备多套不同的队伍阵容吗？",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 8903,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 2726,
+                        "character_type": "J"
+                    },
+                    {
+                        "id": 8904,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 2726,
+                        "character_type": "P"
+                    }
+                ]
+            },
+            {
+                "id": 2727,
+                "name": "你通常保持冷静，即使在很大压力的情况下",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 8905,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 2727,
+                        "character_type": "N"
+                    },
+                    {
+                        "id": 8906,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 2727,
+                        "character_type": "S"
+                    }
+                ]
+            },
+            {
+                "id": 2728,
+                "name": "如果可以的话，在联机模式中，你更愿意和熟悉的朋友组队，而不是主动加入陌生人的队伍",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 8907,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 2728,
+                        "character_type": "I"
+                    },
+                    {
+                        "id": 8908,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 2728,
+                        "character_type": "E"
+                    }
+                ]
+            },
+            {
+                "id": 2729,
+                "name": "你更喜欢在开始另一件事之前完全完成上一件事",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 8909,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 2729,
+                        "character_type": "J"
+                    },
+                    {
+                        "id": 8910,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 2729,
+                        "character_type": "P"
+                    }
+                ]
+            },
+            {
+                "id": 2730,
+                "name": "在联机或讨论游戏时，你的好友是否常说很难理解你的想法或玩法？",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 8911,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 2730,
+                        "character_type": "I"
+                    },
+                    {
+                        "id": 8912,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 2730,
+                        "character_type": "E"
+                    }
+                ]
+            },
+            {
+                "id": 2731,
+                "name": "遇到非常喜欢的新角色，你总是抽到手再研究强度和配队",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 8913,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 2731,
+                        "character_type": "P"
+                    },
+                    {
+                        "id": 8914,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 2731,
+                        "character_type": "J"
+                    }
+                ]
+            },
+            {
+                "id": 2732,
+                "name": "你很容易感伤",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 8915,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 2732,
+                        "character_type": "F"
+                    },
+                    {
+                        "id": 8916,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 2732,
+                        "character_type": "T"
+                    }
+                ]
+            },
+            {
+                "id": 2733,
+                "name": "您喜欢使用计划和列表等组织工具",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 8917,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 2733,
+                        "character_type": "J"
+                    },
+                    {
+                        "id": 8918,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 2733,
+                        "character_type": "P"
+                    }
+                ]
+            },
+            {
+                "id": 2734,
+                "name": "只要走到你觉得有趣的人面前，你就会感到很放松，然后开始交谈",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 8919,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 2734,
+                        "character_type": "N"
+                    },
+                    {
+                        "id": 8920,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 2734,
+                        "character_type": "S"
+                    }
+                ]
+            },
+            {
+                "id": 2735,
+                "name": "你是否可以和任何人按需求从容地交谈",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 8921,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 2735,
+                        "character_type": "E"
+                    },
+                    {
+                        "id": 8922,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 2735,
+                        "character_type": "I"
+                    }
+                ]
+            },
+            {
+                "id": 2736,
+                "name": "你更倾向于跟随你的头脑而不是你的心",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 8923,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 2736,
+                        "character_type": "T"
+                    },
+                    {
+                        "id": 8924,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 2736,
+                        "character_type": "F"
+                    }
+                ]
+            },
+            {
+                "id": 2737,
+                "name": "你通常更喜欢根据心情随意做任务，而不是规划好每一个主/支线或活动任务的路线和顺序",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 8925,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 2737,
+                        "character_type": "P"
+                    },
+                    {
+                        "id": 8926,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 2737,
+                        "character_type": "J"
+                    }
+                ]
+            },
+            {
+                "id": 2738,
+                "name": "你喜欢或希望参加原神相关的线下玩家聚会（如漫展、同城面基）",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 8927,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 2738,
+                        "character_type": "E"
+                    },
+                    {
+                        "id": 8928,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 2738,
+                        "character_type": "I"
+                    }
+                ]
+            },
+            {
+                "id": 2739,
+                "name": "你喜欢阅读游戏剧情和CG，并对结局做出自己的分析",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 8929,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 2739,
+                        "character_type": "N"
+                    },
+                    {
+                        "id": 8930,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 2739,
+                        "character_type": "S"
+                    }
+                ]
+            },
+            {
+                "id": 2740,
+                "name": "更让你幸福满足的是帮助萌新、带别人打副本，而不是自己刷出极品圣遗物或打通深渊",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 8931,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 2740,
+                        "character_type": "E"
+                    },
+                    {
+                        "id": 8932,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 2740,
+                        "character_type": "I"
+                    }
+                ]
+            },
+            {
+                "id": 2741,
+                "name": "原神中有太多好玩的事，以至于经常难以决定下一步该做什么",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 8933,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 2741,
+                        "character_type": "N"
+                    },
+                    {
+                        "id": 8934,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 2741,
+                        "character_type": "S"
+                    }
+                ]
+            },
+            {
+                "id": 2742,
+                "name": "打联机副本时，你通常避免主动带队，或不愿意在队伍中充当指挥型角色",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 8935,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 2742,
+                        "character_type": "I"
+                    },
+                    {
+                        "id": 8936,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 2742,
+                        "character_type": "E"
+                    }
+                ]
+            },
+            {
+                "id": 2743,
+                "name": "你是一个没有什么艺术细胞的人",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 8937,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 2743,
+                        "character_type": "S"
+                    },
+                    {
+                        "id": 8938,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 2743,
+                        "character_type": "N"
+                    }
+                ]
+            },
+            {
+                "id": 2744,
+                "name": "你喜欢尝试培养新角色或学习新玩法，但练成后又很快感到厌倦",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 8939,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 2744,
+                        "character_type": "N"
+                    },
+                    {
+                        "id": 8940,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 2744,
+                        "character_type": "S"
+                    }
+                ]
+            },
+            {
+                "id": 2745,
+                "name": "在讨论配队或角色强度时，你容易看出别人阵容的不足并直接指出",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 8941,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 2745,
+                        "character_type": "T"
+                    },
+                    {
+                        "id": 8942,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 2745,
+                        "character_type": "F"
+                    }
+                ]
+            },
+            {
+                "id": 2746,
+                "name": "你认为如果人们更多地依赖理性而不是他们的感受，原神的社会风评会变得更美好",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 8943,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 2746,
+                        "character_type": "T"
+                    },
+                    {
+                        "id": 8944,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 2746,
+                        "character_type": "F"
+                    }
+                ]
+            },
+            {
+                "id": 2747,
+                "name": "你喜欢看玩家社区里关于游戏内容的争论",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 8945,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 2747,
+                        "character_type": "E"
+                    },
+                    {
+                        "id": 8946,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 2747,
+                        "character_type": "I"
+                    }
+                ]
+            },
+            {
+                "id": 2748,
+                "name": "你倾向于避免引起人们对自己的注意",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 8947,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 2748,
+                        "character_type": "I"
+                    },
+                    {
+                        "id": 8948,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 2748,
+                        "character_type": "E"
+                    }
+                ]
+            },
+            {
+                "id": 2749,
+                "name": "你的情绪变化很快",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 8949,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 2749,
+                        "character_type": "F"
+                    },
+                    {
+                        "id": 8950,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 2749,
+                        "character_type": "T"
+                    }
+                ]
+            },
+            {
+                "id": 2750,
+                "name": "你对操作或游戏理解不如你的玩家容易感到不耐烦",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 8951,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 2750,
+                        "character_type": "J"
+                    },
+                    {
+                        "id": 8952,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 2750,
+                        "character_type": "P"
+                    }
+                ]
+            },
+            {
+                "id": 2751,
+                "name": "每次游戏版本更新或加入新区域，你总能很快适应新的机制和环境",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 8953,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 2751,
+                        "character_type": "P"
+                    },
+                    {
+                        "id": 8954,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 2751,
+                        "character_type": "J"
+                    }
+                ]
+            },
+            {
+                "id": 2752,
+                "name": "你一直对死后的世界、灵魂之类的东西（如果存在的话）着迷",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 8955,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 2752,
+                        "character_type": "N"
+                    },
+                    {
+                        "id": 8956,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 2752,
+                        "character_type": "S"
+                    }
+                ]
+            },
+            {
+                "id": 2753,
+                "name": "对你而言，工作学习是最重要的，玩原神其次",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 8957,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 2753,
+                        "character_type": "T"
+                    },
+                    {
+                        "id": 8958,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 2753,
+                        "character_type": "F"
+                    }
+                ]
+            },
+            {
+                "id": 2754,
+                "name": "你经常习惯性拖延",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 8959,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 2754,
+                        "character_type": "P"
+                    },
+                    {
+                        "id": 8960,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 2754,
+                        "character_type": "J"
+                    }
+                ]
+            },
+            {
+                "id": 2755,
+                "name": "比起一个人玩原神，你更喜欢和朋友玩其他联机游戏",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 8961,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 2755,
+                        "character_type": "E"
+                    },
+                    {
+                        "id": 8962,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 2755,
+                        "character_type": "I"
+                    }
+                ]
+            },
+            {
+                "id": 2756,
+                "name": "你更喜欢看到游戏玩法的讨论，而非游戏剧情、设定、世界观的猜测分析",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 8963,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 2756,
+                        "character_type": "S"
+                    },
+                    {
+                        "id": 8964,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 2756,
+                        "character_type": "N"
+                    }
+                ]
+            },
+            {
+                "id": 2757,
+                "name": "你容易理解和同情游戏中的角色，哪怕他的人生经历与你完全不同",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 8965,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 2757,
+                        "character_type": "F"
+                    },
+                    {
+                        "id": 8966,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 2757,
+                        "character_type": "T"
+                    }
+                ]
+            },
+            {
+                "id": 2758,
+                "name": "您通常会尽可能长时间地推迟最终决定",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 8967,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 2758,
+                        "character_type": "P"
+                    },
+                    {
+                        "id": 8968,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 2758,
+                        "character_type": "J"
+                    }
+                ]
+            },
+            {
+                "id": 2759,
+                "name": "在现实生活感到疲惫后，你更想和朋友一起玩其他联机游戏，而不是独自玩原神",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 8969,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 2759,
+                        "character_type": "E"
+                    },
+                    {
+                        "id": 8970,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 2759,
+                        "character_type": "I"
+                    }
+                ]
+            },
+            {
+                "id": 2760,
+                "name": "你专门去找原神的官方/同人美图做壁纸",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 8971,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 2760,
+                        "character_type": "N"
+                    },
+                    {
+                        "id": 8972,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 2760,
+                        "character_type": "S"
+                    }
+                ]
+            },
+            {
+                "id": 2761,
+                "name": "你经常难以理解游戏中角色的情感动机",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 8973,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 2761,
+                        "character_type": "T"
+                    },
+                    {
+                        "id": 8974,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 2761,
+                        "character_type": "F"
+                    }
+                ]
+            },
+            {
+                "id": 2762,
+                "name": "你喜欢每天上线前先想好今天要完成哪些任务",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 8975,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 2762,
+                        "character_type": "J"
+                    },
+                    {
+                        "id": 8976,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 2762,
+                        "character_type": "P"
+                    }
+                ]
+            },
+            {
+                "id": 2763,
+                "name": "抽到想要的角色时，即使内心很激动，你也不会让别人知道",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 8977,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 2763,
+                        "character_type": "I"
+                    },
+                    {
+                        "id": 8978,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 2763,
+                        "character_type": "E"
+                    }
+                ]
+            },
+            {
+                "id": 2764,
+                "name": "在没有金钱成本担忧的情况下，你还是更倾向于钻研几种少数的玩法，而不是尝试各种各样的组合",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 8979,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 2764,
+                        "character_type": "S"
+                    },
+                    {
+                        "id": 8980,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 2764,
+                        "character_type": "N"
+                    }
+                ]
+            },
+            {
+                "id": 2765,
+                "name": "你希望原神的交友模块增设语音/视频电话的功能",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 8981,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 2765,
+                        "character_type": "I"
+                    },
+                    {
+                        "id": 8982,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 2765,
+                        "character_type": "E"
+                    }
+                ]
+            },
+            {
+                "id": 2766,
+                "name": "你是否会花大量时间仔细研究那些与自己观点截然不同的角色解读或配队思路？",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 8983,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 2766,
+                        "character_type": "S"
+                    },
+                    {
+                        "id": 8984,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 2766,
+                        "character_type": "N"
+                    }
+                ]
+            },
+            {
+                "id": 2767,
+                "name": "在游戏好友中，你通常是主动约人联机、发起活动的那个人",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 8985,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 2767,
+                        "character_type": "E"
+                    },
+                    {
+                        "id": 8986,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 2767,
+                        "character_type": "I"
+                    }
+                ]
+            },
+            {
+                "id": 2768,
+                "name": "如果您的计划被打断，您的首要任务是尽快回到正轨",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 8987,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 2768,
+                        "character_type": "J"
+                    },
+                    {
+                        "id": 8988,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 2768,
+                        "character_type": "E"
+                    }
+                ]
+            },
+            {
+                "id": 2769,
+                "name": "你仍然被很久以前犯的错误所困扰",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 8989,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 2769,
+                        "character_type": "J"
+                    },
+                    {
+                        "id": 8990,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 2769,
+                        "character_type": "P"
+                    }
+                ]
+            },
+            {
+                "id": 2770,
+                "name": "你很少琢磨原神的背景故事或世界观设定背后的哲学意义",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 8991,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 2770,
+                        "character_type": "S"
+                    },
+                    {
+                        "id": 8992,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 2770,
+                        "character_type": "N"
+                    }
+                ]
+            },
+            {
+                "id": 2771,
+                "name": "你的情绪控制你比你控制它们更多",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 8993,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 2771,
+                        "character_type": "F"
+                    },
+                    {
+                        "id": 8994,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 2771,
+                        "character_type": "T"
+                    }
+                ]
+            },
+            {
+                "id": 2772,
+                "name": "你玩游戏更倾向于想玩就玩、集中肝一阵，而不是每天固定上线做日常",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 8995,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 2772,
+                        "character_type": "P"
+                    },
+                    {
+                        "id": 8996,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 2772,
+                        "character_type": "J"
+                    }
+                ]
+            },
+            {
+                "id": 2773,
+                "name": "你更喜欢一个人探索地图、做任务，而不是和别人一起玩",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 8997,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 2773,
+                        "character_type": "I"
+                    },
+                    {
+                        "id": 8998,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 2773,
+                        "character_type": "E"
+                    }
+                ]
+            },
+            {
+                "id": 2774,
+                "name": "你觉得花时间琢磨游戏里的世界观或哲学隐喻是浪费时间",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 8999,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 2774,
+                        "character_type": "S"
+                    },
+                    {
+                        "id": 9000,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 2774,
+                        "character_type": "N"
+                    }
+                ]
+            },
+            {
+                "id": 2775,
+                "name": "你很容易让别人了解你的性格和想法",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9001,
+                        "code": "B",
+                        "name": "是",
+                        "question_id": 2775,
+                        "character_type": "E"
+                    },
+                    {
+                        "id": 9002,
+                        "code": "A",
+                        "name": "否",
+                        "question_id": 2775,
+                        "character_type": "I"
+                    }
+                ]
+            },
+            {
+                "id": 2776,
+                "name": "看一眼，您就知道某人的感受",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9003,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 2776,
+                        "character_type": "F"
+                    },
+                    {
+                        "id": 9004,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 2776,
+                        "character_type": "T"
+                    }
+                ]
+            },
+            {
+                "id": 2777,
+                "name": "你做任务时，会严格按照指引一步一步做完，不会跳着做或者中途去做其他任务",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9005,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 2777,
+                        "character_type": "J"
+                    },
+                    {
+                        "id": 9006,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 2777,
+                        "character_type": "P"
+                    }
+                ]
+            },
+            {
+                "id": 2778,
+                "name": "在联机或社区中，你会主动夸赞其他玩家的角色或操作",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9007,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 2778,
+                        "character_type": "E"
+                    },
+                    {
+                        "id": 9008,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 2778,
+                        "character_type": "I"
+                    }
+                ]
+            },
+            {
+                "id": 2779,
+                "name": "你是否有压力时（比如活动快结束）才更有动力去完成游戏任务",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9009,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 2779,
+                        "character_type": "J"
+                    },
+                    {
+                        "id": 9010,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 2779,
+                        "character_type": "P"
+                    }
+                ]
+            },
+            {
+                "id": 2780,
+                "name": "你对玩家社区里那些有争议的话题（比如角色强弱、好坏之争）特别感兴趣",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9011,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 2780,
+                        "character_type": "J"
+                    },
+                    {
+                        "id": 9012,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 2780,
+                        "character_type": "P"
+                    }
+                ]
+            },
+            {
+                "id": 2781,
+                "name": "如果可以，你更愿意将稀有资源让给队友，在你认为他更需要它的时候",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9013,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 2781,
+                        "character_type": "F"
+                    },
+                    {
+                        "id": 9014,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 2781,
+                        "character_type": "T"
+                    }
+                ]
+            },
+            {
+                "id": 2782,
+                "name": "你经常拖到活动截止前最后一刻才匆忙去完成",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9015,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 2782,
+                        "character_type": "P"
+                    },
+                    {
+                        "id": 9016,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 2782,
+                        "character_type": "J"
+                    }
+                ]
+            },
+            {
+                "id": 2783,
+                "name": "每次版本更新前，你会仔细阅读更新公告了解所有细节，还是只扫一眼看看大概有什么新内容？",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9017,
+                        "code": "A",
+                        "name": "仔细阅读细节",
+                        "question_id": 2783,
+                        "character_type": "S"
+                    },
+                    {
+                        "id": 9018,
+                        "code": "B",
+                        "name": "扫一眼看整体",
+                        "question_id": 2783,
+                        "character_type": "N"
+                    }
+                ]
+            },
+            {
+                "id": 2784,
+                "name": "每次版本更新前，你会提前规划好要抽什么角色、刷什么材料，还是随缘上线想玩什么就玩什么？",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9019,
+                        "code": "A",
+                        "name": "随缘玩",
+                        "question_id": 2784,
+                        "character_type": "P"
+                    },
+                    {
+                        "id": 9020,
+                        "code": "B",
+                        "name": "提前规划",
+                        "question_id": 2784,
+                        "character_type": "J"
+                    }
+                ]
+            },
+            {
+                "id": 2785,
+                "name": "当你放假时，你多数会",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9021,
+                        "code": "A",
+                        "name": "和朋友们一起玩",
+                        "question_id": 2785,
+                        "character_type": "E"
+                    },
+                    {
+                        "id": 9022,
+                        "code": "B",
+                        "name": "自己一个人玩",
+                        "question_id": 2785,
+                        "character_type": "I"
+                    }
+                ]
+            },
+            {
+                "id": 2786,
+                "name": "当你放假时，你多数会",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9023,
+                        "code": "A",
+                        "name": "玩原神玩个爽",
+                        "question_id": 2786,
+                        "character_type": "S"
+                    },
+                    {
+                        "id": 9024,
+                        "code": "B",
+                        "name": "尝试其他娱乐方式",
+                        "question_id": 2786,
+                        "character_type": "N"
+                    }
+                ]
+            },
+            {
+                "id": 2787,
+                "name": "当你放假时，你多数会",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9025,
+                        "code": "A",
+                        "name": "同时处理工作或学校有关的事",
+                        "question_id": 2787,
+                        "character_type": "T"
+                    },
+                    {
+                        "id": 9026,
+                        "code": "B",
+                        "name": "维护一些对你重要的人际关系",
+                        "question_id": 2787,
+                        "character_type": "F"
+                    }
+                ]
+            },
+            {
+                "id": 2788,
+                "name": "当你放假时，你多数会",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9027,
+                        "code": "A",
+                        "name": "完全抛弃假期外的事，专心享乐",
+                        "question_id": 2788,
+                        "character_type": "J"
+                    },
+                    {
+                        "id": 9028,
+                        "code": "B",
+                        "name": "想着假期过后要准备的事",
+                        "question_id": 2788,
+                        "character_type": "P"
+                    }
+                ]
+            },
+            {
+                "id": 2789,
+                "name": "当你放假时，你多数会",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9029,
+                        "code": "A",
+                        "name": "尝试一款最近很火的联机游戏",
+                        "question_id": 2789,
+                        "character_type": "E"
+                    },
+                    {
+                        "id": 9030,
+                        "code": "B",
+                        "name": "一个人玩原神",
+                        "question_id": 2789,
+                        "character_type": "I"
+                    }
+                ]
+            },
+            {
+                "id": 2790,
+                "name": "当你放假时，你多数会",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9031,
+                        "code": "A",
+                        "name": "去喜欢的餐厅用餐",
+                        "question_id": 2790,
+                        "character_type": "S"
+                    },
+                    {
+                        "id": 9032,
+                        "code": "B",
+                        "name": "尝试没吃过的新菜式",
+                        "question_id": 2790,
+                        "character_type": "N"
+                    }
+                ]
+            },
+            {
+                "id": 2791,
+                "name": "遇到也玩原神的新朋友时，你通常",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9033,
+                        "code": "A",
+                        "name": "聊起游戏来话比对方多",
+                        "question_id": 2791,
+                        "character_type": "E"
+                    },
+                    {
+                        "id": 9034,
+                        "code": "B",
+                        "name": "听对方说的时候更多",
+                        "question_id": 2791,
+                        "character_type": "I"
+                    }
+                ]
+            },
+            {
+                "id": 2792,
+                "name": "面对游戏中的限时活动，你必须要规划时间才能完成时，你通常",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9035,
+                        "code": "A",
+                        "name": "喜欢按计划完成，觉得这样很愉快",
+                        "question_id": 2792,
+                        "character_type": "J"
+                    },
+                    {
+                        "id": 9036,
+                        "code": "B",
+                        "name": "觉得被时间束缚有些不愉快",
+                        "question_id": 2792,
+                        "character_type": "P"
+                    }
+                ]
+            },
+            {
+                "id": 2793,
+                "name": "去漫展时，你更倾向于",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9037,
+                        "code": "A",
+                        "name": "和一两个熟悉的朋友一起逛",
+                        "question_id": 2793,
+                        "character_type": "I"
+                    },
+                    {
+                        "id": 9038,
+                        "code": "B",
+                        "name": "参与各种集体活动",
+                        "question_id": 2793,
+                        "character_type": "E"
+                    }
+                ]
+            },
+            {
+                "id": 2794,
+                "name": "当我不同意我恋人的看法时",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9039,
+                        "code": "A",
+                        "name": "我会避免直接反驳，怕伤害对方感情",
+                        "question_id": 2794,
+                        "character_type": "F"
+                    },
+                    {
+                        "id": 9040,
+                        "code": "B",
+                        "name": "我会摆事实讲逻辑，坚持对的观点",
+                        "question_id": 2794,
+                        "character_type": "T"
+                    }
+                ]
+            },
+            {
+                "id": 2795,
+                "name": "当我参加一个原神玩家线下聚会时，我一般是这样的状态",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9041,
+                        "code": "A",
+                        "name": "越聊越兴奋，可能待到最后一个走",
+                        "question_id": 2795,
+                        "character_type": "E"
+                    },
+                    {
+                        "id": 9042,
+                        "code": "B",
+                        "name": "活动刚开始就想回家，觉得累",
+                        "question_id": 2795,
+                        "character_type": "I"
+                    }
+                ]
+            },
+            {
+                "id": 2796,
+                "name": "当约会进行到较为放松的氛围时，对方开始聊起原神，此时我更愿意谈论",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9043,
+                        "code": "A",
+                        "name": "未来版本可能会出的新角色、新地图",
+                        "question_id": 2796,
+                        "character_type": "N"
+                    },
+                    {
+                        "id": 9044,
+                        "code": "B",
+                        "name": "今天在游戏里刚完成的任务、刚发现的宝箱",
+                        "question_id": 2796,
+                        "character_type": "S"
+                    }
+                ]
+            },
+            {
+                "id": 2797,
+                "name": "当我专注打深渊时",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9045,
+                        "code": "A",
+                        "name": "需要不时停下来休息一下",
+                        "question_id": 2797,
+                        "character_type": "J"
+                    },
+                    {
+                        "id": 9046,
+                        "code": "B",
+                        "name": "不希望任何人打扰我",
+                        "question_id": 2797,
+                        "character_type": "P"
+                    }
+                ]
+            },
+            {
+                "id": 2798,
+                "name": "当我需要决定是否抽某个角色时",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9047,
+                        "code": "A",
+                        "name": "我会自己分析角色强度、配队逻辑，权衡利弊后决定",
+                        "question_id": 2798,
+                        "character_type": "T"
+                    },
+                    {
+                        "id": 9048,
+                        "code": "B",
+                        "name": "我会想了解其他人是怎么看的，希望能和大家达成共识",
+                        "question_id": 2798,
+                        "character_type": "F"
+                    }
+                ]
+            },
+            {
+                "id": 2799,
+                "name": "当与一个人交往时，我更希望",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9049,
+                        "code": "A",
+                        "name": "对方能理解我在游戏里的喜怒哀乐",
+                        "question_id": 2799,
+                        "character_type": "F"
+                    },
+                    {
+                        "id": 9050,
+                        "code": "B",
+                        "name": "对方能和我理性讨论游戏里的各种设定和玩法",
+                        "question_id": 2799,
+                        "character_type": "T"
+                    }
+                ]
+            },
+            {
+                "id": 2800,
+                "name": "如果我在游戏里投入很多感情的角色在剧情中离开/牺牲，永远无法在游戏中看到他/她的时候",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9051,
+                        "code": "A",
+                        "name": "我会很难抽身，情绪上要缓很久才能过去",
+                        "question_id": 2800,
+                        "character_type": "F"
+                    },
+                    {
+                        "id": 9052,
+                        "code": "B",
+                        "name": "虽然会难过，但理性上接受了就会向前看",
+                        "question_id": 2800,
+                        "character_type": "T"
+                    }
+                ]
+            },
+            {
+                "id": 2801,
+                "name": "在大多数情况下，你会选择:",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9053,
+                        "code": "A",
+                        "name": "顺其自然",
+                        "question_id": 2801,
+                        "character_type": "P"
+                    },
+                    {
+                        "id": 9054,
+                        "code": "B",
+                        "name": "按程序表做事",
+                        "question_id": 2801,
+                        "character_type": "J"
+                    }
+                ]
+            },
+            {
+                "id": 2802,
+                "name": "刚认识我的人，对我玩原神这件事的了解程度是",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9055,
+                        "code": "A",
+                        "name": "很快就能知道我喜欢玩原神",
+                        "question_id": 2802,
+                        "character_type": "E"
+                    },
+                    {
+                        "id": 9056,
+                        "code": "B",
+                        "name": "只有和我真正熟识后才会知道",
+                        "question_id": 2802,
+                        "character_type": "I"
+                    }
+                ]
+            },
+            {
+                "id": 2803,
+                "name": "当你要在一个星期内挑战完成某个复杂的游戏成就，你在开始的时候会",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9057,
+                        "code": "A",
+                        "name": "把要做的任务依次列出来，按计划完成",
+                        "question_id": 2803,
+                        "character_type": "J"
+                    },
+                    {
+                        "id": 9058,
+                        "code": "B",
+                        "name": "直接开玩，边玩边看",
+                        "question_id": 2803,
+                        "character_type": "P"
+                    }
+                ]
+            },
+            {
+                "id": 2804,
+                "name": "下面词语中，哪一个词语更合你心意",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9059,
+                        "code": "A",
+                        "name": "制作",
+                        "question_id": 2804,
+                        "character_type": "S"
+                    },
+                    {
+                        "id": 9060,
+                        "code": "B",
+                        "name": "设计",
+                        "question_id": 2804,
+                        "character_type": "N"
+                    }
+                ]
+            },
+            {
+                "id": 2805,
+                "name": "假如你是正在带萌新，你会更倾向于教",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9061,
+                        "code": "A",
+                        "name": "具体的操作技巧、地图点位、材料收集",
+                        "question_id": 2805,
+                        "character_type": "S"
+                    },
+                    {
+                        "id": 9062,
+                        "code": "B",
+                        "name": "角色的机制原理、配队逻辑、伤害计算",
+                        "question_id": 2805,
+                        "character_type": "N"
+                    }
+                ]
+            },
+            {
+                "id": 2806,
+                "name": "被夸赞时，哪句评价让你更受用？",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9063,
+                        "code": "A",
+                        "name": "你操作真厉害，思路清晰",
+                        "question_id": 2806,
+                        "character_type": "T"
+                    },
+                    {
+                        "id": 9064,
+                        "code": "B",
+                        "name": "你人真好，愿意带萌新",
+                        "question_id": 2806,
+                        "character_type": "F"
+                    }
+                ]
+            },
+            {
+                "id": 2807,
+                "name": "你更希望别人怎么评价你？",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9065,
+                        "code": "A",
+                        "name": "是个重感情、有温度的玩家",
+                        "question_id": 2807,
+                        "character_type": "F"
+                    },
+                    {
+                        "id": 9066,
+                        "code": "B",
+                        "name": "是个冷静、有逻辑的玩家",
+                        "question_id": 2807,
+                        "character_type": "T"
+                    }
+                ]
+            },
+            {
+                "id": 2808,
+                "name": "在游戏社区里，哪种玩家更吸引你？",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9067,
+                        "code": "A",
+                        "name": "能分析新版本走向、预判角色强度的",
+                        "question_id": 2808,
+                        "character_type": "N"
+                    },
+                    {
+                        "id": 9068,
+                        "code": "B",
+                        "name": "对现有地图和资源分布了如指掌的",
+                        "question_id": 2808,
+                        "character_type": "S"
+                    }
+                ]
+            },
+            {
+                "id": 2809,
+                "name": "下面词语中，哪一个词语更合你心意？",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9069,
+                        "code": "A",
+                        "name": "注重隐私",
+                        "question_id": 2809,
+                        "character_type": "I"
+                    },
+                    {
+                        "id": 9070,
+                        "code": "B",
+                        "name": "坦率开放，因而容易犯错",
+                        "question_id": 2809,
+                        "character_type": "E"
+                    }
+                ]
+            },
+            {
+                "id": 2810,
+                "name": "首次面对游戏里的高难挑战，你更认同哪句话？",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9071,
+                        "code": "A",
+                        "name": "直接上就对了",
+                        "question_id": 2810,
+                        "character_type": "P"
+                    },
+                    {
+                        "id": 9072,
+                        "code": "B",
+                        "name": "思考清楚再打",
+                        "question_id": 2810,
+                        "character_type": "J"
+                    }
+                ]
+            },
+            {
+                "id": 2811,
+                "name": "做配队、养成这种玩家都会做的事，你比较喜欢",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9073,
+                        "code": "A",
+                        "name": "按照主流攻略推荐的方法去做",
+                        "question_id": 2811,
+                        "character_type": "S"
+                    },
+                    {
+                        "id": 9074,
+                        "code": "B",
+                        "name": "构想一套自己的想法",
+                        "question_id": 2811,
+                        "character_type": "N"
+                    }
+                ]
+            },
+            {
+                "id": 2812,
+                "name": "面对游戏版本更新，你比较喜欢",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9075,
+                        "code": "A",
+                        "name": "先观望别人怎么玩，再决定自己的计划",
+                        "question_id": 2812,
+                        "character_type": "P"
+                    },
+                    {
+                        "id": 9076,
+                        "code": "B",
+                        "name": "提前研究前瞻信息，早早做好规划",
+                        "question_id": 2812,
+                        "character_type": "J"
+                    }
+                ]
+            },
+            {
+                "id": 2813,
+                "name": "你比较喜欢",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9077,
+                        "code": "A",
+                        "name": "提前把约会、游玩、地点安排妥当",
+                        "question_id": 2813,
+                        "character_type": "J"
+                    },
+                    {
+                        "id": 9078,
+                        "code": "B",
+                        "name": "无拘无束看有什么好玩就玩什么",
+                        "question_id": 2813,
+                        "character_type": "P"
+                    }
+                ]
+            },
+            {
+                "id": 2814,
+                "name": "在讨论原神时，你更想了解其他玩家的哪方面？",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9079,
+                        "code": "A",
+                        "name": "他们怎么玩、怎么配队的想法",
+                        "question_id": 2814,
+                        "character_type": "T"
+                    },
+                    {
+                        "id": 9080,
+                        "code": "B",
+                        "name": "他们对游戏剧情、人物的内心感受",
+                        "question_id": 2814,
+                        "character_type": "F"
+                    }
+                ]
+            },
+            {
+                "id": 2815,
+                "name": "刚认识的朋友，能否很快知道你平时喜欢玩原神？",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9081,
+                        "code": "A",
+                        "name": "马上可以",
+                        "question_id": 2815,
+                        "character_type": "E"
+                    },
+                    {
+                        "id": 9082,
+                        "code": "B",
+                        "name": "要待他们真正了解你之后才知道",
+                        "question_id": 2815,
+                        "character_type": "I"
+                    }
+                ]
+            },
+            {
+                "id": 2816,
+                "name": "在游戏中遇到了难题，你通常会怎么做？",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9083,
+                        "code": "A",
+                        "name": "参考攻略，用已证明有效的方法解决",
+                        "question_id": 2816,
+                        "character_type": "F"
+                    },
+                    {
+                        "id": 9084,
+                        "code": "B",
+                        "name": "自己分析，针对性地调整思路",
+                        "question_id": 2816,
+                        "character_type": "T"
+                    }
+                ]
+            },
+            {
+                "id": 2817,
+                "name": "你会更愿意跟哪类玩家做朋友？",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9085,
+                        "code": "A",
+                        "name": "经常提出新配队、新思路的",
+                        "question_id": 2817,
+                        "character_type": "N"
+                    },
+                    {
+                        "id": 9086,
+                        "code": "B",
+                        "name": "遵循常规实用玩法、脚踏实地的",
+                        "question_id": 2817,
+                        "character_type": "S"
+                    }
+                ]
+            },
+            {
+                "id": 2818,
+                "name": "你会倾向",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9087,
+                        "code": "A",
+                        "name": "暂时放下打不过的关卡，等有心情再处理",
+                        "question_id": 2818,
+                        "character_type": "J"
+                    },
+                    {
+                        "id": 9088,
+                        "code": "B",
+                        "name": "及时调整尝试打不过的关卡，务求尽快过关",
+                        "question_id": 2818,
+                        "character_type": "P"
+                    }
+                ]
+            },
+            {
+                "id": 2819,
+                "name": "你会倾向",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9089,
+                        "code": "A",
+                        "name": "自己写的游戏心得或攻略被人评论认可，即使自己觉得还有不足",
+                        "question_id": 2819,
+                        "character_type": "E"
+                    },
+                    {
+                        "id": 9090,
+                        "code": "B",
+                        "name": "默默整理资料、维护维基，为游戏社区做贡献，即使别人不知道这是你做的",
+                        "question_id": 2819,
+                        "character_type": "I"
+                    }
+                ]
+            },
+            {
+                "id": 2820,
+                "name": "你会倾向",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9091,
+                        "code": "A",
+                        "name": "在自己有兴趣的范畴，积累丰富的经验",
+                        "question_id": 2820,
+                        "character_type": "S"
+                    },
+                    {
+                        "id": 9092,
+                        "code": "B",
+                        "name": "有各式各样不同的经验",
+                        "question_id": 2820,
+                        "character_type": "N"
+                    }
+                ]
+            },
+            {
+                "id": 2821,
+                "name": "你较喜欢下列哪个工作",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9093,
+                        "code": "A",
+                        "name": "能让你迅速和即时做出反应",
+                        "question_id": 2821,
+                        "character_type": "P"
+                    },
+                    {
+                        "id": 9094,
+                        "code": "B",
+                        "name": "能让你定出目标，然后逐步达成目标的工作",
+                        "question_id": 2821,
+                        "character_type": "J"
+                    }
+                ]
+            },
+            {
+                "id": 2822,
+                "name": "你能否滔滔不绝地与人聊天",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9095,
+                        "code": "A",
+                        "name": "只限于跟同样喜欢原神的人",
+                        "question_id": 2822,
+                        "character_type": "I"
+                    },
+                    {
+                        "id": 9096,
+                        "code": "B",
+                        "name": "几乎跟任何人都可以",
+                        "question_id": 2822,
+                        "character_type": "E"
+                    }
+                ]
+            },
+            {
+                "id": 2823,
+                "name": "你宁愿被人认为是一个",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9097,
+                        "code": "A",
+                        "name": "实事求是的人",
+                        "question_id": 2823,
+                        "character_type": "S"
+                    },
+                    {
+                        "id": 9098,
+                        "code": "B",
+                        "name": "机灵的人",
+                        "question_id": 2823,
+                        "character_type": "N"
+                    }
+                ]
+            },
+            {
+                "id": 2824,
+                "name": "你认为按照每日委托和活动表做事",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9099,
+                        "code": "A",
+                        "name": "偶尔需要，但大多时候不喜欢这么做",
+                        "question_id": 2824,
+                        "character_type": "P"
+                    },
+                    {
+                        "id": 9100,
+                        "code": "B",
+                        "name": "大多数情况下是有帮助而且是你喜欢做的",
+                        "question_id": 2824,
+                        "character_type": "J"
+                    }
+                ]
+            },
+            {
+                "id": 2825,
+                "name": "你喜欢自己的哪种性格",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9101,
+                        "code": "A",
+                        "name": "抽卡沉船也能平常心",
+                        "question_id": 2825,
+                        "character_type": "T"
+                    },
+                    {
+                        "id": 9102,
+                        "code": "B",
+                        "name": "容易为角色剧情动容",
+                        "question_id": 2825,
+                        "character_type": "F"
+                    }
+                ]
+            },
+            {
+                "id": 2826,
+                "name": "你通常较喜欢的游戏内容是",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9103,
+                        "code": "A",
+                        "name": "研究角色机制和配队思路",
+                        "question_id": 2826,
+                        "character_type": "N"
+                    },
+                    {
+                        "id": 9104,
+                        "code": "B",
+                        "name": "记忆材料掉落和怪物刷新点",
+                        "question_id": 2826,
+                        "character_type": "S"
+                    }
+                ]
+            },
+            {
+                "id": 2827,
+                "name": "您比较擅长于",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9105,
+                        "code": "A",
+                        "name": "处理偶发事件,而且很快就知道该如何处理",
+                        "question_id": 2827,
+                        "character_type": "P"
+                    },
+                    {
+                        "id": 9106,
+                        "code": "B",
+                        "name": "遵循一个经过详细设计的计划行事",
+                        "question_id": 2827,
+                        "character_type": "J"
+                    }
+                ]
+            },
+            {
+                "id": 2828,
+                "name": "您是否比较喜欢按照每日委托和纪行任务表做事",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9107,
+                        "code": "A",
+                        "name": "合你心意",
+                        "question_id": 2828,
+                        "character_type": "J"
+                    },
+                    {
+                        "id": 9108,
+                        "code": "B",
+                        "name": "令你感到束缚",
+                        "question_id": 2828,
+                        "character_type": "P"
+                    }
+                ]
+            },
+            {
+                "id": 2829,
+                "name": "您比较喜欢被认为是",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9109,
+                        "code": "A",
+                        "name": "一个讲求实际的人",
+                        "question_id": 2829,
+                        "character_type": "S"
+                    },
+                    {
+                        "id": 9110,
+                        "code": "B",
+                        "name": "一个才华横溢的人",
+                        "question_id": 2829,
+                        "character_type": "N"
+                    }
+                ]
+            },
+            {
+                "id": 2830,
+                "name": "和固排打游戏时，您比较在乎",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9111,
+                        "code": "A",
+                        "name": "他玩的是否开心",
+                        "question_id": 2830,
+                        "character_type": "F"
+                    },
+                    {
+                        "id": 9112,
+                        "code": "B",
+                        "name": "他被分配到的资源是否合理",
+                        "question_id": 2830,
+                        "character_type": "T"
+                    }
+                ]
+            },
+            {
+                "id": 2831,
+                "name": "您觉得较大的错误是",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9113,
+                        "code": "A",
+                        "name": "过于热情",
+                        "question_id": 2831,
+                        "character_type": "E"
+                    },
+                    {
+                        "id": 9114,
+                        "code": "B",
+                        "name": "热情不足",
+                        "question_id": 2831,
+                        "character_type": "I"
+                    }
+                ]
+            },
+            {
+                "id": 2832,
+                "name": "下面词语中，哪一个词语更合你心意",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9115,
+                        "code": "A",
+                        "name": "制造",
+                        "question_id": 2832,
+                        "character_type": "S"
+                    },
+                    {
+                        "id": 9116,
+                        "code": "B",
+                        "name": "创造",
+                        "question_id": 2832,
+                        "character_type": "N"
+                    }
+                ]
+            },
+            {
+                "id": 2833,
+                "name": "您觉得人最糟糕的是",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9117,
+                        "code": "A",
+                        "name": "不带萌新还嫌人家菜",
+                        "question_id": 2833,
+                        "character_type": "F"
+                    },
+                    {
+                        "id": 9118,
+                        "code": "B",
+                        "name": "讨论配队死活不听分析",
+                        "question_id": 2833,
+                        "character_type": "T"
+                    }
+                ]
+            },
+            {
+                "id": 2834,
+                "name": "您宁可和哪种人组队？",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9119,
+                        "code": "A",
+                        "name": "友善弱势但想法易变化的人",
+                        "question_id": 2834,
+                        "character_type": "F"
+                    },
+                    {
+                        "id": 9120,
+                        "code": "B",
+                        "name": "言语尖锐但逻辑清晰的人",
+                        "question_id": 2834,
+                        "character_type": "T"
+                    }
+                ]
+            },
+            {
+                "id": 2835,
+                "name": "您倾向于",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9121,
+                        "code": "A",
+                        "name": "与极少数人建立深厚的友谊",
+                        "question_id": 2835,
+                        "character_type": "I"
+                    },
+                    {
+                        "id": 9122,
+                        "code": "B",
+                        "name": "与许多人建立广泛的交情",
+                        "question_id": 2835,
+                        "character_type": "E"
+                    }
+                ]
+            },
+            {
+                "id": 2836,
+                "name": "您认为比较重要的是",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9123,
+                        "code": "A",
+                        "name": "能观察一个情况下的多种可能性",
+                        "question_id": 2836,
+                        "character_type": "J"
+                    },
+                    {
+                        "id": 9124,
+                        "code": "B",
+                        "name": "能适应当时的情况与事实",
+                        "question_id": 2836,
+                        "character_type": "P"
+                    }
+                ]
+            },
+            {
+                "id": 2837,
+                "name": "游戏抽到新角色或版本更新时，您跟一般人相比",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9125,
+                        "code": "A",
+                        "name": "反应更为热心、兴奋",
+                        "question_id": 2837,
+                        "character_type": "E"
+                    },
+                    {
+                        "id": 9126,
+                        "code": "B",
+                        "name": "反应比较平静、不容易兴奋",
+                        "question_id": 2837,
+                        "character_type": "I"
+                    }
+                ]
+            },
+            {
+                "id": 2838,
+                "name": "您通常",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9127,
+                        "code": "A",
+                        "name": "会自然地表露您的感受",
+                        "question_id": 2838,
+                        "character_type": "E"
+                    },
+                    {
+                        "id": 9128,
+                        "code": "B",
+                        "name": "会将自己的感受藏起来",
+                        "question_id": 2838,
+                        "character_type": "I"
+                    }
+                ]
+            },
+            {
+                "id": 2839,
+                "name": "您通常",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9129,
+                        "code": "A",
+                        "name": "宁可在最后一刻赶工",
+                        "question_id": 2839,
+                        "character_type": "P"
+                    },
+                    {
+                        "id": 9130,
+                        "code": "B",
+                        "name": "觉得在最后一刻赶工令自己紧张",
+                        "question_id": 2839,
+                        "character_type": "J"
+                    }
+                ]
+            },
+            {
+                "id": 2840,
+                "name": "若我有时间和金钱，我的朋友邀请我到国外度假，并且在一天前才通知，我会",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9131,
+                        "code": "A",
+                        "name": "必须先检查我的时间表",
+                        "question_id": 2840,
+                        "character_type": "J"
+                    },
+                    {
+                        "id": 9132,
+                        "code": "B",
+                        "name": "立即收拾行装",
+                        "question_id": 2840,
+                        "character_type": "P"
+                    }
+                ]
+            },
+            {
+                "id": 2841,
+                "name": "通常您是让您的",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9133,
+                        "code": "A",
+                        "name": "感情支配理智",
+                        "question_id": 2841,
+                        "character_type": "F"
+                    },
+                    {
+                        "id": 9134,
+                        "code": "B",
+                        "name": "理智支配感情",
+                        "question_id": 2841,
+                        "character_type": "T"
+                    }
+                ]
+            },
+            {
+                "id": 2842,
+                "name": "我大多会",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9135,
+                        "code": "A",
+                        "name": "突然尝试做某些事，看看会有什么事情发生",
+                        "question_id": 2842,
+                        "character_type": "J"
+                    },
+                    {
+                        "id": 9136,
+                        "code": "B",
+                        "name": "尝试做任何事前，都想事先知道可能有什么事情发生",
+                        "question_id": 2842,
+                        "character_type": "P"
+                    }
+                ]
+            },
+            {
+                "id": 2843,
+                "name": "我更有兴趣了解",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9137,
+                        "code": "A",
+                        "name": "别人的经历，例如他们做过什么？认识什么人？",
+                        "question_id": 2843,
+                        "character_type": "S"
+                    },
+                    {
+                        "id": 9138,
+                        "code": "B",
+                        "name": "别人的计划和梦想，例如他们会往哪里去？憧憬什么？",
+                        "question_id": 2843,
+                        "character_type": "N"
+                    }
+                ]
+            },
+            {
+                "id": 2844,
+                "name": "下面词语中，哪一个词语更合你心意",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9139,
+                        "code": "A",
+                        "name": "具体的",
+                        "question_id": 2844,
+                        "character_type": "S"
+                    },
+                    {
+                        "id": 9140,
+                        "code": "B",
+                        "name": "抽象的",
+                        "question_id": 2844,
+                        "character_type": "N"
+                    }
+                ]
+            },
+            {
+                "id": 2845,
+                "name": "我倾向比较能够察觉到",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9141,
+                        "code": "A",
+                        "name": "人们需要情感上的支持的时刻",
+                        "question_id": 2845,
+                        "character_type": "F"
+                    },
+                    {
+                        "id": 9142,
+                        "code": "B",
+                        "name": "人们不合逻辑的时刻",
+                        "question_id": 2845,
+                        "character_type": "T"
+                    }
+                ]
+            },
+            {
+                "id": 2846,
+                "name": "我倾向从何处得到动力和信心",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9143,
+                        "code": "A",
+                        "name": "别人",
+                        "question_id": 2846,
+                        "character_type": "E"
+                    },
+                    {
+                        "id": 9144,
+                        "code": "B",
+                        "name": "我自己的想法",
+                        "question_id": 2846,
+                        "character_type": "I"
+                    }
+                ]
+            },
+            {
+                "id": 2847,
+                "name": "我倾向透过以下方式形成脑海中的概念",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9145,
+                        "code": "A",
+                        "name": "我对有可能发生之事的想象和期望",
+                        "question_id": 2847,
+                        "character_type": "N"
+                    },
+                    {
+                        "id": 9146,
+                        "code": "B",
+                        "name": "我对目前状况实际认知",
+                        "question_id": 2847,
+                        "character_type": "S"
+                    }
+                ]
+            },
+            {
+                "id": 2848,
+                "name": "我认为自己和很多人的相遇是",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9147,
+                        "code": "A",
+                        "name": "随意的，友善的及重要的",
+                        "question_id": 2848,
+                        "character_type": "F"
+                    },
+                    {
+                        "id": 9148,
+                        "code": "B",
+                        "name": "经过思考的，或多或少有一定目的性",
+                        "question_id": 2848,
+                        "character_type": "T"
+                    }
+                ]
+            },
+            {
+                "id": 2849,
+                "name": "我擅长",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9149,
+                        "code": "A",
+                        "name": "订出一些可行的计划",
+                        "question_id": 2849,
+                        "character_type": "J"
+                    },
+                    {
+                        "id": 9150,
+                        "code": "B",
+                        "name": "促成别人同意一些计划，并衷力合作",
+                        "question_id": 2849,
+                        "character_type": "P"
+                    }
+                ]
+            },
+            {
+                "id": 2850,
+                "name": "我是这类型的人",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9151,
+                        "code": "A",
+                        "name": "喜欢在一个时间里专心于一件事情直到完成",
+                        "question_id": 2850,
+                        "character_type": "J"
+                    },
+                    {
+                        "id": 9152,
+                        "code": "B",
+                        "name": "喜欢同时进行好几件事情",
+                        "question_id": 2850,
+                        "character_type": "P"
+                    }
+                ]
+            },
+            {
+                "id": 2851,
+                "name": "我是这类型的人",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9153,
+                        "code": "B",
+                        "name": "我经常边说话，边思考",
+                        "question_id": 2851,
+                        "character_type": "P"
+                    },
+                    {
+                        "id": 9154,
+                        "code": "A",
+                        "name": "我在说话前，通常会思考要说的话",
+                        "question_id": 2851,
+                        "character_type": "J"
+                    }
+                ]
+            },
+            {
+                "id": 2852,
+                "name": "我是这类型的人",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9155,
+                        "code": "A",
+                        "name": "四周的实际环境对我很重要，而且会影响我的感受",
+                        "question_id": 2852,
+                        "character_type": "S"
+                    },
+                    {
+                        "id": 9156,
+                        "code": "B",
+                        "name": "如果我喜欢所做的事情，气氛对我而言并不是那么重要",
+                        "question_id": 2852,
+                        "character_type": "N"
+                    }
+                ]
+            },
+            {
+                "id": 2853,
+                "name": "我是这类型的人",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9157,
+                        "code": "A",
+                        "name": "我喜欢分析，心思缜密",
+                        "question_id": 2853,
+                        "character_type": "T"
+                    },
+                    {
+                        "id": 9158,
+                        "code": "B",
+                        "name": "我对人感兴趣，关心他们所发生的事",
+                        "question_id": 2853,
+                        "character_type": "F"
+                    }
+                ]
+            },
+            {
+                "id": 2854,
+                "name": "我是这类型的人",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9159,
+                        "code": "A",
+                        "name": "即使已出计划，我也喜欢探讨其他新的方案",
+                        "question_id": 2854,
+                        "character_type": "P"
+                    },
+                    {
+                        "id": 9160,
+                        "code": "B",
+                        "name": "一旦定出计划，我便希望能依计行事",
+                        "question_id": 2854,
+                        "character_type": "J"
+                    }
+                ]
+            },
+            {
+                "id": 2855,
+                "name": "我是这类型的人",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9161,
+                        "code": "A",
+                        "name": "认识我的人，一般都知道我重视什么",
+                        "question_id": 2855,
+                        "character_type": "E"
+                    },
+                    {
+                        "id": 9162,
+                        "code": "B",
+                        "name": "除了我最亲近的人，我不会告诉他人我重视什么",
+                        "question_id": 2855,
+                        "character_type": "I"
+                    }
+                ]
+            },
+            {
+                "id": 2856,
+                "name": "我是这类型的人",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9163,
+                        "code": "A",
+                        "name": "如果我喜欢某种活动，我会经常进行这种活动",
+                        "question_id": 2856,
+                        "character_type": "S"
+                    },
+                    {
+                        "id": 9164,
+                        "code": "B",
+                        "name": "我一旦熟悉某种活动后，便希望转而尝试其它新的活动",
+                        "question_id": 2856,
+                        "character_type": "N"
+                    }
+                ]
+            },
+            {
+                "id": 2857,
+                "name": "我是这类型的人",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9165,
+                        "code": "A",
+                        "name": "我独处太久，便会感到不安",
+                        "question_id": 2857,
+                        "character_type": "E"
+                    },
+                    {
+                        "id": 9166,
+                        "code": "B",
+                        "name": "若没有足够的自处时间，我便会感到烦躁不安",
+                        "question_id": 2857,
+                        "character_type": "I"
+                    }
+                ]
+            },
+            {
+                "id": 2858,
+                "name": "我是这类型的人",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9167,
+                        "code": "A",
+                        "name": "我对一些没有实际用途的幻想不感兴趣",
+                        "question_id": 2858,
+                        "character_type": "S"
+                    },
+                    {
+                        "id": 9168,
+                        "code": "B",
+                        "name": "我喜欢幻想，并享受幻想的过程",
+                        "question_id": 2858,
+                        "character_type": "N"
+                    }
+                ]
+            },
+            {
+                "id": 2859,
+                "name": "我是这类型的人",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9169,
+                        "code": "A",
+                        "name": "当进行谈判时，我依靠自己的知识和技巧",
+                        "question_id": 2859,
+                        "character_type": "T"
+                    },
+                    {
+                        "id": 9170,
+                        "code": "B",
+                        "name": "当进行谈判时，我会拉拢其他人至同一阵线",
+                        "question_id": 2859,
+                        "character_type": "F"
+                    }
+                ]
+            },
+            {
+                "id": 2860,
+                "name": "你通常喜欢",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9171,
+                        "code": "A",
+                        "name": "事先安排你的社交约会",
+                        "question_id": 2860,
+                        "character_type": "J"
+                    },
+                    {
+                        "id": 9172,
+                        "code": "B",
+                        "name": "随兴之所至做事",
+                        "question_id": 2860,
+                        "character_type": "P"
+                    }
+                ]
+            },
+            {
+                "id": 2861,
+                "name": "我喜欢这样的人",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9173,
+                        "code": "A",
+                        "name": "快刀斩乱麻，能够迅速做出果断的决定",
+                        "question_id": 2861,
+                        "character_type": "F"
+                    },
+                    {
+                        "id": 9174,
+                        "code": "B",
+                        "name": "不立刻做决定并持续收集信息，这样结果会更准确",
+                        "question_id": 2861,
+                        "character_type": "T"
+                    }
+                ]
+            },
+            {
+                "id": 2862,
+                "name": "总的说来，要做一个大型作业时，你会选",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9175,
+                        "code": "A",
+                        "name": "边做边想该做什么",
+                        "question_id": 2862,
+                        "character_type": "P"
+                    },
+                    {
+                        "id": 9176,
+                        "code": "B",
+                        "name": "首先把工作按步细分",
+                        "question_id": 2862,
+                        "character_type": "J"
+                    }
+                ]
+            },
+            {
+                "id": 2863,
+                "name": "下列哪一种听起来比较吸引人",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9177,
+                        "code": "A",
+                        "name": "与我的恋人到有很多人且社交活动频繁的地方",
+                        "question_id": 2863,
+                        "character_type": "E"
+                    },
+                    {
+                        "id": 9178,
+                        "code": "B",
+                        "name": "待在家中与我的恋人做一些简单日常的事情",
+                        "question_id": 2863,
+                        "character_type": "I"
+                    }
+                ]
+            },
+            {
+                "id": 2864,
+                "name": "选择阅读闲书时,您喜欢",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9179,
+                        "code": "B",
+                        "name": "以古怪或独创新鲜的表达方式",
+                        "question_id": 2864,
+                        "character_type": "N"
+                    },
+                    {
+                        "id": 9180,
+                        "code": "A",
+                        "name": "作者明确地说明他的意思",
+                        "question_id": 2864,
+                        "character_type": "S"
+                    }
+                ]
+            },
+            {
+                "id": 2865,
+                "name": "在第一次约会中",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9181,
+                        "code": "A",
+                        "name": "若我所约的人来迟了，我心里会很不高兴",
+                        "question_id": 2865,
+                        "character_type": "J"
+                    },
+                    {
+                        "id": 9182,
+                        "code": "B",
+                        "name": "即使所约的人来迟了，我一点都不放在心里",
+                        "question_id": 2865,
+                        "character_type": "P"
+                    }
+                ]
+            },
+            {
+                "id": 2866,
+                "name": "在朋友当中,您是",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9183,
+                        "code": "A",
+                        "name": "最后知道事情的人之一",
+                        "question_id": 2866,
+                        "character_type": "I"
+                    },
+                    {
+                        "id": 9184,
+                        "code": "B",
+                        "name": "知道每个人的消息",
+                        "question_id": 2866,
+                        "character_type": "E"
+                    }
+                ]
+            },
+            {
+                "id": 2867,
+                "name": "在社交聚会上，你会",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9185,
+                        "code": "A",
+                        "name": "是说话很多的一个",
+                        "question_id": 2867,
+                        "character_type": "E"
+                    },
+                    {
+                        "id": 9186,
+                        "code": "B",
+                        "name": "让别人多说话",
+                        "question_id": 2867,
+                        "character_type": "I"
+                    }
+                ]
+            },
+            {
+                "id": 2868,
+                "name": "你做事多数是",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9187,
+                        "code": "A",
+                        "name": "按当天心情去做",
+                        "question_id": 2868,
+                        "character_type": "P"
+                    },
+                    {
+                        "id": 9188,
+                        "code": "B",
+                        "name": "照拟好的程序表去做",
+                        "question_id": 2868,
+                        "character_type": "J"
+                    }
+                ]
+            },
+            {
+                "id": 2869,
+                "name": "在我自己的人际关系中，我一般是这样处理的",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9189,
+                        "code": "A",
+                        "name": "经常联络，因为永远有进步的空间",
+                        "question_id": 2869,
+                        "character_type": "E"
+                    },
+                    {
+                        "id": 9190,
+                        "code": "B",
+                        "name": "只要关系没有变坏，就没必要主动联系",
+                        "question_id": 2869,
+                        "character_type": "I"
+                    }
+                ]
+            },
+            {
+                "id": 2870,
+                "name": "在我做分析的时候，首先能意识到的是",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9191,
+                        "code": "A",
+                        "name": "我的直觉",
+                        "question_id": 2870,
+                        "character_type": "F"
+                    },
+                    {
+                        "id": 9192,
+                        "code": "B",
+                        "name": "我直接的观察和现成的经验",
+                        "question_id": 2870,
+                        "character_type": "T"
+                    }
+                ]
+            },
+            {
+                "id": 2871,
+                "name": "在一大群人当中，通常是",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9193,
+                        "code": "A",
+                        "name": "你介绍大家认识",
+                        "question_id": 2871,
+                        "character_type": "E"
+                    },
+                    {
+                        "id": 9194,
+                        "code": "B",
+                        "name": "别人介绍你",
+                        "question_id": 2871,
+                        "character_type": "I"
+                    }
+                ]
+            },
+            {
+                "id": 2872,
+                "name": "在我内心深处，我认为",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9195,
+                        "code": "A",
+                        "name": "与其活在不完美的现实中，我选择活在我的精神世界里",
+                        "question_id": 2872,
+                        "character_type": "N"
+                    },
+                    {
+                        "id": 9196,
+                        "code": "B",
+                        "name": "与其活在虚无缥缈的精神世界，我选择活在现实中",
+                        "question_id": 2872,
+                        "character_type": "S"
+                    }
+                ]
+            },
+            {
+                "id": 2873,
+                "name": "请选择更适合你的描述",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9197,
+                        "code": "A",
+                        "name": "注重隐私",
+                        "question_id": 2873,
+                        "character_type": "I"
+                    },
+                    {
+                        "id": 9198,
+                        "code": "B",
+                        "name": "坦率开放",
+                        "question_id": 2873,
+                        "character_type": "E"
+                    }
+                ]
+            },
+            {
+                "id": 2874,
+                "name": "请选择更适合你的描述",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9199,
+                        "code": "A",
+                        "name": "提先安排计划",
+                        "question_id": 2874,
+                        "character_type": "J"
+                    },
+                    {
+                        "id": 9200,
+                        "code": "B",
+                        "name": "走一步看一步",
+                        "question_id": 2874,
+                        "character_type": "P"
+                    }
+                ]
+            },
+            {
+                "id": 2875,
+                "name": "请选择更适合你的描述",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9201,
+                        "code": "A",
+                        "name": "喜欢比喻联想",
+                        "question_id": 2875,
+                        "character_type": "N"
+                    },
+                    {
+                        "id": 9202,
+                        "code": "B",
+                        "name": "喜欢具体描述",
+                        "question_id": 2875,
+                        "character_type": "S"
+                    }
+                ]
+            },
+            {
+                "id": 2876,
+                "name": "请选择更适合你的描述",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9295,
+                        "code": "A",
+                        "name": "与他人相处精力充沛",
+                        "question_id": 2876,
+                        "character_type": "E"
+                    },
+                    {
+                        "id": 9296,
+                        "code": "B",
+                        "name": "独自度过时光精力充沛",
+                        "question_id": 2876,
+                        "character_type": "I"
+                    }
+                ]
+            },
+            {
+                "id": 2878,
+                "name": "请选择更适合你的描述",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9203,
+                        "code": "A",
+                        "name": "客观公正",
+                        "question_id": 2878,
+                        "character_type": "T"
+                    },
+                    {
+                        "id": 9204,
+                        "code": "B",
+                        "name": "偏好和睦",
+                        "question_id": 2878,
+                        "character_type": "F"
+                    }
+                ]
+            },
+            {
+                "id": 2879,
+                "name": "请选择更适合你的描述",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9205,
+                        "code": "A",
+                        "name": "关注效益",
+                        "question_id": 2879,
+                        "character_type": "S"
+                    },
+                    {
+                        "id": 9206,
+                        "code": "B",
+                        "name": "关注意义",
+                        "question_id": 2879,
+                        "character_type": "N"
+                    }
+                ]
+            },
+            {
+                "id": 2880,
+                "name": "请选择更适合你的描述",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9207,
+                        "code": "A",
+                        "name": "易冲动",
+                        "question_id": 2880,
+                        "character_type": "F"
+                    },
+                    {
+                        "id": 9208,
+                        "code": "B",
+                        "name": "先思考",
+                        "question_id": 2880,
+                        "character_type": "T"
+                    }
+                ]
+            },
+            {
+                "id": 2881,
+                "name": "请选择更适合你的描述",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9209,
+                        "code": "A",
+                        "name": "更追求生活质量",
+                        "question_id": 2881,
+                        "character_type": "S"
+                    },
+                    {
+                        "id": 9210,
+                        "code": "B",
+                        "name": "更追求精神富足",
+                        "question_id": 2881,
+                        "character_type": "N"
+                    }
+                ]
+            },
+            {
+                "id": 2882,
+                "name": "请选择更适合你的描述",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9211,
+                        "code": "A",
+                        "name": "社交会消耗能量",
+                        "question_id": 2882,
+                        "character_type": "I"
+                    },
+                    {
+                        "id": 9212,
+                        "code": "B",
+                        "name": "社交能产生能量",
+                        "question_id": 2882,
+                        "character_type": "E"
+                    }
+                ]
+            },
+            {
+                "id": 2883,
+                "name": "请选择更适合你的描述",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9213,
+                        "code": "A",
+                        "name": "有系统的",
+                        "question_id": 2883,
+                        "character_type": "J"
+                    },
+                    {
+                        "id": 9214,
+                        "code": "B",
+                        "name": "随性而为",
+                        "question_id": 2883,
+                        "character_type": "P"
+                    }
+                ]
+            },
+            {
+                "id": 2884,
+                "name": "请选择更适合你的描述",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9215,
+                        "code": "A",
+                        "name": "关注全貌",
+                        "question_id": 2884,
+                        "character_type": "F"
+                    },
+                    {
+                        "id": 9216,
+                        "code": "B",
+                        "name": "注重细节",
+                        "question_id": 2884,
+                        "character_type": "T"
+                    }
+                ]
+            },
+            {
+                "id": 2885,
+                "name": "请选择更适合你的描述",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9217,
+                        "code": "A",
+                        "name": "更愿意获得欣赏",
+                        "question_id": 2885,
+                        "character_type": "N"
+                    },
+                    {
+                        "id": 9218,
+                        "code": "B",
+                        "name": "更愿意取得成就",
+                        "question_id": 2885,
+                        "character_type": "S"
+                    }
+                ]
+            },
+            {
+                "id": 2886,
+                "name": "请选择更适合你的描述",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9219,
+                        "code": "A",
+                        "name": "令人信服",
+                        "question_id": 2886,
+                        "character_type": "T"
+                    },
+                    {
+                        "id": 9220,
+                        "code": "B",
+                        "name": "令人感动",
+                        "question_id": 2886,
+                        "character_type": "F"
+                    }
+                ]
+            },
+            {
+                "id": 2887,
+                "name": "请选择更适合你的描述",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9221,
+                        "code": "A",
+                        "name": "偏好实际",
+                        "question_id": 2887,
+                        "character_type": "S"
+                    },
+                    {
+                        "id": 9222,
+                        "code": "B",
+                        "name": "有想象力",
+                        "question_id": 2887,
+                        "character_type": "N"
+                    }
+                ]
+            },
+            {
+                "id": 2888,
+                "name": "请选择更适合你的描述",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9223,
+                        "code": "A",
+                        "name": "更关注自己的感受",
+                        "question_id": 2888,
+                        "character_type": "I"
+                    },
+                    {
+                        "id": 9224,
+                        "code": "B",
+                        "name": "更关注他人对自己的看法",
+                        "question_id": 2888,
+                        "character_type": "E"
+                    }
+                ]
+            },
+            {
+                "id": 2889,
+                "name": "请选择更适合你的描述",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9225,
+                        "code": "A",
+                        "name": "内敛",
+                        "question_id": 2889,
+                        "character_type": "I"
+                    },
+                    {
+                        "id": 9226,
+                        "code": "B",
+                        "name": "健谈",
+                        "question_id": 2889,
+                        "character_type": "E"
+                    }
+                ]
+            },
+            {
+                "id": 2890,
+                "name": "请选择更适合你的描述",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9227,
+                        "code": "A",
+                        "name": "压力再大也能保持放松",
+                        "question_id": 2890,
+                        "character_type": "T"
+                    },
+                    {
+                        "id": 9228,
+                        "code": "B",
+                        "name": "有压力时容易焦虑",
+                        "question_id": 2890,
+                        "character_type": "F"
+                    }
+                ]
+            },
+            {
+                "id": 2891,
+                "name": "请选择更适合你的描述",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9229,
+                        "code": "A",
+                        "name": "我比大多人优秀",
+                        "question_id": 2891,
+                        "character_type": "E"
+                    },
+                    {
+                        "id": 9230,
+                        "code": "B",
+                        "name": "我普普通通",
+                        "question_id": 2891,
+                        "character_type": "I"
+                    }
+                ]
+            },
+            {
+                "id": 2892,
+                "name": "请选择更适合你的描述",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9231,
+                        "code": "A",
+                        "name": "喜欢待在人群中心",
+                        "question_id": 2892,
+                        "character_type": "E"
+                    },
+                    {
+                        "id": 9232,
+                        "code": "B",
+                        "name": "喜欢去人少的地方",
+                        "question_id": 2892,
+                        "character_type": "I"
+                    }
+                ]
+            },
+            {
+                "id": 2893,
+                "name": "请选择更适合你的描述",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9233,
+                        "code": "B",
+                        "name": "常看到他人缺点",
+                        "question_id": 2893,
+                        "character_type": "T"
+                    },
+                    {
+                        "id": 9234,
+                        "code": "A",
+                        "name": "常夸奖他人",
+                        "question_id": 2893,
+                        "character_type": "F"
+                    }
+                ]
+            },
+            {
+                "id": 2894,
+                "name": "请选择更适合你的描述",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9235,
+                        "code": "A",
+                        "name": "务实的",
+                        "question_id": 2894,
+                        "character_type": "S"
+                    },
+                    {
+                        "id": 9236,
+                        "code": "B",
+                        "name": "虚构的",
+                        "question_id": 2894,
+                        "character_type": "N"
+                    }
+                ]
+            },
+            {
+                "id": 2895,
+                "name": "请选择更适合你的描述",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9237,
+                        "code": "A",
+                        "name": "朋友不多",
+                        "question_id": 2895,
+                        "character_type": "I"
+                    },
+                    {
+                        "id": 9238,
+                        "code": "B",
+                        "name": "朋友众多",
+                        "question_id": 2895,
+                        "character_type": "E"
+                    }
+                ]
+            },
+            {
+                "id": 2896,
+                "name": "请选择更适合你的描述",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9239,
+                        "code": "A",
+                        "name": "发散思维",
+                        "question_id": 2896,
+                        "character_type": "F"
+                    },
+                    {
+                        "id": 9240,
+                        "code": "B",
+                        "name": "就事论事",
+                        "question_id": 2896,
+                        "character_type": "T"
+                    }
+                ]
+            },
+            {
+                "id": 2897,
+                "name": "请选择更适合你的描述",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9241,
+                        "code": "A",
+                        "name": "亲切的",
+                        "question_id": 2897,
+                        "character_type": "F"
+                    },
+                    {
+                        "id": 9242,
+                        "code": "B",
+                        "name": "客观的",
+                        "question_id": 2897,
+                        "character_type": "T"
+                    }
+                ]
+            },
+            {
+                "id": 2898,
+                "name": "请选择更适合你的描述",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9243,
+                        "code": "A",
+                        "name": "情感需符合逻辑",
+                        "question_id": 2898,
+                        "character_type": "T"
+                    },
+                    {
+                        "id": 9244,
+                        "code": "B",
+                        "name": "情感需符合感性",
+                        "question_id": 2898,
+                        "character_type": "F"
+                    }
+                ]
+            },
+            {
+                "id": 2899,
+                "name": "请选择更适合你的描述",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9245,
+                        "code": "A",
+                        "name": "建造",
+                        "question_id": 2899,
+                        "character_type": "S"
+                    },
+                    {
+                        "id": 9246,
+                        "code": "B",
+                        "name": "发明",
+                        "question_id": 2899,
+                        "character_type": "N"
+                    }
+                ]
+            },
+            {
+                "id": 2900,
+                "name": "请选择更适合你的描述",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9247,
+                        "code": "A",
+                        "name": "为避免他人不高兴而放弃辩论",
+                        "question_id": 2900,
+                        "character_type": "F"
+                    },
+                    {
+                        "id": 9248,
+                        "code": "B",
+                        "name": "赢得辩论更重要",
+                        "question_id": 2900,
+                        "character_type": "T"
+                    }
+                ]
+            },
+            {
+                "id": 2901,
+                "name": "请选择更适合你的描述",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9249,
+                        "code": "A",
+                        "name": "常过于担心别人怎么想",
+                        "question_id": 2901,
+                        "character_type": "I"
+                    },
+                    {
+                        "id": 9250,
+                        "code": "B",
+                        "name": "别人怎么想不重要",
+                        "question_id": 2901,
+                        "character_type": "E"
+                    }
+                ]
+            },
+            {
+                "id": 2902,
+                "name": "请选择更适合你的描述",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9251,
+                        "code": "A",
+                        "name": "被认为感情过多",
+                        "question_id": 2902,
+                        "character_type": "F"
+                    },
+                    {
+                        "id": 9252,
+                        "code": "B",
+                        "name": "被认为冷漠",
+                        "question_id": 2902,
+                        "character_type": "T"
+                    }
+                ]
+            },
+            {
+                "id": 2903,
+                "name": "请选择更适合你的描述",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9253,
+                        "code": "A",
+                        "name": "一视同仁",
+                        "question_id": 2903,
+                        "character_type": "T"
+                    },
+                    {
+                        "id": 9254,
+                        "code": "B",
+                        "name": "多愁善感",
+                        "question_id": 2903,
+                        "character_type": "F"
+                    }
+                ]
+            },
+            {
+                "id": 2904,
+                "name": "请选择更适合你的描述",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9255,
+                        "code": "A",
+                        "name": "想象的",
+                        "question_id": 2904,
+                        "character_type": "N"
+                    },
+                    {
+                        "id": 9256,
+                        "code": "B",
+                        "name": "真实的",
+                        "question_id": 2904,
+                        "character_type": "S"
+                    }
+                ]
+            },
+            {
+                "id": 2905,
+                "name": "请选择更适合你的描述",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9257,
+                        "code": "A",
+                        "name": "仁慈慷慨的",
+                        "question_id": 2905,
+                        "character_type": "F"
+                    },
+                    {
+                        "id": 9258,
+                        "code": "B",
+                        "name": "意志坚定的",
+                        "question_id": 2905,
+                        "character_type": "T"
+                    }
+                ]
+            },
+            {
+                "id": 2906,
+                "name": "请选择更适合你的描述",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9259,
+                        "code": "A",
+                        "name": "重视规则",
+                        "question_id": 2906,
+                        "character_type": "T"
+                    },
+                    {
+                        "id": 9260,
+                        "code": "B",
+                        "name": "重视感情",
+                        "question_id": 2906,
+                        "character_type": "F"
+                    }
+                ]
+            },
+            {
+                "id": 2907,
+                "name": "请选择更适合你的描述",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9261,
+                        "code": "A",
+                        "name": "可能性",
+                        "question_id": 2907,
+                        "character_type": "P"
+                    },
+                    {
+                        "id": 9262,
+                        "code": "B",
+                        "name": "必然性",
+                        "question_id": 2907,
+                        "character_type": "J"
+                    }
+                ]
+            },
+            {
+                "id": 2908,
+                "name": "请选择更适合你的描述",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9263,
+                        "code": "A",
+                        "name": "温柔",
+                        "question_id": 2908,
+                        "character_type": "F"
+                    },
+                    {
+                        "id": 9264,
+                        "code": "B",
+                        "name": "力量",
+                        "question_id": 2908,
+                        "character_type": "T"
+                    }
+                ]
+            },
+            {
+                "id": 2909,
+                "name": "请选择更适合你的描述",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9265,
+                        "code": "A",
+                        "name": "做事先考虑事",
+                        "question_id": 2909,
+                        "character_type": "T"
+                    },
+                    {
+                        "id": 9266,
+                        "code": "B",
+                        "name": "做事先考虑人",
+                        "question_id": 2909,
+                        "character_type": "F"
+                    }
+                ]
+            },
+            {
+                "id": 2910,
+                "name": "请选择更适合你的描述",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9267,
+                        "code": "A",
+                        "name": "新颖的",
+                        "question_id": 2910,
+                        "character_type": "N"
+                    },
+                    {
+                        "id": 9268,
+                        "code": "B",
+                        "name": "已知的",
+                        "question_id": 2910,
+                        "character_type": "S"
+                    }
+                ]
+            },
+            {
+                "id": 2911,
+                "name": "请选择更适合你的描述",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9269,
+                        "code": "A",
+                        "name": "据事实衡量",
+                        "question_id": 2911,
+                        "character_type": "T"
+                    },
+                    {
+                        "id": 9270,
+                        "code": "B",
+                        "name": "考虑他人的感受和意见",
+                        "question_id": 2911,
+                        "character_type": "F"
+                    }
+                ]
+            },
+            {
+                "id": 2912,
+                "name": "请选择更适合你的描述",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9271,
+                        "code": "A",
+                        "name": "坚持己见",
+                        "question_id": 2912,
+                        "character_type": "T"
+                    },
+                    {
+                        "id": 9272,
+                        "code": "B",
+                        "name": "温柔有爱心",
+                        "question_id": 2912,
+                        "character_type": "F"
+                    }
+                ]
+            },
+            {
+                "id": 2913,
+                "name": "请选择更适合你的描述",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9273,
+                        "code": "A",
+                        "name": "能干",
+                        "question_id": 2913,
+                        "character_type": "S"
+                    },
+                    {
+                        "id": 9274,
+                        "code": "B",
+                        "name": "仁慈",
+                        "question_id": 2913,
+                        "character_type": "N"
+                    }
+                ]
+            },
+            {
+                "id": 2914,
+                "name": "请选择更适合你的描述",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9275,
+                        "code": "A",
+                        "name": "实际",
+                        "question_id": 2914,
+                        "character_type": "S"
+                    },
+                    {
+                        "id": 9276,
+                        "code": "B",
+                        "name": "创新",
+                        "question_id": 2914,
+                        "character_type": "N"
+                    }
+                ]
+            },
+            {
+                "id": 2915,
+                "name": "请选择更适合你的描述",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9277,
+                        "code": "A",
+                        "name": "大部分的时间都是跟当天的感觉行事",
+                        "question_id": 2915,
+                        "character_type": "P"
+                    },
+                    {
+                        "id": 9278,
+                        "code": "B",
+                        "name": "事先知道大部分的日子会做什么",
+                        "question_id": 2915,
+                        "character_type": "J"
+                    }
+                ]
+            },
+            {
+                "id": 2916,
+                "name": "请选择更适合你的描述",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9279,
+                        "code": "A",
+                        "name": "享受独处",
+                        "question_id": 2916,
+                        "character_type": "I"
+                    },
+                    {
+                        "id": 9280,
+                        "code": "B",
+                        "name": "喜欢热闹",
+                        "question_id": 2916,
+                        "character_type": "E"
+                    }
+                ]
+            },
+            {
+                "id": 2917,
+                "name": "请选择更适合你的描述",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9281,
+                        "code": "A",
+                        "name": "关注自己如何影响外界",
+                        "question_id": 2917,
+                        "character_type": "E"
+                    },
+                    {
+                        "id": 9282,
+                        "code": "B",
+                        "name": "关注外界对自己的影响",
+                        "question_id": 2917,
+                        "character_type": "I"
+                    }
+                ]
+            },
+            {
+                "id": 2918,
+                "name": "请选择更适合你的描述",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9283,
+                        "code": "A",
+                        "name": "知识广博",
+                        "question_id": 2918,
+                        "character_type": "T"
+                    },
+                    {
+                        "id": 9284,
+                        "code": "B",
+                        "name": "善解人意",
+                        "question_id": 2918,
+                        "character_type": "F"
+                    }
+                ]
+            },
+            {
+                "id": 2919,
+                "name": "请选择更适合你的描述",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9285,
+                        "code": "A",
+                        "name": "容易适应转变",
+                        "question_id": 2919,
+                        "character_type": "P"
+                    },
+                    {
+                        "id": 9286,
+                        "code": "B",
+                        "name": "不喜欢太多变",
+                        "question_id": 2919,
+                        "character_type": "J"
+                    }
+                ]
+            },
+            {
+                "id": 2920,
+                "name": "请选择更适合你的描述",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9287,
+                        "code": "A",
+                        "name": "踏实",
+                        "question_id": 2920,
+                        "character_type": "S"
+                    },
+                    {
+                        "id": 9288,
+                        "code": "B",
+                        "name": "有趣",
+                        "question_id": 2920,
+                        "character_type": "N"
+                    }
+                ]
+            },
+            {
+                "id": 2921,
+                "name": "请选择更适合你的描述",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9289,
+                        "code": "A",
+                        "name": "喜欢询问实情",
+                        "question_id": 2921,
+                        "character_type": "S"
+                    },
+                    {
+                        "id": 9290,
+                        "code": "B",
+                        "name": "喜欢探索感受",
+                        "question_id": 2921,
+                        "character_type": "N"
+                    }
+                ]
+            },
+            {
+                "id": 2922,
+                "name": "请选择更适合你的描述",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9291,
+                        "code": "A",
+                        "name": "不断接受新意见",
+                        "question_id": 2922,
+                        "character_type": "P"
+                    },
+                    {
+                        "id": 9292,
+                        "code": "B",
+                        "name": "专注达成目标",
+                        "question_id": 2922,
+                        "character_type": "J"
+                    }
+                ]
+            },
+            {
+                "id": 2923,
+                "name": "请选择更适合你的描述",
+                "type": "S",
+                "infoname": "MBTI性格测试（200题）",
+                "option": [
+                    {
+                        "id": 9293,
+                        "code": "A",
+                        "name": "实事求是",
+                        "question_id": 2923,
+                        "character_type": "S"
+                    },
+                    {
+                        "id": 9294,
+                        "code": "B",
+                        "name": "具有远大理想",
+                        "question_id": 2923,
+                        "character_type": "N"
+                    }
+                ]
+            }
+        ]
+    }
+}

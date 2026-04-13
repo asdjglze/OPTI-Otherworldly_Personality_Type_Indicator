@@ -1,0 +1,230 @@
+{
+  "metadata": {
+    "document_type": "MBTI配对统计数据",
+    "generated_date": "2026-03-08",
+    "description": "适配度等级分布、各类型平均适配度、气质组合适配度统计数据"
+  },
+  "compatibility_distribution": {
+    "level_1": {
+      "name": "一级：灵魂共鸣（天作之合）",
+      "count": 12,
+      "percentage": 8.82
+    },
+    "level_2": {
+      "name": "二级：和谐增益（轻松舒适）",
+      "count": 37,
+      "percentage": 27.21
+    },
+    "level_3": {
+      "name": "三级：互补扶持（需要经营）",
+      "count": 48,
+      "percentage": 35.29
+    },
+    "level_4": {
+      "name": "四级：磨合挑战（需要努力）",
+      "count": 21,
+      "percentage": 15.44
+    },
+    "level_5": {
+      "name": "五级：困难重重（慎重选择）",
+      "count": 18,
+      "percentage": 13.24
+    }
+  },
+  "type_compatibility": {
+    "ENFP": {
+      "avg_level": 2.6,
+      "min_level": 1,
+      "max_level": 5,
+      "pair_count": 15,
+      "rank": 1
+    },
+    "ENFJ": {
+      "avg_level": 2.67,
+      "min_level": 1,
+      "max_level": 4,
+      "pair_count": 15,
+      "rank": 2
+    },
+    "ENTP": {
+      "avg_level": 2.73,
+      "min_level": 1,
+      "max_level": 4,
+      "pair_count": 15,
+      "rank": 3
+    },
+    "INFJ": {
+      "avg_level": 2.8,
+      "min_level": 1,
+      "max_level": 5,
+      "pair_count": 15,
+      "rank": 4
+    },
+    "INTP": {
+      "avg_level": 3.0,
+      "min_level": 1,
+      "max_level": 5,
+      "pair_count": 15,
+      "rank": 5
+    },
+    "INFP": {
+      "avg_level": 3.07,
+      "min_level": 1,
+      "max_level": 5,
+      "pair_count": 15,
+      "rank": 6
+    },
+    "ISFJ": {
+      "avg_level": 3.07,
+      "min_level": 1,
+      "max_level": 5,
+      "pair_count": 15,
+      "rank": 7
+    },
+    "ESFJ": {
+      "avg_level": 3.13,
+      "min_level": 1,
+      "max_level": 5,
+      "pair_count": 15,
+      "rank": 8
+    },
+    "INTJ": {
+      "avg_level": 3.2,
+      "min_level": 1,
+      "max_level": 5,
+      "pair_count": 15,
+      "rank": 9
+    },
+    "ESTJ": {
+      "avg_level": 3.27,
+      "min_level": 2,
+      "max_level": 5,
+      "pair_count": 15,
+      "rank": 10
+    },
+    "ISTP": {
+      "avg_level": 3.27,
+      "min_level": 2,
+      "max_level": 5,
+      "pair_count": 15,
+      "rank": 11
+    },
+    "ISTJ": {
+      "avg_level": 3.33,
+      "min_level": 2,
+      "max_level": 4,
+      "pair_count": 15,
+      "rank": 12
+    },
+    "ENTJ": {
+      "avg_level": 3.4,
+      "min_level": 2,
+      "max_level": 5,
+      "pair_count": 15,
+      "rank": 13
+    },
+    "ESFP": {
+      "avg_level": 3.47,
+      "min_level": 2,
+      "max_level": 5,
+      "pair_count": 15,
+      "rank": 14
+    },
+    "ESTP": {
+      "avg_level": 3.47,
+      "min_level": 2,
+      "max_level": 5,
+      "pair_count": 15,
+      "rank": 15
+    },
+    "ISFP": {
+      "avg_level": 3.6,
+      "min_level": 2,
+      "max_level": 5,
+      "pair_count": 15,
+      "rank": 16
+    }
+  },
+  "temperament_combinations": {
+    "NF-NF": {
+      "name": "岩草型 × 岩草型",
+      "avg_level": 1.67,
+      "count": 6,
+      "min_level": 1,
+      "max_level": 3,
+      "rank": 1
+    },
+    "SJ-SJ": {
+      "name": "火冰型 × 火冰型",
+      "avg_level": 1.83,
+      "count": 6,
+      "min_level": 1,
+      "max_level": 2,
+      "rank": 2
+    },
+    "NT-NT": {
+      "name": "岩雷型 × 岩雷型",
+      "avg_level": 2.33,
+      "count": 6,
+      "min_level": 2,
+      "max_level": 3,
+      "rank": 3
+    },
+    "SP-SP": {
+      "name": "火原型 × 火原型",
+      "avg_level": 2.33,
+      "count": 6,
+      "min_level": 2,
+      "max_level": 3,
+      "rank": 4
+    },
+    "NF-NT": {
+      "name": "岩草型 × 岩雷型",
+      "avg_level": 2.38,
+      "count": 16,
+      "min_level": 1,
+      "max_level": 5,
+      "rank": 5
+    },
+    "NF-SJ": {
+      "name": "岩草型 × 火冰型",
+      "avg_level": 3.31,
+      "count": 16,
+      "min_level": 2,
+      "max_level": 5,
+      "rank": 6
+    },
+    "NF-SP": {
+      "name": "岩草型 × 火原型",
+      "avg_level": 3.56,
+      "count": 16,
+      "min_level": 2,
+      "max_level": 5,
+      "rank": 7
+    },
+    "NT-SP": {
+      "name": "岩雷型 × 火原型",
+      "avg_level": 3.69,
+      "count": 16,
+      "min_level": 2,
+      "max_level": 5,
+      "rank": 8
+    },
+    "NT-SJ": {
+      "name": "岩雷型 × 火冰型",
+      "avg_level": 3.75,
+      "count": 16,
+      "min_level": 3,
+      "max_level": 5,
+      "rank": 9
+    },
+    "SJ-SP": {
+      "name": "火冰型 × 火原型",
+      "avg_level": 3.75,
+      "count": 16,
+      "min_level": 3,
+      "max_level": 5,
+      "rank": 10
+    }
+  }
+}

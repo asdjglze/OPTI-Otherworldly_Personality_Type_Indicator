@@ -1,0 +1,2055 @@
+{
+    "code": 0,
+    "data": {
+        "id": "1",
+        "name": "MBTI性格测试（93题）",
+        "list": [
+            {
+                "id": 1,
+                "name": "当你要外出一整天，你会",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 1,
+                        "code": "A",
+                        "name": "计划你要做什么和在什么时候做",
+                        "question_id": 1,
+                        "character_type": "J"
+                    },
+                    {
+                        "id": 2,
+                        "code": "B",
+                        "name": "说去就去",
+                        "question_id": 1,
+                        "character_type": "P"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "你认为自己是一个",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 3,
+                        "code": "A",
+                        "name": "较为有条理的人 ",
+                        "question_id": 2,
+                        "character_type": "J"
+                    },
+                    {
+                        "id": 4,
+                        "code": "B",
+                        "name": "较为随兴所至的人",
+                        "question_id": 2,
+                        "character_type": "P"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "假如你是一位老师，你会选教",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 5,
+                        "code": "A",
+                        "name": "以事实为主的课程",
+                        "question_id": 3,
+                        "character_type": "S"
+                    },
+                    {
+                        "id": 6,
+                        "code": "B",
+                        "name": "涉及理论的课程",
+                        "question_id": 3,
+                        "character_type": "N"
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "你通常",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 7,
+                        "code": "A",
+                        "name": "与人容易混熟",
+                        "question_id": 4,
+                        "character_type": "E"
+                    },
+                    {
+                        "id": 8,
+                        "code": "B",
+                        "name": "比较沉静或矜持",
+                        "question_id": 4,
+                        "character_type": "I"
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "name": "一般来说，你和哪些人比较合得来？",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 9,
+                        "code": "A",
+                        "name": "现实的人",
+                        "question_id": 5,
+                        "character_type": "S"
+                    },
+                    {
+                        "id": 10,
+                        "code": "B",
+                        "name": "富于想象力的人",
+                        "question_id": 5,
+                        "character_type": "N"
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "name": "你是否经常让",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 11,
+                        "code": "A",
+                        "name": "你的情感支配你的理智",
+                        "question_id": 6,
+                        "character_type": "F"
+                    },
+                    {
+                        "id": 12,
+                        "code": "B",
+                        "name": "你的理智主宰你的情感",
+                        "question_id": 6,
+                        "character_type": "T"
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "name": "处理许多事情上，你会喜欢",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 13,
+                        "code": "A",
+                        "name": "凭兴所至行事",
+                        "question_id": 7,
+                        "character_type": "P"
+                    },
+                    {
+                        "id": 14,
+                        "code": "B",
+                        "name": "按照计划行事",
+                        "question_id": 7,
+                        "character_type": "J"
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "name": "你是否",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 15,
+                        "code": "A",
+                        "name": "容易让人了解",
+                        "question_id": 8,
+                        "character_type": "E"
+                    },
+                    {
+                        "id": 16,
+                        "code": "B",
+                        "name": "难于让人了解",
+                        "question_id": 8,
+                        "character_type": "I"
+                    }
+                ]
+            },
+            {
+                "id": 9,
+                "name": "按照程序表做事， ",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 17,
+                        "code": "A",
+                        "name": "合你心意",
+                        "question_id": 9,
+                        "character_type": "J"
+                    },
+                    {
+                        "id": 18,
+                        "code": "B",
+                        "name": "令你感到束缚",
+                        "question_id": 9,
+                        "character_type": "P"
+                    }
+                ]
+            },
+            {
+                "id": 10,
+                "name": "当你有一份特别的任务，你会喜欢",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 19,
+                        "code": "A",
+                        "name": "开始前小心组织计划",
+                        "question_id": 10,
+                        "character_type": "J"
+                    },
+                    {
+                        "id": 20,
+                        "code": "B",
+                        "name": "边做边找须做什么",
+                        "question_id": 10,
+                        "character_type": "P"
+                    }
+                ]
+            },
+            {
+                "id": 11,
+                "name": "在大多数情况下，你会选择",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 21,
+                        "code": "A",
+                        "name": "顺其自然",
+                        "question_id": 11,
+                        "character_type": "P"
+                    },
+                    {
+                        "id": 22,
+                        "code": "B",
+                        "name": "按程序表做事",
+                        "question_id": 11,
+                        "character_type": "J"
+                    }
+                ]
+            },
+            {
+                "id": 12,
+                "name": "大多数人会说你是一个",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 23,
+                        "code": "A",
+                        "name": "重视自我隐私的人",
+                        "question_id": 12,
+                        "character_type": "I"
+                    },
+                    {
+                        "id": 24,
+                        "code": "B",
+                        "name": "非常坦率开放的人",
+                        "question_id": 12,
+                        "character_type": "E"
+                    }
+                ]
+            },
+            {
+                "id": 13,
+                "name": "你宁愿被人认为是一个",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 25,
+                        "code": "A",
+                        "name": "实事求是的人",
+                        "question_id": 13,
+                        "character_type": "S"
+                    },
+                    {
+                        "id": 26,
+                        "code": "B",
+                        "name": "机灵的人",
+                        "question_id": 13,
+                        "character_type": "N"
+                    }
+                ]
+            },
+            {
+                "id": 14,
+                "name": "在一大群人当中，通常是",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 27,
+                        "code": "A",
+                        "name": "你介绍大家认识",
+                        "question_id": 14,
+                        "character_type": "E"
+                    },
+                    {
+                        "id": 28,
+                        "code": "B",
+                        "name": "别人介绍你",
+                        "question_id": 14,
+                        "character_type": "I"
+                    }
+                ]
+            },
+            {
+                "id": 15,
+                "name": "你会跟哪些人做朋友？",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 29,
+                        "code": "A",
+                        "name": "常提出新主意的",
+                        "question_id": 15,
+                        "character_type": "N"
+                    },
+                    {
+                        "id": 30,
+                        "code": "B",
+                        "name": "脚踏实地的",
+                        "question_id": 15,
+                        "character_type": "S"
+                    }
+                ]
+            },
+            {
+                "id": 16,
+                "name": "你倾向",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 31,
+                        "code": "A",
+                        "name": "重视感情多于逻辑",
+                        "question_id": 16,
+                        "character_type": "F"
+                    },
+                    {
+                        "id": 32,
+                        "code": "B",
+                        "name": "重视逻辑多于感情",
+                        "question_id": 16,
+                        "character_type": "T"
+                    }
+                ]
+            },
+            {
+                "id": 17,
+                "name": "你比较喜欢",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 33,
+                        "code": "A",
+                        "name": "坐观事情发展才作计划",
+                        "question_id": 17,
+                        "character_type": "P"
+                    },
+                    {
+                        "id": 34,
+                        "code": "B",
+                        "name": "很早就作计划",
+                        "question_id": 17,
+                        "character_type": "J"
+                    }
+                ]
+            },
+            {
+                "id": 18,
+                "name": "你喜欢花很多的时间",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 35,
+                        "code": "A",
+                        "name": "一个人独处",
+                        "question_id": 18,
+                        "character_type": "I"
+                    },
+                    {
+                        "id": 36,
+                        "code": "B",
+                        "name": "合别人在一起",
+                        "question_id": 18,
+                        "character_type": "E"
+                    }
+                ]
+            },
+            {
+                "id": 19,
+                "name": "与很多人一起时会",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 37,
+                        "code": "A",
+                        "name": "令你活力培增",
+                        "question_id": 19,
+                        "character_type": "E"
+                    },
+                    {
+                        "id": 38,
+                        "code": "B",
+                        "name": "常常令你心力憔悴",
+                        "question_id": 19,
+                        "character_type": "I"
+                    }
+                ]
+            },
+            {
+                "id": 20,
+                "name": "你比较喜欢",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 39,
+                        "code": "A",
+                        "name": "很早便把约会、社交聚集等事情安排妥当",
+                        "question_id": 20,
+                        "character_type": "J"
+                    },
+                    {
+                        "id": 40,
+                        "code": "B",
+                        "name": "无拘无束看当时有什么好玩就做什么",
+                        "question_id": 20,
+                        "character_type": "P"
+                    }
+                ]
+            },
+            {
+                "id": 21,
+                "name": "计划一个旅程时，你较喜欢",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 41,
+                        "code": "A",
+                        "name": "大部分的时间都是跟当天的感觉行事",
+                        "question_id": 21,
+                        "character_type": "P"
+                    },
+                    {
+                        "id": 42,
+                        "code": "B",
+                        "name": "事先知道大部分的日子会做什么",
+                        "question_id": 21,
+                        "character_type": "J"
+                    }
+                ]
+            },
+            {
+                "id": 22,
+                "name": "在社交聚会中，你",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 43,
+                        "code": "A",
+                        "name": "有时感到郁闷",
+                        "question_id": 22,
+                        "character_type": "I"
+                    },
+                    {
+                        "id": 44,
+                        "code": "B",
+                        "name": "常常乐在其中",
+                        "question_id": 22,
+                        "character_type": "E"
+                    }
+                ]
+            },
+            {
+                "id": 23,
+                "name": "你通常",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 45,
+                        "code": "A",
+                        "name": "和别人容易混熟",
+                        "question_id": 23,
+                        "character_type": "E"
+                    },
+                    {
+                        "id": 46,
+                        "code": "B",
+                        "name": "趋向自处一隅",
+                        "question_id": 23,
+                        "character_type": "I"
+                    }
+                ]
+            },
+            {
+                "id": 24,
+                "name": "哪些人会更吸引你？ ",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 47,
+                        "code": "A",
+                        "name": "一个思想敏捷及非常聪颖的人",
+                        "question_id": 24,
+                        "character_type": "N"
+                    },
+                    {
+                        "id": 48,
+                        "code": "B",
+                        "name": "实事求是，具丰富常识的人",
+                        "question_id": 24,
+                        "character_type": "S"
+                    }
+                ]
+            },
+            {
+                "id": 25,
+                "name": "在日常工作中，你会",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 49,
+                        "code": "A",
+                        "name": "颇为喜欢处理迫使你分秒必争的突发",
+                        "question_id": 25,
+                        "character_type": "P"
+                    },
+                    {
+                        "id": 50,
+                        "code": "B",
+                        "name": "通常预先计划，以免要在压力下工作",
+                        "question_id": 25,
+                        "character_type": "J"
+                    }
+                ]
+            },
+            {
+                "id": 26,
+                "name": "你认为别人一般",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 51,
+                        "code": "A",
+                        "name": "要花很长时间才认识你",
+                        "question_id": 26,
+                        "character_type": "I"
+                    },
+                    {
+                        "id": 52,
+                        "code": "B",
+                        "name": "用很短的时间便认识你",
+                        "question_id": 26,
+                        "character_type": "E"
+                    }
+                ]
+            },
+            {
+                "id": 27,
+                "name": "以下哪一个词语更合你心意？请仔细想想这些词语的意义，而不要理会他们的字形或读音",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 53,
+                        "code": "A",
+                        "name": "注重隐私",
+                        "question_id": 27,
+                        "character_type": "I"
+                    },
+                    {
+                        "id": 54,
+                        "code": "B",
+                        "name": "坦率开放",
+                        "question_id": 27,
+                        "character_type": "E"
+                    }
+                ]
+            },
+            {
+                "id": 28,
+                "name": "以下哪一个词语更合你心意？请仔细想想这些词语的意义，而不要理会他们的字形或读音",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 55,
+                        "code": "A",
+                        "name": "预先安排的",
+                        "question_id": 28,
+                        "character_type": "J"
+                    },
+                    {
+                        "id": 56,
+                        "code": "B",
+                        "name": "无计划的",
+                        "question_id": 28,
+                        "character_type": "P"
+                    }
+                ]
+            },
+            {
+                "id": 29,
+                "name": "以下哪一个词语更合你心意？请仔细想想这些词语的意义，而不要理会他们的字形或读音",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 57,
+                        "code": "A",
+                        "name": "抽象",
+                        "question_id": 29,
+                        "character_type": "N"
+                    },
+                    {
+                        "id": 58,
+                        "code": "B",
+                        "name": "具体",
+                        "question_id": 29,
+                        "character_type": "S"
+                    }
+                ]
+            },
+            {
+                "id": 30,
+                "name": "以下哪一个词语更合你心意？请仔细想想这些词语的意义，而不要理会他们的字形或读音",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 59,
+                        "code": "A",
+                        "name": "温柔",
+                        "question_id": 30,
+                        "character_type": "F"
+                    },
+                    {
+                        "id": 60,
+                        "code": "B",
+                        "name": "坚定",
+                        "question_id": 30,
+                        "character_type": "T"
+                    }
+                ]
+            },
+            {
+                "id": 31,
+                "name": "以下哪一个词语更合你心意？请仔细想想这些词语的意义，而不要理会他们的字形或读音",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 61,
+                        "code": "A",
+                        "name": "思考",
+                        "question_id": 31,
+                        "character_type": "T"
+                    },
+                    {
+                        "id": 62,
+                        "code": "B",
+                        "name": "感受",
+                        "question_id": 31,
+                        "character_type": "F"
+                    }
+                ]
+            },
+            {
+                "id": 32,
+                "name": "以下哪一个词语更合你心意？请仔细想想这些词语的意义，而不要理会他们的字形或读音",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 63,
+                        "code": "A",
+                        "name": "事实",
+                        "question_id": 32,
+                        "character_type": "S"
+                    },
+                    {
+                        "id": 64,
+                        "code": "B",
+                        "name": "意念",
+                        "question_id": 32,
+                        "character_type": "N"
+                    }
+                ]
+            },
+            {
+                "id": 33,
+                "name": "以下哪一个词语更合你心意？请仔细想想这些词语的意义，而不要理会他们的字形或读音",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 65,
+                        "code": "A",
+                        "name": "冲动",
+                        "question_id": 33,
+                        "character_type": "P"
+                    },
+                    {
+                        "id": 66,
+                        "code": "B",
+                        "name": "决定",
+                        "question_id": 33,
+                        "character_type": "J"
+                    }
+                ]
+            },
+            {
+                "id": 34,
+                "name": "以下哪一个词语更合你心意？请仔细想想这些词语的意义，而不要理会他们的字形或读音",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 67,
+                        "code": "A",
+                        "name": "热衷",
+                        "question_id": 34,
+                        "character_type": "E"
+                    },
+                    {
+                        "id": 68,
+                        "code": "B",
+                        "name": "文静",
+                        "question_id": 34,
+                        "character_type": "I"
+                    }
+                ]
+            },
+            {
+                "id": 35,
+                "name": "以下哪一个词语更合你心意？请仔细想想这些词语的意义，而不要理会他们的字形或读音",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 69,
+                        "code": "A",
+                        "name": "文静",
+                        "question_id": 35,
+                        "character_type": "I"
+                    },
+                    {
+                        "id": 70,
+                        "code": "B",
+                        "name": "外向",
+                        "question_id": 35,
+                        "character_type": "E"
+                    }
+                ]
+            },
+            {
+                "id": 36,
+                "name": "以下哪一个词语更合你心意？请仔细想想这些词语的意义，而不要理会他们的字形或读音",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 71,
+                        "code": "A",
+                        "name": "有系统",
+                        "question_id": 36,
+                        "character_type": "J"
+                    },
+                    {
+                        "id": 72,
+                        "code": "B",
+                        "name": "随意",
+                        "question_id": 36,
+                        "character_type": "P"
+                    }
+                ]
+            },
+            {
+                "id": 37,
+                "name": "以下哪一个词语更合你心意？请仔细想想这些词语的意义，而不要理会他们的字形或读音",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 73,
+                        "code": "A",
+                        "name": "理论",
+                        "question_id": 37,
+                        "character_type": "N"
+                    },
+                    {
+                        "id": 74,
+                        "code": "B",
+                        "name": "肯定",
+                        "question_id": 37,
+                        "character_type": "S"
+                    }
+                ]
+            },
+            {
+                "id": 38,
+                "name": "以下哪一个词语更合你心意？请仔细想想这些词语的意义，而不要理会他们的字形或读音",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 75,
+                        "code": "A",
+                        "name": "敏感",
+                        "question_id": 38,
+                        "character_type": "F"
+                    },
+                    {
+                        "id": 76,
+                        "code": "B",
+                        "name": "公正",
+                        "question_id": 38,
+                        "character_type": "T"
+                    }
+                ]
+            },
+            {
+                "id": 39,
+                "name": "以下哪一个词语更合你心意？请仔细想想这些词语的意义，而不要理会他们的字形或读音",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 77,
+                        "code": "A",
+                        "name": "令人信服",
+                        "question_id": 39,
+                        "character_type": "T"
+                    },
+                    {
+                        "id": 78,
+                        "code": "B",
+                        "name": "感人的",
+                        "question_id": 39,
+                        "character_type": "F"
+                    }
+                ]
+            },
+            {
+                "id": 40,
+                "name": "以下哪一个词语更合你心意？请仔细想想这些词语的意义，而不要理会他们的字形或读音",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 79,
+                        "code": "A",
+                        "name": "声明",
+                        "question_id": 40,
+                        "character_type": "S"
+                    },
+                    {
+                        "id": 80,
+                        "code": "B",
+                        "name": "概念",
+                        "question_id": 40,
+                        "character_type": "N"
+                    }
+                ]
+            },
+            {
+                "id": 41,
+                "name": "以下哪一个词语更合你心意？请仔细想想这些词语的意义，而不要理会他们的字形或读音",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 81,
+                        "code": "A",
+                        "name": "不受约束",
+                        "question_id": 41,
+                        "character_type": "P"
+                    },
+                    {
+                        "id": 82,
+                        "code": "B",
+                        "name": "预先安排",
+                        "question_id": 41,
+                        "character_type": "J"
+                    }
+                ]
+            },
+            {
+                "id": 42,
+                "name": "以下哪一个词语更合你心意？请仔细想想这些词语的意义，而不要理会他们的字形或读音",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 83,
+                        "code": "A",
+                        "name": "矜持",
+                        "question_id": 42,
+                        "character_type": "I"
+                    },
+                    {
+                        "id": 84,
+                        "code": "B",
+                        "name": "健谈",
+                        "question_id": 42,
+                        "character_type": "E"
+                    }
+                ]
+            },
+            {
+                "id": 43,
+                "name": "以下哪一个词语更合你心意？请仔细想想这些词语的意义，而不要理会他们的字形或读音",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 85,
+                        "code": "A",
+                        "name": "有条不紊",
+                        "question_id": 43,
+                        "character_type": "J"
+                    },
+                    {
+                        "id": 86,
+                        "code": "B",
+                        "name": "不拘小节",
+                        "question_id": 43,
+                        "character_type": "P"
+                    }
+                ]
+            },
+            {
+                "id": 44,
+                "name": "以下哪一个词语更合你心意？请仔细想想这些词语的意义，而不要理会他们的字形或读音",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 87,
+                        "code": "A",
+                        "name": "意念",
+                        "question_id": 44,
+                        "character_type": "N"
+                    },
+                    {
+                        "id": 88,
+                        "code": "B",
+                        "name": "实况",
+                        "question_id": 44,
+                        "character_type": "S"
+                    }
+                ]
+            },
+            {
+                "id": 45,
+                "name": "以下哪一个词语更合你心意？请仔细想想这些词语的意义，而不要理会他们的字形或读音",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 89,
+                        "code": "A",
+                        "name": "同情怜悯",
+                        "question_id": 45,
+                        "character_type": "F"
+                    },
+                    {
+                        "id": 90,
+                        "code": "B",
+                        "name": "远见",
+                        "question_id": 45,
+                        "character_type": "T"
+                    }
+                ]
+            },
+            {
+                "id": 46,
+                "name": "以下哪一个词语更合你心意？请仔细想想这些词语的意义，而不要理会他们的字形或读音",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 91,
+                        "code": "A",
+                        "name": "利益",
+                        "question_id": 46,
+                        "character_type": "T"
+                    },
+                    {
+                        "id": 92,
+                        "code": "B",
+                        "name": "祝福",
+                        "question_id": 46,
+                        "character_type": "F"
+                    }
+                ]
+            },
+            {
+                "id": 47,
+                "name": "以下哪一个词语更合你心意？请仔细想想这些词语的意义，而不要理会他们的字形或读音",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 93,
+                        "code": "A",
+                        "name": "务实的",
+                        "question_id": 47,
+                        "character_type": "S"
+                    },
+                    {
+                        "id": 94,
+                        "code": "B",
+                        "name": "理论的",
+                        "question_id": 47,
+                        "character_type": "N"
+                    }
+                ]
+            },
+            {
+                "id": 48,
+                "name": "以下哪一个词语更合你心意？请仔细想想这些词语的意义，而不要理会他们的字形或读音",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 95,
+                        "code": "A",
+                        "name": "朋友不多",
+                        "question_id": 48,
+                        "character_type": "I"
+                    },
+                    {
+                        "id": 96,
+                        "code": "B",
+                        "name": "朋友众多",
+                        "question_id": 48,
+                        "character_type": "E"
+                    }
+                ]
+            },
+            {
+                "id": 49,
+                "name": "以下哪一个词语更合你心意？请仔细想想这些词语的意义，而不要理会他们的字形或读音",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 97,
+                        "code": "A",
+                        "name": "有系统",
+                        "question_id": 49,
+                        "character_type": "J"
+                    },
+                    {
+                        "id": 98,
+                        "code": "B",
+                        "name": "即兴",
+                        "question_id": 49,
+                        "character_type": "P"
+                    }
+                ]
+            },
+            {
+                "id": 50,
+                "name": "以下哪一个词语更合你心意？请仔细想想这些词语的意义，而不要理会他们的字形或读音",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 99,
+                        "code": "A",
+                        "name": "富想象的",
+                        "question_id": 50,
+                        "character_type": "N"
+                    },
+                    {
+                        "id": 100,
+                        "code": "B",
+                        "name": "以事论事",
+                        "question_id": 50,
+                        "character_type": "S"
+                    }
+                ]
+            },
+            {
+                "id": 51,
+                "name": "以下哪一个词语更合你心意？请仔细想想这些词语的意义，而不要理会他们的字形或读音",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 101,
+                        "code": "A",
+                        "name": "亲切的",
+                        "question_id": 51,
+                        "character_type": "F"
+                    },
+                    {
+                        "id": 102,
+                        "code": "B",
+                        "name": "客观的",
+                        "question_id": 51,
+                        "character_type": "T"
+                    }
+                ]
+            },
+            {
+                "id": 52,
+                "name": "以下哪一个词语更合你心意？请仔细想想这些词语的意义，而不要理会他们的字形或读音",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 103,
+                        "code": "A",
+                        "name": "客观的",
+                        "question_id": 52,
+                        "character_type": "T"
+                    },
+                    {
+                        "id": 104,
+                        "code": "B",
+                        "name": "热情的",
+                        "question_id": 52,
+                        "character_type": "F"
+                    }
+                ]
+            },
+            {
+                "id": 53,
+                "name": "以下哪一个词语更合你心意？请仔细想想这些词语的意义，而不要理会他们的字形或读音",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 105,
+                        "code": "A",
+                        "name": "建造",
+                        "question_id": 53,
+                        "character_type": "S"
+                    },
+                    {
+                        "id": 106,
+                        "code": "B",
+                        "name": "发明",
+                        "question_id": 53,
+                        "character_type": "N"
+                    }
+                ]
+            },
+            {
+                "id": 54,
+                "name": "以下哪一个词语更合你心意？请仔细想想这些词语的意义，而不要理会他们的字形或读音",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 107,
+                        "code": "A",
+                        "name": "文静",
+                        "question_id": 54,
+                        "character_type": "I"
+                    },
+                    {
+                        "id": 108,
+                        "code": "B",
+                        "name": "爱合群",
+                        "question_id": 54,
+                        "character_type": "E"
+                    }
+                ]
+            },
+            {
+                "id": 55,
+                "name": "以下哪一个词语更合你心意？请仔细想想这些词语的意义，而不要理会他们的字形或读音",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 109,
+                        "code": "A",
+                        "name": "理论",
+                        "question_id": 55,
+                        "character_type": "N"
+                    },
+                    {
+                        "id": 110,
+                        "code": "B",
+                        "name": "事实",
+                        "question_id": 55,
+                        "character_type": "S"
+                    }
+                ]
+            },
+            {
+                "id": 56,
+                "name": "以下哪一个词语更合你心意？请仔细想想这些词语的意义，而不要理会他们的字形或读音",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 111,
+                        "code": "A",
+                        "name": "富同情",
+                        "question_id": 56,
+                        "character_type": "F"
+                    },
+                    {
+                        "id": 112,
+                        "code": "B",
+                        "name": "合逻辑",
+                        "question_id": 56,
+                        "character_type": "T"
+                    }
+                ]
+            },
+            {
+                "id": 57,
+                "name": "以下哪一个词语更合你心意？请仔细想想这些词语的意义，而不要理会他们的字形或读音",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 113,
+                        "code": "A",
+                        "name": "具分析力",
+                        "question_id": 57,
+                        "character_type": "T"
+                    },
+                    {
+                        "id": 114,
+                        "code": "B",
+                        "name": "多愁善感",
+                        "question_id": 57,
+                        "character_type": "F"
+                    }
+                ]
+            },
+            {
+                "id": 58,
+                "name": "以下哪一个词语更合你心意？请仔细想想这些词语的意义，而不要理会他们的字形或读音",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 115,
+                        "code": "A",
+                        "name": "合情合理",
+                        "question_id": 58,
+                        "character_type": "S"
+                    },
+                    {
+                        "id": 116,
+                        "code": "B",
+                        "name": "令人着迷",
+                        "question_id": 58,
+                        "character_type": "N"
+                    }
+                ]
+            },
+            {
+                "id": 59,
+                "name": "当你要在一个星期内完成一个大项目，你在开始的时候会",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 117,
+                        "code": "A",
+                        "name": "把要做的不同工作依次列出",
+                        "question_id": 59,
+                        "character_type": "J"
+                    },
+                    {
+                        "id": 118,
+                        "code": "B",
+                        "name": "马上动工",
+                        "question_id": 59,
+                        "character_type": "P"
+                    }
+                ]
+            },
+            {
+                "id": 60,
+                "name": "在社交场合中，你经常会感到",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 119,
+                        "code": "A",
+                        "name": "与某些人很难打开话匣儿和保持对话",
+                        "question_id": 60,
+                        "character_type": "I"
+                    },
+                    {
+                        "id": 120,
+                        "code": "B",
+                        "name": "与多数人都能从容地长谈",
+                        "question_id": 60,
+                        "character_type": "E"
+                    }
+                ]
+            },
+            {
+                "id": 61,
+                "name": "要做许多人也做的事，你比较喜欢",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 121,
+                        "code": "A",
+                        "name": "按照一般认可的方法去做",
+                        "question_id": 61,
+                        "character_type": "S"
+                    },
+                    {
+                        "id": 122,
+                        "code": "B",
+                        "name": "构想一个自己的想法",
+                        "question_id": 61,
+                        "character_type": "N"
+                    }
+                ]
+            },
+            {
+                "id": 62,
+                "name": "你刚认识的朋友能否说出你的兴趣？",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 123,
+                        "code": "A",
+                        "name": "马上可以",
+                        "question_id": 62,
+                        "character_type": "E"
+                    },
+                    {
+                        "id": 124,
+                        "code": "B",
+                        "name": "要待他们真正了解你之后才可以",
+                        "question_id": 62,
+                        "character_type": "I"
+                    }
+                ]
+            },
+            {
+                "id": 63,
+                "name": "你通常较喜欢的科目是",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 125,
+                        "code": "A",
+                        "name": "讲授概念和原则的",
+                        "question_id": 63,
+                        "character_type": "N"
+                    },
+                    {
+                        "id": 126,
+                        "code": "B",
+                        "name": "讲授事实和数据的",
+                        "question_id": 63,
+                        "character_type": "S"
+                    }
+                ]
+            },
+            {
+                "id": 64,
+                "name": "哪个是较高的赞誉，或称许为？",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 127,
+                        "code": "A",
+                        "name": "一贯感性的人",
+                        "question_id": 64,
+                        "character_type": "F"
+                    },
+                    {
+                        "id": 128,
+                        "code": "B",
+                        "name": "一贯理性的人",
+                        "question_id": 64,
+                        "character_type": "T"
+                    }
+                ]
+            },
+            {
+                "id": 65,
+                "name": "你认为按照程序表做事",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 129,
+                        "code": "A",
+                        "name": "有时是需要的，但一般来说你不大喜欢这样做",
+                        "question_id": 65,
+                        "character_type": "P"
+                    },
+                    {
+                        "id": 130,
+                        "code": "B",
+                        "name": "大多数情况下是有帮助而且是你喜欢做的",
+                        "question_id": 65,
+                        "character_type": "J"
+                    }
+                ]
+            },
+            {
+                "id": 66,
+                "name": "和一群人在一起，你通常会选",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 131,
+                        "code": "A",
+                        "name": "跟你很熟悉的个别人谈话",
+                        "question_id": 66,
+                        "character_type": "I"
+                    },
+                    {
+                        "id": 132,
+                        "code": "B",
+                        "name": "参与大伙的谈话",
+                        "question_id": 66,
+                        "character_type": "E"
+                    }
+                ]
+            },
+            {
+                "id": 67,
+                "name": "在社交聚会上，你会",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 133,
+                        "code": "A",
+                        "name": "是说话很多的一个",
+                        "question_id": 67,
+                        "character_type": "E"
+                    },
+                    {
+                        "id": 134,
+                        "code": "B",
+                        "name": "让别人多说话",
+                        "question_id": 67,
+                        "character_type": "I"
+                    }
+                ]
+            },
+            {
+                "id": 68,
+                "name": "把周末期间要完成的事列成清单，这个主意会",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 135,
+                        "code": "A",
+                        "name": "合你意",
+                        "question_id": 68,
+                        "character_type": "J"
+                    },
+                    {
+                        "id": 136,
+                        "code": "B",
+                        "name": "使你提不起劲",
+                        "question_id": 68,
+                        "character_type": "P"
+                    }
+                ]
+            },
+            {
+                "id": 69,
+                "name": "哪个是较高的赞誉，或称许为",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 137,
+                        "code": "A",
+                        "name": "能干的",
+                        "question_id": 69,
+                        "character_type": "T"
+                    },
+                    {
+                        "id": 138,
+                        "code": "B",
+                        "name": "富有同情心",
+                        "question_id": 69,
+                        "character_type": "F"
+                    }
+                ]
+            },
+            {
+                "id": 70,
+                "name": "你通常喜欢",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 139,
+                        "code": "A",
+                        "name": "事先安排你的社交约会",
+                        "question_id": 70,
+                        "character_type": "J"
+                    },
+                    {
+                        "id": 140,
+                        "code": "B",
+                        "name": "随兴之所至做事",
+                        "question_id": 70,
+                        "character_type": "P"
+                    }
+                ]
+            },
+            {
+                "id": 71,
+                "name": "总的说来，要做一个大型作业时，你会选",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 141,
+                        "code": "A",
+                        "name": "边做边想该做什么",
+                        "question_id": 71,
+                        "character_type": "P"
+                    },
+                    {
+                        "id": 142,
+                        "code": "B",
+                        "name": "首先把工作按步细分",
+                        "question_id": 71,
+                        "character_type": "J"
+                    }
+                ]
+            },
+            {
+                "id": 72,
+                "name": "你能否滔滔不绝地与人聊天",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 143,
+                        "code": "A",
+                        "name": "只限于跟你有共同兴趣的人",
+                        "question_id": 72,
+                        "character_type": "I"
+                    },
+                    {
+                        "id": 144,
+                        "code": "B",
+                        "name": "几乎跟任何人都可以",
+                        "question_id": 72,
+                        "character_type": "E"
+                    }
+                ]
+            },
+            {
+                "id": 73,
+                "name": "你会",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 145,
+                        "code": "A",
+                        "name": "跟随一些证明有效的方法",
+                        "question_id": 73,
+                        "character_type": "S"
+                    },
+                    {
+                        "id": 146,
+                        "code": "B",
+                        "name": "分析还有什么毛病，及针对尚未解决的难题",
+                        "question_id": 73,
+                        "character_type": "N"
+                    }
+                ]
+            },
+            {
+                "id": 74,
+                "name": "为乐趣而阅读时，你会",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 147,
+                        "code": "A",
+                        "name": "喜欢奇特或创新的表达方式",
+                        "question_id": 74,
+                        "character_type": "N"
+                    },
+                    {
+                        "id": 148,
+                        "code": "B",
+                        "name": "喜欢作者直话直说",
+                        "question_id": 74,
+                        "character_type": "S"
+                    }
+                ]
+            },
+            {
+                "id": 75,
+                "name": "你宁愿替哪一类上司（或者老师）工作？",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 149,
+                        "code": "A",
+                        "name": "性淳良，但常常前后不一的",
+                        "question_id": 75,
+                        "character_type": "F"
+                    },
+                    {
+                        "id": 150,
+                        "code": "B",
+                        "name": "词尖锐但永远合乎逻辑的",
+                        "question_id": 75,
+                        "character_type": "T"
+                    }
+                ]
+            },
+            {
+                "id": 76,
+                "name": "你做事多数是",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 151,
+                        "code": "A",
+                        "name": "当天心情去做",
+                        "question_id": 76,
+                        "character_type": "P"
+                    },
+                    {
+                        "id": 152,
+                        "code": "B",
+                        "name": "拟好的程序表去做",
+                        "question_id": 76,
+                        "character_type": "J"
+                    }
+                ]
+            },
+            {
+                "id": 77,
+                "name": "你是否",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 153,
+                        "code": "A",
+                        "name": "以和任何人按需求从容地交谈，或是",
+                        "question_id": 77,
+                        "character_type": "E"
+                    },
+                    {
+                        "id": 154,
+                        "code": "B",
+                        "name": "是对某些人或在某种情况下才可以畅所欲言",
+                        "question_id": 77,
+                        "character_type": "I"
+                    }
+                ]
+            },
+            {
+                "id": 78,
+                "name": "要作决定时，你认为比较重要的是",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 155,
+                        "code": "A",
+                        "name": "事实衡量",
+                        "question_id": 78,
+                        "character_type": "T"
+                    },
+                    {
+                        "id": 156,
+                        "code": "B",
+                        "name": "虑他人的感受和意见",
+                        "question_id": 78,
+                        "character_type": "F"
+                    }
+                ]
+            },
+            {
+                "id": 79,
+                "name": "以下哪一个词语更合你心意？请仔细想想这些词语的意义，而不要理会他们的字形或读音",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 157,
+                        "code": "A",
+                        "name": "想象的",
+                        "question_id": 79,
+                        "character_type": "N"
+                    },
+                    {
+                        "id": 158,
+                        "code": "B",
+                        "name": "真实的",
+                        "question_id": 79,
+                        "character_type": "S"
+                    }
+                ]
+            },
+            {
+                "id": 80,
+                "name": "以下哪一个词语更合你心意？请仔细想想这些词语的意义，而不要理会他们的字形或读音",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 159,
+                        "code": "A",
+                        "name": "仁慈慷慨的",
+                        "question_id": 80,
+                        "character_type": "F"
+                    },
+                    {
+                        "id": 160,
+                        "code": "B",
+                        "name": "意志坚定的",
+                        "question_id": 80,
+                        "character_type": "T"
+                    }
+                ]
+            },
+            {
+                "id": 81,
+                "name": "以下哪一个词语更合你心意？请仔细想想这些词语的意义，而不要理会他们的字形或读音",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 161,
+                        "code": "A",
+                        "name": "公正的",
+                        "question_id": 81,
+                        "character_type": "T"
+                    },
+                    {
+                        "id": 162,
+                        "code": "B",
+                        "name": "有关怀心",
+                        "question_id": 81,
+                        "character_type": "F"
+                    }
+                ]
+            },
+            {
+                "id": 82,
+                "name": "以下哪一个词语更合你心意？请仔细想想这些词语的意义，而不要理会他们的字形或读音",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 163,
+                        "code": "A",
+                        "name": "制作",
+                        "question_id": 82,
+                        "character_type": "S"
+                    },
+                    {
+                        "id": 164,
+                        "code": "B",
+                        "name": "设计",
+                        "question_id": 82,
+                        "character_type": "N"
+                    }
+                ]
+            },
+            {
+                "id": 83,
+                "name": "以下哪一个词语更合你心意？请仔细想想这些词语的意义，而不要理会他们的字形或读音",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 165,
+                        "code": "A",
+                        "name": "可能性",
+                        "question_id": 83,
+                        "character_type": "N"
+                    },
+                    {
+                        "id": 166,
+                        "code": "B",
+                        "name": "必然性",
+                        "question_id": 83,
+                        "character_type": "S"
+                    }
+                ]
+            },
+            {
+                "id": 84,
+                "name": "以下哪一个词语更合你心意？请仔细想想这些词语的意义，而不要理会他们的字形或读音",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 167,
+                        "code": "A",
+                        "name": "温柔",
+                        "question_id": 84,
+                        "character_type": "F"
+                    },
+                    {
+                        "id": 168,
+                        "code": "B",
+                        "name": "力量",
+                        "question_id": 84,
+                        "character_type": "T"
+                    }
+                ]
+            },
+            {
+                "id": 85,
+                "name": "以下哪一个词语更合你心意？请仔细想想这些词语的意义，而不要理会他们的字形或读音",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 169,
+                        "code": "A",
+                        "name": "实际",
+                        "question_id": 85,
+                        "character_type": "T"
+                    },
+                    {
+                        "id": 170,
+                        "code": "B",
+                        "name": "多愁善感",
+                        "question_id": 85,
+                        "character_type": "F"
+                    }
+                ]
+            },
+            {
+                "id": 86,
+                "name": "以下哪一个词语更合你心意？请仔细想想这些词语的意义，而不要理会他们的字形或读音",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 171,
+                        "code": "A",
+                        "name": "制造",
+                        "question_id": 86,
+                        "character_type": "S"
+                    },
+                    {
+                        "id": 172,
+                        "code": "B",
+                        "name": "创造",
+                        "question_id": 86,
+                        "character_type": "N"
+                    }
+                ]
+            },
+            {
+                "id": 87,
+                "name": "以下哪一个词语更合你心意？请仔细想想这些词语的意义，而不要理会他们的字形或读音",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 173,
+                        "code": "A",
+                        "name": "新颖的",
+                        "question_id": 87,
+                        "character_type": "N"
+                    },
+                    {
+                        "id": 174,
+                        "code": "B",
+                        "name": "已知的",
+                        "question_id": 87,
+                        "character_type": "S"
+                    }
+                ]
+            },
+            {
+                "id": 88,
+                "name": "以下哪一个词语更合你心意？请仔细想想这些词语的意义，而不要理会他们的字形或读音",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 175,
+                        "code": "A",
+                        "name": "同情",
+                        "question_id": 88,
+                        "character_type": "F"
+                    },
+                    {
+                        "id": 176,
+                        "code": "B",
+                        "name": "分析",
+                        "question_id": 88,
+                        "character_type": "T"
+                    }
+                ]
+            },
+            {
+                "id": 89,
+                "name": "以下哪一个词语更合你心意？请仔细想想这些词语的意义，而不要理会他们的字形或读音",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 177,
+                        "code": "A",
+                        "name": "坚持己见",
+                        "question_id": 89,
+                        "character_type": "T"
+                    },
+                    {
+                        "id": 178,
+                        "code": "B",
+                        "name": "温柔有爱心",
+                        "question_id": 89,
+                        "character_type": "F"
+                    }
+                ]
+            },
+            {
+                "id": 90,
+                "name": "以下哪一个词语更合你心意？请仔细想想这些词语的意义，而不要理会他们的字形或读音",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 179,
+                        "code": "A",
+                        "name": "具体的",
+                        "question_id": 90,
+                        "character_type": "S"
+                    },
+                    {
+                        "id": 180,
+                        "code": "B",
+                        "name": "抽象的",
+                        "question_id": 90,
+                        "character_type": "N"
+                    }
+                ]
+            },
+            {
+                "id": 91,
+                "name": "以下哪一个词语更合你心意？请仔细想想这些词语的意义，而不要理会他们的字形或读音",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 181,
+                        "code": "A",
+                        "name": "全心投入",
+                        "question_id": 91,
+                        "character_type": "F"
+                    },
+                    {
+                        "id": 182,
+                        "code": "B",
+                        "name": "有决心的",
+                        "question_id": 91,
+                        "character_type": "T"
+                    }
+                ]
+            },
+            {
+                "id": 92,
+                "name": "以下哪一个词语更合你心意？请仔细想想这些词语的意义，而不要理会他们的字形或读音",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 183,
+                        "code": "A",
+                        "name": "能干",
+                        "question_id": 92,
+                        "character_type": "T"
+                    },
+                    {
+                        "id": 184,
+                        "code": "B",
+                        "name": "仁慈",
+                        "question_id": 92,
+                        "character_type": "F"
+                    }
+                ]
+            },
+            {
+                "id": 93,
+                "name": "以下哪一个词语更合你心意？请仔细想想这些词语的意义，而不要理会他们的字形或读音",
+                "type": "S",
+                "infoname": "MBTI性格测试（93题）",
+                "option": [
+                    {
+                        "id": 185,
+                        "code": "A",
+                        "name": "实际",
+                        "question_id": 93,
+                        "character_type": "S"
+                    },
+                    {
+                        "id": 186,
+                        "code": "B",
+                        "name": "创新",
+                        "question_id": 93,
+                        "character_type": "N"
+                    }
+                ]
+            }
+        ]
+    }
+}
