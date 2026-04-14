@@ -1,4 +1,3 @@
-// 版本号: v1.0.0
 /**
  * 原神版MBTI - 术语渲染器
  * 
@@ -178,18 +177,18 @@ const TermRenderer = {
         'INTJ': { primary_male: 'character_080', primary_female: 'character_103' },
         'INTP': { primary_male: 'character_016', primary_female: 'character_014' },
         'ENTJ': { primary_male: 'character_087', primary_female: 'character_099' },
-        'ENTP': { primary_male: 'character_075', primary_female: 'character_092' },
+        'ENTP': { primary_male: 'character_023', primary_female: 'character_057' },
         'INFJ': { primary_male: 'character_042', primary_female: 'character_105' },
         'INFP': { primary_male: 'character_022', primary_female: 'character_110' },
-        'ENFJ': { primary_male: 'character_023', primary_female: 'character_057' },
+        'ENFJ': { primary_male: 'character_075', primary_female: 'character_092' },
         'ENFP': { primary_male: 'character_008', primary_female: 'character_009' },
         'ISTJ': { primary_male: 'character_033', primary_female: 'character_031' },
-        'ISFJ': { primary_male: 'character_024', primary_female: 'character_095' },
+        'ISFJ': { primary_male: 'character_029', primary_female: 'character_001' },
         'ESTJ': { primary_male: 'character_081', primary_female: 'character_030' },
-        'ESFJ': { primary_male: 'character_032', primary_female: 'character_065' },
-        'ISTP': { primary_male: 'character_029', primary_female: 'character_001' },
+        'ESFJ': { primary_male: 'character_054', primary_female: 'character_068' },
+        'ISTP': { primary_male: 'character_024', primary_female: 'character_095' },
         'ISFP': { primary_male: 'character_048', primary_female: 'character_100' },
-        'ESTP': { primary_male: 'character_054', primary_female: 'character_068' },
+        'ESTP': { primary_male: 'character_032', primary_female: 'character_065' },
         'ESFP': { primary_male: 'character_055', primary_female: 'character_074' }
     },
 
