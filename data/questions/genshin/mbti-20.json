@@ -1,0 +1,209 @@
+{
+    "code": 0,
+    "data": {
+        "id": "test-20",
+        "name": "MBTI性格测试（20题快速版）- 原神版",
+        "list": [
+            {
+                "id": 1,
+                "name": "你通常",
+                "type": "S",
+                "infoname": "MBTI性格测试（20题快速版）- 原神版",
+                "option": [
+                    { "id": 1, "code": "A", "name": "与人容易混熟", "question_id": 1, "character_type": "E" },
+                    { "id": 2, "code": "B", "name": "比较沉静或矜持", "question_id": 1, "character_type": "I" }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "你是否",
+                "type": "S",
+                "infoname": "MBTI性格测试（20题快速版）- 原神版",
+                "option": [
+                    { "id": 3, "code": "A", "name": "容易让人了解", "question_id": 2, "character_type": "E" },
+                    { "id": 4, "code": "B", "name": "难于让人了解", "question_id": 2, "character_type": "I" }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "在社交聚会中，你",
+                "type": "S",
+                "infoname": "MBTI性格测试（20题快速版）- 原神版",
+                "option": [
+                    { "id": 5, "code": "A", "name": "有时会感到郁闷", "question_id": 3, "character_type": "I" },
+                    { "id": 6, "code": "B", "name": "常常乐在其中", "question_id": 3, "character_type": "E" }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "你通常会",
+                "type": "S",
+                "infoname": "MBTI性格测试（20题快速版）- 原神版",
+                "option": [
+                    { "id": 7, "code": "A", "name": "与人容易混熟", "question_id": 4, "character_type": "E" },
+                    { "id": 8, "code": "B", "name": "趋向自处一隅", "question_id": 4, "character_type": "I" }
+                ]
+            },
+            {
+                "id": 5,
+                "name": "你宁愿被认为是",
+                "type": "S",
+                "infoname": "MBTI性格测试（20题快速版）- 原神版",
+                "option": [
+                    { "id": 9, "code": "A", "name": "一个实事求是的人", "question_id": 5, "character_type": "S" },
+                    { "id": 10, "code": "B", "name": "一个机灵伶俐的人", "question_id": 5, "character_type": "N" }
+                ]
+            },
+            {
+                "id": 6,
+                "name": "一般来说，你和哪些人比较合得来？",
+                "type": "S",
+                "infoname": "MBTI性格测试（20题快速版）- 原神版",
+                "option": [
+                    { "id": 11, "code": "A", "name": "现实的人", "question_id": 6, "character_type": "S" },
+                    { "id": 12, "code": "B", "name": "富于想象力的人", "question_id": 6, "character_type": "N" }
+                ]
+            },
+            {
+                "id": 7,
+                "name": "假如你是一位老师，你会选教",
+                "type": "S",
+                "infoname": "MBTI性格测试（20题快速版）- 原神版",
+                "option": [
+                    { "id": 13, "code": "A", "name": "以事实为主的课程", "question_id": 7, "character_type": "S" },
+                    { "id": 14, "code": "B", "name": "涉及理论的课程", "question_id": 7, "character_type": "N" }
+                ]
+            },
+            {
+                "id": 8,
+                "name": "你倾向于",
+                "type": "S",
+                "infoname": "MBTI性格测试（20题快速版）- 原神版",
+                "option": [
+                    { "id": 15, "code": "A", "name": "重视细节", "question_id": 8, "character_type": "S" },
+                    { "id": 16, "code": "B", "name": "看重整体", "question_id": 8, "character_type": "N" }
+                ]
+            },
+            {
+                "id": 9,
+                "name": "你是否经常让",
+                "type": "S",
+                "infoname": "MBTI性格测试（20题快速版）- 原神版",
+                "option": [
+                    { "id": 17, "code": "A", "name": "你的情感支配你的理智", "question_id": 9, "character_type": "F" },
+                    { "id": 18, "code": "B", "name": "你的理智主宰你的情感", "question_id": 9, "character_type": "T" }
+                ]
+            },
+            {
+                "id": 10,
+                "name": "你做事多数是",
+                "type": "S",
+                "infoname": "MBTI性格测试（20题快速版）- 原神版",
+                "option": [
+                    { "id": 19, "code": "A", "name": "按心情去做", "question_id": 10, "character_type": "F" },
+                    { "id": 20, "code": "B", "name": "按计划去做", "question_id": 10, "character_type": "T" }
+                ]
+            },
+            {
+                "id": 11,
+                "name": "你比较喜欢",
+                "type": "S",
+                "infoname": "MBTI性格测试（20题快速版）- 原神版",
+                "option": [
+                    { "id": 21, "code": "A", "name": "依感情行事", "question_id": 11, "character_type": "F" },
+                    { "id": 22, "code": "B", "name": "依逻辑行事", "question_id": 11, "character_type": "T" }
+                ]
+            },
+            {
+                "id": 12,
+                "name": "你倾向于是",
+                "type": "S",
+                "infoname": "MBTI性格测试（20题快速版）- 原神版",
+                "option": [
+                    { "id": 23, "code": "A", "name": "一个心肠软的人", "question_id": 12, "character_type": "F" },
+                    { "id": 24, "code": "B", "name": "一个头脑清晰的人", "question_id": 12, "character_type": "T" }
+                ]
+            },
+            {
+                "id": 13,
+                "name": "当你要外出一整天，你会",
+                "type": "S",
+                "infoname": "MBTI性格测试（20题快速版）- 原神版",
+                "option": [
+                    { "id": 25, "code": "A", "name": "计划你要做什么和在什么时候做", "question_id": 13, "character_type": "J" },
+                    { "id": 26, "code": "B", "name": "说去就去", "question_id": 13, "character_type": "P" }
+                ]
+            },
+            {
+                "id": 14,
+                "name": "你认为自己是一个",
+                "type": "S",
+                "infoname": "MBTI性格测试（20题快速版）- 原神版",
+                "option": [
+                    { "id": 27, "code": "A", "name": "较为有条理的人", "question_id": 14, "character_type": "J" },
+                    { "id": 28, "code": "B", "name": "较为随兴所至的人", "question_id": 14, "character_type": "P" }
+                ]
+            },
+            {
+                "id": 15,
+                "name": "处理许多事情上，你会喜欢",
+                "type": "S",
+                "infoname": "MBTI性格测试（20题快速版）- 原神版",
+                "option": [
+                    { "id": 29, "code": "A", "name": "凭兴所至行事", "question_id": 15, "character_type": "P" },
+                    { "id": 30, "code": "B", "name": "按照计划行事", "question_id": 15, "character_type": "J" }
+                ]
+            },
+            {
+                "id": 16,
+                "name": "按照程序表做事，",
+                "type": "S",
+                "infoname": "MBTI性格测试（20题快速版）- 原神版",
+                "option": [
+                    { "id": 31, "code": "A", "name": "合你心意", "question_id": 16, "character_type": "J" },
+                    { "id": 32, "code": "B", "name": "令你感到束缚", "question_id": 16, "character_type": "P" }
+                ]
+            },
+            {
+                "id": 17,
+                "name": "你做事多数是",
+                "type": "S",
+                "infoname": "MBTI性格测试（20题快速版）- 原神版",
+                "option": [
+                    { "id": 33, "code": "A", "name": "按心情去做", "question_id": 17, "character_type": "F" },
+                    { "id": 34, "code": "B", "name": "按计划去做", "question_id": 17, "character_type": "T" }
+                ]
+            },
+            {
+                "id": 18,
+                "name": "你比较喜欢",
+                "type": "S",
+                "infoname": "MBTI性格测试（20题快速版）- 原神版",
+                "option": [
+                    { "id": 35, "code": "A", "name": "坐观事情发展", "question_id": 18, "character_type": "I" },
+                    { "id": 36, "code": "B", "name": "主动推动事情", "question_id": 18, "character_type": "E" }
+                ]
+            },
+            {
+                "id": 19,
+                "name": "你倾向相信你的",
+                "type": "S",
+                "infoname": "MBTI性格测试（20题快速版）- 原神版",
+                "option": [
+                    { "id": 37, "code": "A", "name": "经验", "question_id": 19, "character_type": "S" },
+                    { "id": 38, "code": "B", "name": "直觉", "question_id": 19, "character_type": "N" }
+                ]
+            },
+            {
+                "id": 20,
+                "name": "在大多数情况下，你会选择",
+                "type": "S",
+                "infoname": "MBTI性格测试（20题快速版）- 原神版",
+                "option": [
+                    { "id": 39, "code": "A", "name": "顺其自然", "question_id": 20, "character_type": "P" },
+                    { "id": 40, "code": "B", "name": "按程序表做事", "question_id": 20, "character_type": "J" }
+                ]
+            }
+        ]
+    }
+}

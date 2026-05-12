@@ -1,0 +1,36 @@
+{
+  "codes": [
+    {
+      "id": "GENSHIN20260511",
+      "maxUses": 10,
+      "usedCount": 1,
+      "description": "主人生成的10次邀请码",
+      "createdAt": "2026-05-11T12:00:00.000Z",
+      "createdBy": "admin",
+      "usedBy": [
+        {
+          "username": "cscscs",
+          "usedAt": "2026-05-11T06:07:11.379Z"
+        }
+      ]
+    },
+    {
+      "id": "AI9WUNXNBVH9",
+      "maxUses": 5000,
+      "usedCount": 0,
+      "description": "主人生成的5000次邀请码(wunxnb)",
+      "createdAt": "2026-05-11T12:00:00.000Z",
+      "createdBy": "admin"
+    },
+    {
+      "id": "TEST0H20NEXPIREDI65A",
+      "maxUses": 0,
+      "usedCount": 0,
+      "description": "测试用0次邀请码",
+      "createdAt": "2026-05-11T12:00:00.000Z",
+      "createdBy": "admin"
+    }
+  ],
+  "createdAt": "2026-05-11T12:00:00.000Z",
+  "updatedAt": "2026-05-11T06:07:11.379Z"
+}
