@@ -104,7 +104,7 @@ password: xxxxxxxx
 | 软件 | 是否安装 | 说明 |
 |------|---------|------|
 | Nginx | ✅ 必须 | 反向代理 |
-| MySQL | ❌ 不需要 | 项目使用JSON文件存储 |
+| MySQL | ❌ 不需要 | 项目使用SQLite + JSON文件存储 |
 | PHP | ❌ 不需要 | 项目使用Node.js |
 | phpMyAdmin | ❌ 不需要 | 无数据库 |
 
@@ -189,13 +189,14 @@ ls -la
 ├── index.html            # 前端入口
 ├── server.js             # 服务器入口
 ├── package.json          # 依赖配置
-├── assets/               # 静态资源
-├── config/               # 配置文件
+├── assets/               # 静态资源（音频、图片、视频）
+├── config/               # 配置文件（AI模型配置）
 ├── css/                  # 样式文件
-├── data/                 # 数据文件
-├── js/                   # 前端JS
-├── routes/               # 后端路由
-└── services/             # 后端服务
+├── data/                 # 数据文件（题库、角色数据、静态数据）
+├── js/                   # 前端JS模块
+├── routes/               # 后端路由（数据、用户、结果、AI分析等）
+├── services/             # 后端服务（SQLite数据库、AI服务、认证等）
+└── scripts/              # 工具脚本（题库生成等）
 ```
 
 ---
