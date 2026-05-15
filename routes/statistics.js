@@ -9,6 +9,7 @@ const express = require('express');
 const router = express.Router();
 const fs = require('fs');
 const path = require('path');
+const logger = require('../services/logger');
 
 /**
  * GET /api/statistics
@@ -40,7 +41,7 @@ router.get('/statistics', (req, res) => {
         });
         
     } catch (error) {
-        console.error('获取统计数据失败:', error);
+        logger.logError(req, null, '获取统计数据失败', error.message, error.stack);
         res.status(500).json({
             success: false,
             error: '获取统计数据失败'

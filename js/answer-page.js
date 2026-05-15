@@ -356,6 +356,8 @@ const AnswerPage = {
             return;
         }
         
+        this.saveProgress();
+        
         if (typeof UI !== 'undefined' && UI.showCalculatingPage) {
             UI.showCalculatingPage();
         }

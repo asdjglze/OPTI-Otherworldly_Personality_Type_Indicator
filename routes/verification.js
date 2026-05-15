@@ -9,6 +9,7 @@
 const express = require('express');
 const router = express.Router();
 const verificationService = require('../services/verification');
+const logger = require('../services/logger');
 
 /**
  * 获取客户端IP
@@ -71,7 +72,7 @@ router.get('/question', async (req, res) => {
             maxRetries: 3
         });
     } catch (error) {
-        console.error('[验证路由] 获取题目失败:', error);
+        logger.logError(req, null, '验证获取题目失败', error.message, error.stack);
         res.status(500).json({
             success: false,
             error: '服务器错误'
@@ -179,7 +180,7 @@ router.post('/verify', async (req, res) => {
             });
         }
     } catch (error) {
-        console.error('[验证路由] 验证答案失败:', error);
+        logger.logError(req, null, '验证答案失败', error.message, error.stack);
         res.status(500).json({
             success: false,
             error: '服务器错误'
@@ -207,7 +208,7 @@ router.get('/status', async (req, res) => {
             reason: ipStatus.reason || null
         });
     } catch (error) {
-        console.error('[验证路由] 获取状态失败:', error);
+        logger.logError(req, null, '验证获取状态失败', error.message, error.stack);
         res.status(500).json({
             success: false,
             error: '服务器错误'
@@ -228,7 +229,7 @@ router.get('/stats', async (req, res) => {
             data: stats
         });
     } catch (error) {
-        console.error('[验证路由] 获取统计失败:', error);
+        logger.logError(req, null, '验证获取统计失败', error.message, error.stack);
         res.status(500).json({
             success: false,
             error: '服务器错误'

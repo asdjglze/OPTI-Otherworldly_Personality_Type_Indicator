@@ -12,10 +12,13 @@ const AIAnalysis = {
     debounceTimers: {},
     DEBOUNCE_DELAY: 1000,
 
-    startTest: function (gender) {
+    startTest: async function (gender) {
         this.gender = gender;
+        this.initialized = false;
+        this.questions = [];
+        this.answers = {};
         UI.showPage('ai-analysis');
-        this.init();
+        await this.init();
     },
 
     getQuestionCount: function () {
@@ -239,6 +242,15 @@ const AIAnalysis = {
                 ></textarea>
             </div>
         `}).join('');
+
+        for (var idx in self.answers) {
+            var ta = document.getElementById('ai-answer-' + idx);
+            if (ta) {
+                ta.value = self.answers[idx];
+                var stEl = document.getElementById('ai-status-' + idx);
+                if (stEl) { stEl.textContent = '已填写'; stEl.classList.add('completed'); }
+            }
+        }
 
         this.updateProgress();
     },
@@ -652,7 +664,7 @@ const AIAnalysis = {
 
                 UI.displayResult(resultWithMode);
             } else {
-                // 用户友好的错误信息
+                this.showLoading(false);
                 let errorMsg = '分析失败';
                 if (lastError) {
                     errorMsg = lastError;
@@ -661,10 +673,12 @@ const AIAnalysis = {
                 } else {
                     errorMsg = '分析过程中断，请稍后在历史记录中查看结果';
                 }
+                this.renderQuestions();
                 this.showError(errorMsg);
                 console.error('[AI分析] 详细信息:', { receivedStages, lastError });
             }
         } catch (error) {
+            this.showLoading(false);
             let errorMsg = '提交失败';
             if (error.message.includes('Failed to fetch') || error.message.includes('NetworkError')) {
                 errorMsg = '网络连接失败，请检查网络后重试';
@@ -675,6 +689,7 @@ const AIAnalysis = {
             } else if (error.message) {
                 errorMsg = error.message;
             }
+            this.renderQuestions();
             this.showError(errorMsg);
         } finally {
             if (this._progressInterval) {
@@ -682,7 +697,6 @@ const AIAnalysis = {
                 this._progressInterval = null;
             }
             this.isLoading = false;
-            this.showLoading(false);
         }
     },
 
@@ -752,13 +766,16 @@ submitToMallm: async function () {
                 }
             } else {
                 alert('保存答卷失败: ' + data.error);
+                this.renderQuestions();
             }
         } else {
             alert('请先登录');
+            this.renderQuestions();
         }
 
     } catch (error) {
         alert('提交失败: ' + error.message);
+        this.renderQuestions();
     } finally {
         this.isLoading = false;
         this.showLoading(false);
@@ -805,23 +822,25 @@ showLoading: function(show, text = '') {
                 <div class="loading-text">${text || '加载中...'}</div>
             </div>
         `;
-    } else {
+    } else if (container.querySelector('.loading-container')) {
         container.innerHTML = '';
     }
 },
 
 showError: function(message) {
-    const container = document.getElementById('aiQuestionsContainer');
-    if (container) {
-        const errorEl = document.createElement('div');
-        errorEl.className = 'ai-error-message';
-        errorEl.textContent = message;
-        container.insertBefore(errorEl, container.firstChild);
-
-        setTimeout(() => {
-            errorEl.remove();
-        }, 5000);
+    var toast = document.getElementById('fixed-toast');
+    if (!toast) {
+        toast = document.createElement('div');
+        toast.id = 'fixed-toast';
+        toast.style.cssText = 'position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);z-index:99999;background:rgba(220,50,50,0.92);color:#fff;padding:16px 32px;border-radius:8px;font-size:16px;text-align:center;max-width:80vw;box-shadow:0 4px 20px rgba(220,50,50,0.4);display:none;pointer-events:auto;';
+        document.body.appendChild(toast);
     }
+    toast.textContent = message;
+    toast.style.display = 'block';
+    if (toast._timer) clearTimeout(toast._timer);
+    toast._timer = setTimeout(function () {
+        toast.style.display = 'none';
+    }, 5000);
 },
 
 bindEvents: function() {

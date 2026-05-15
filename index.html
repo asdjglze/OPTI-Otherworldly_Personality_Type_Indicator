@@ -576,7 +576,7 @@
             line-height: 1.8;
         }
         
-        /* 版本选择按钮 */
+        
         .version-buttons {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
@@ -4048,11 +4048,98 @@
             opacity: 1;
         }
         
+        /* 主页按钮 - 复用音乐按钮样式 */
+        .home-controller {
+            position: fixed;
+            z-index: 10000;
+            top: 18px;
+            left: 25px;
+            width: 30px;
+            height: 30px;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+        
+        .home-controller:hover {
+            transform: scale(1.1);
+        }
+        
+        .home-controller:active {
+            transform: scale(0.95);
+        }
+        
+        .home-controller__icon {
+            width: 30px;
+            height: 30px;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 50%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .home-controller__icon::after {
+            content: '';
+            width: 16px;
+            height: 16px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23ffffff'%3E%3Cpath d='M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z'/%3E%3C/svg%3E");
+        }
+        
+        .home-controller.clicking .home-controller__icon {
+            animation: audioClick 0.3s ease;
+        }
+        
+        .home-controller__tooltip {
+            position: absolute;
+            left: 40px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            padding: 4px 10px;
+            border-radius: 4px;
+            font-size: 12px;
+            white-space: nowrap;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s ease;
+        }
+        
+        .home-controller:hover .home-controller__tooltip {
+            opacity: 1;
+        }
+        
         /* 响应式 */
+        @media (max-width: 768px) {
+            .home-controller {
+                top: 12px;
+                left: 10px;
+                width: 28px;
+                height: 28px;
+            }
+            
+            .home-controller__icon {
+                width: 28px;
+                height: 28px;
+            }
+            
+            .home-controller__icon::after {
+                width: 14px;
+                height: 14px;
+            }
+        }
+        
         @media (max-width: 768px) {
             .audio-controller {
                 top: 12px;
-                left: 20px;
+                left: 48px;
                 width: 28px;
                 height: 28px;
             }
@@ -4206,21 +4293,6 @@
 
         /* 快速测试按钮 & 版本按钮 - 移动端适配 */
         @media (max-width: 768px) {
-            .quick-test-buttons {
-                margin-top: 25px;
-            }
-
-            .quick-test-buttons .btn {
-                width: 100%;
-                max-width: 280px;
-                padding: 14px 24px;
-                font-size: 15px;
-                margin-top: 10px;
-            }
-
-            .quick-test-buttons .btn:first-child {
-                margin-top: 0;
-            }
 
             .version-buttons {
                 gap: 12px;
@@ -4245,15 +4317,6 @@
         }
 
         @media (max-width: 480px) {
-            .quick-test-buttons {
-                margin-top: 20px;
-            }
-
-            .quick-test-buttons .btn {
-                max-width: 240px;
-                padding: 12px 20px;
-                font-size: 14px;
-            }
 
             .version-buttons {
                 grid-template-columns: 1fr;
@@ -5774,9 +5837,30 @@
 
         /* 音乐控制按钮 - 移动端适配 */
         @media (max-width: 768px) {
+            .home-controller {
+                top: 12px;
+                left: 10px;
+                width: 28px;
+                height: 28px;
+            }
+
+            .home-controller__icon {
+                width: 28px;
+                height: 28px;
+            }
+
+            .home-controller__icon::after {
+                width: 14px;
+                height: 14px;
+            }
+
+            .home-controller__tooltip {
+                left: 38px;
+            }
+
             .audio-controller {
                 top: 12px;
-                left: 15px;
+                left: 48px;
                 width: 28px;
                 height: 28px;
             }
@@ -5793,9 +5877,30 @@
         }
 
         @media (max-width: 480px) {
+            .home-controller {
+                top: 10px;
+                left: 8px;
+                width: 26px;
+                height: 26px;
+            }
+
+            .home-controller__icon {
+                width: 26px;
+                height: 26px;
+            }
+
+            .home-controller__icon::after {
+                width: 12px;
+                height: 12px;
+            }
+
+            .home-controller__tooltip {
+                display: none;
+            }
+
             .audio-controller {
                 top: 10px;
-                left: 10px;
+                left: 44px;
                 width: 26px;
                 height: 26px;
             }
@@ -6436,6 +6541,12 @@
         <span class="audio-controller__tooltip" id="audio-tooltip">音乐开启</span>
     </div>
     
+    <!-- 主页按钮 -->
+    <div class="home-controller" id="home-controller">
+        <div class="home-controller__icon"></div>
+        <span class="home-controller__tooltip" id="home-tooltip">主页</span>
+    </div>
+    
     <!-- 视频背景 -->
     <div id="video-background" class="video-background">
         <!-- 首帧图片占位 -->
@@ -6495,6 +6606,21 @@
                 
                 <!-- 版本选择按钮 -->
                 <div class="version-buttons">
+                    <div class="version-btn ai-mode" data-action="start-ai-quick" data-count="10">
+                        <div class="version-title">10题情境解析版</div>
+                        <div class="version-desc">比选择题更准，快速了解人格轮廓</div>
+                        <div class="version-time">预计20-60分钟</div>
+                    </div>
+                    <div class="version-btn ai-mode" data-action="start-ai-precise" data-count="25">
+                        <div class="version-title">25题情境解析版</div>
+                        <div class="version-desc">专业级人格分析，深度绘制人格画像</div>
+                        <div class="version-time">预计30-120分钟</div>
+                    </div>
+                    <div class="version-btn genshin" data-version="genshin-expert-60" data-action="start-test">
+                        <div class="version-title">60题原神高手版</div>
+                        <div class="version-desc">原神情境题，深度探索人格</div>
+                        <div class="version-time">预计10-15分钟</div>
+                    </div>
                     <div class="version-btn" data-version="200" data-action="start-test">
                         <div class="version-title">200题完整版</div>
                         <div class="version-desc">全面深度分析，覆盖所有维度</div>
@@ -6515,21 +6641,6 @@
                         <div class="version-desc">经典标准题库，可靠测评</div>
                         <div class="version-time">预计8-12分钟</div>
                     </div>
-                    <div class="version-btn ai-mode" data-action="start-ai-quick" data-count="10">
-                        <div class="version-title">基础人格解析</div>
-                        <div class="version-desc">10道场景题，大模型快速洞察</div>
-                        <div class="version-time">预计20-60分钟</div>
-                    </div>
-                    <div class="version-btn ai-mode" data-action="start-ai-precise" data-count="25">
-                        <div class="version-title">完整人格解析</div>
-                        <div class="version-desc">25道场景题，大模型深度分析</div>
-                        <div class="version-time">预计30-120分钟</div>
-                    </div>
-                    <div class="version-btn" data-action="show-direct-result-modal">
-                        <div class="version-title">已知MBTI类型</div>
-                        <div class="version-desc">直接查看分析报告</div>
-                        <div class="version-time">跳过测试环节</div>
-                    </div>
                     <div class="version-btn history-result-btn disabled" data-action="show-last-result" id="history-result-btn">
                         <div class="version-title">查看上次结果</div>
                         <div class="version-desc">继续查看你的测试结果</div>
@@ -6545,21 +6656,7 @@
                         <div class="version-desc">关注公众号获取邀请码</div>
                         <div class="version-time">扫码立即获取</div>
                     </div>
-                    <div class="version-btn mallm-mode" data-action="open-mallm" style="display: none;">
-                        <div class="version-title">多智能体讨论</div>
-                        <div class="version-desc">多AI角色辩论分析MBTI</div>
-                        <div class="version-time">实验性功能</div>
-                    </div>
-                    <div class="version-btn genshin" data-version="200-genshin" data-action="start-test" style="display: none;">
-                        <div class="version-title">200题原神高手版</div>
-                        <div class="version-desc">原神专属题目，深度探索</div>
-                        <div class="version-time">预计15-20分钟</div>
-                    </div>
-                    <div class="version-btn genshin" data-version="90-genshin" data-action="start-test" style="display: none;">
-                        <div class="version-title">93题原神标准版</div>
-                        <div class="version-desc">原神专属题目，快速体验</div>
-                        <div class="version-time">预计8-10分钟</div>
-                    </div>
+
                 </div>
 
                 <div class="info-section">
@@ -6631,20 +6728,7 @@
                     </div>
                 </div>
                 
-                <div class="quick-test-buttons" style="display: none; text-align: center; margin-top: 20px;">
-                    <button class="btn btn-primary" id="test-button" data-action="quick-test" style="padding: 12px 28px; font-size: 15px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border: none; color: #fff; border-radius: 25px; box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);">
-                        🔧 快速测试
-                    </button>
-                    <button class="btn btn-primary" id="full-test-button" data-action="full-flow-test" style="padding: 12px 28px; font-size: 15px; background: linear-gradient(135deg, #ffd700 0%, #ffaa00 100%); border: none; color: #333; border-radius: 25px; margin-top: 12px; box-shadow: 0 4px 15px rgba(255, 215, 0, 0.4);">
-                        🧪 全流程测试
-                    </button>
-                    <button class="btn btn-primary" id="ai-test-button" data-action="ai-fixed-test" style="padding: 12px 28px; font-size: 15px; background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%); border: none; color: #fff; border-radius: 25px; margin-top: 12px; box-shadow: 0 4px 15px rgba(231, 76, 60, 0.4);">
-                        🤖 AI固定题测试
-                    </button>
-                    <button class="btn btn-primary" id="debug-test-button" data-action="show-debug-modal" style="padding: 12px 28px; font-size: 15px; background: linear-gradient(135deg, #4a5568 0%, #2d3748 100%); border: none; color: #fff; border-radius: 25px; margin-top: 12px; box-shadow: 0 4px 15px rgba(74, 85, 104, 0.4); opacity: 0.6;">
-                        🧪 JSON调试
-                    </button>
-                </div>
+
                 
                 
             </div>
@@ -6659,8 +6743,8 @@
             </div>
             
             <div class="ai-analysis-header">
-                <h1>智能人格解析</h1>
-                <p>回答场景题，让大模型深度洞察你的人格特质</p>
+                <h1>情境投射人格测验</h1>
+                <p>情境→反应→画像：通过场景投射测绘人格全貌</p>
                 
                 <div class="ai-model-selector" id="aiModelSelector">
                     <label>选择分析模型</label>
@@ -6674,7 +6758,7 @@
             
             <div class="ai-submit-container">
                 <button class="ai-submit-btn" id="aiSubmitBtn" disabled>单模型分析</button>
-                <button class="ai-mallm-btn" id="aiMallmBtn" disabled style="display: none;">多模型讨论</button>
+
             </div>
         </div>
     </div>
@@ -6774,7 +6858,7 @@
                             <div class="character-info-list">
                                 <div class="character-info-outer">
                                     <div class="character-info-item">
-                                        <div class="character-info-key">神之眼</div>
+                                        <div class="character-info-key" id="character-vision-label">神之眼</div>
                                         <div class="character-info-value" id="character-vision">-</div>
                                     </div>
                                 </div>
@@ -6826,7 +6910,7 @@
                             </div>
                             <div class="character-mobile-list">
                                 <div class="character-mobile-item">
-                                    <div class="character-mobile-key">神之眼</div>
+                                    <div class="character-mobile-key" id="character-mobile-vision-label">神之眼</div>
                                     <div class="character-mobile-value" id="character-mobile-vision">-</div>
                                 </div>
                                 <div class="character-mobile-item">
@@ -7603,7 +7687,8 @@
             </div>
             
             <div id="register-form" style="display: none;">
-                <input type="text" id="register-username" placeholder="用户名（至少3个字符）" style="width: 100%; padding: 12px; border: 2px solid #d3bc8e; border-radius: 8px; font-size: 16px; margin-bottom: 12px; box-sizing: border-box;">
+                <input type="text" id="register-username" placeholder="用户名（至少3个字符）" style="width: 100%; padding: 12px; border: 2px solid #d3bc8e; border-radius: 8px; font-size: 16px; margin-bottom: 4px; box-sizing: border-box;">
+                <div style="font-size: 12px; color: #999; margin-bottom: 12px; padding-left: 2px;">提示：请不要使用电话号、QQ号、身份证号、常用网名作为用户名</div>
                 <input type="password" id="register-password" placeholder="密码（至少6个字符）" style="width: 100%; padding: 12px; border: 2px solid #d3bc8e; border-radius: 8px; font-size: 16px; margin-bottom: 12px; box-sizing: border-box;">
                 <input type="password" id="register-password-confirm" placeholder="确认密码" style="width: 100%; padding: 12px; border: 2px solid #d3bc8e; border-radius: 8px; font-size: 16px; margin-bottom: 12px; box-sizing: border-box;">
                 <input type="text" id="register-invite-code" placeholder="邀请码（必填）" style="width: 100%; padding: 12px; border: 2px solid #d3bc8e; border-radius: 8px; font-size: 16px; margin-bottom: 12px; box-sizing: border-box;">
@@ -7638,12 +7723,7 @@
                             </svg>
                             开始讨论
                         </button>
-                        <button id="mallm-stop-btn" class="mallm-btn" style="display: none;">
-                            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-                                <rect x="6" y="6" width="12" height="12"/>
-                            </svg>
-                            停止
-                        </button>
+
                     </div>
                 </div>
             </header>

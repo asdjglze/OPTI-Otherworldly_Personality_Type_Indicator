@@ -80,6 +80,17 @@ const GenshinMBTI = {
             audioController.addEventListener('mouseenter', function() {
                 self.updateTooltip();
             });
+            
+            // 初始化主页按钮
+            const homeController = document.getElementById('home-controller');
+            if (homeController) {
+                homeController.addEventListener('click', function() {
+                    homeController.classList.add('clicking');
+                    setTimeout(function() {
+                        location.reload();
+                    }, 150);
+                });
+            }
         },
         
         /**
@@ -537,7 +548,7 @@ const GenshinMBTI = {
         await UI.loadCharactersData();
         
         // 随机选择题库版本
-        const versions = ['200', '90', '200-genshin', '90-genshin'];
+        const versions = ['200', '172', '106', '90'];
         const randomVersion = versions[Math.floor(Math.random() * versions.length)];
         
         const questions = await this.loadQuestions(randomVersion);
@@ -561,7 +572,7 @@ const GenshinMBTI = {
         await UI.loadCharactersData();
         
         // 加载专门的20题测试题库
-        const testQuestions = await this.loadQuestions('20-genshin');
+        const testQuestions = await this.loadQuestions('90');
         if (!testQuestions || testQuestions.length === 0) {
             console.error('题目加载失败！');
             this.showError('题目加载失败，请刷新页面重试');
@@ -662,6 +673,10 @@ const GenshinMBTI = {
         } else if (version === '20-genshin') {
             console.log('[步骤3] 匹配到: 20-genshin');
             fileName = 'data/questions/genshin/mbti-20.json';
+            isGenshin = true;
+        } else if (version === 'genshin-expert-60') {
+            console.log('[步骤3] 匹配到: genshin-expert-60');
+            fileName = 'data/questions/genshin/mbti-genshin-expert-60.json';
             isGenshin = true;
         } else if (version === '172') {
             console.log('[步骤3] 匹配到: 172');

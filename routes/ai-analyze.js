@@ -15,6 +15,7 @@ const sqliteDb = require('../services/sqlite-db');
 const aiService = require('../services/ai-service');
 const dataService = require('../services/data');
 const calculator = require('../services/calculator');
+const logger = require('../services/logger');
 
 /**
  * 构建完整的AI分析结果
@@ -134,7 +135,7 @@ router.get('/check-quota', async (req, res) => {
             remainingCount: quotaInfo.remainingCount
         });
     } catch (error) {
-        console.error('[AI分析] 检查配额失败:', error);
+        logger.logError(req, username, 'AI分析检查配额失败', error.message, error.stack);
         res.json({
             success: false,
             error: '检查配额失败',
@@ -264,7 +265,7 @@ router.post('/analyze', async (req, res) => {
                         res.write(`data: ${JSON.stringify({ stage: 'error', error: errorMsg, errorType: 'NO_RESULT' })}\n\n`);
                         res.end();
                     }
-                    console.error(`[AI分析] ${errorMsg}: ${username}`);
+                    logger.logError(req, username, 'AI分析无结果', errorMsg, null);
                     return;
                 }
                 
@@ -275,7 +276,7 @@ router.post('/analyze', async (req, res) => {
                         res.write(`data: ${JSON.stringify({ stage: 'error', error: errorMsg, errorType: 'INVALID_RESULT' })}\n\n`);
                         res.end();
                     }
-                    console.error(`[AI分析] ${errorMsg}`);
+                    logger.logError(req, username, 'AI分析结果无效', errorMsg, null);
                     return;
                 }
                 
@@ -287,7 +288,7 @@ router.post('/analyze', async (req, res) => {
                 const saved = await sqliteDb.recordAnalysisResult(username, fullResult);
                 
                 if (!saved) {
-                    console.error(`[AI分析] 保存结果失败: ${username}`);
+                    logger.logError(req, username, 'AI分析保存结果失败', '分析完成但保存到数据库失败', null);
                     if (!clientDisconnected) {
                         res.write(`data: ${JSON.stringify({ 
                             stage: 'error', 
@@ -316,7 +317,7 @@ router.post('/analyze', async (req, res) => {
                 
             } catch (error) {
                 sqliteDb.cancelAnalysis(username);
-                console.error('[AI分析] 分析失败:', error);
+                logger.logError(req, username, 'AI分析失败', error.message, error.stack);
                 
                 // 构建详细错误信息
                 let errorMsg = error.message || '未知错误';
@@ -360,7 +361,7 @@ router.post('/analyze', async (req, res) => {
         
     } catch (error) {
         sqliteDb.cancelAnalysis(username);
-        console.error('[AI分析] 路由错误:', error);
+        logger.logError(req, username, 'AI分析路由错误', error.message, error.stack);
         
         // 检查是否已经设置了SSE头
         if (!res.headersSent) {
@@ -403,7 +404,7 @@ router.get('/history', async (req, res) => {
             history: history
         });
     } catch (error) {
-        console.error('[AI分析] 获取历史失败:', error);
+        logger.logError(req, username, 'AI分析获取历史失败', error.message, error.stack);
         res.json({
             success: false,
             error: '获取历史失败',
@@ -435,7 +436,7 @@ router.get('/quota', async (req, res) => {
             remainingCount: remainingCount
         });
     } catch (error) {
-        console.error('[AI分析] 获取配额失败:', error);
+        logger.logError(req, username, 'AI分析获取配额失败', error.message, error.stack);
         res.json({
             success: false,
             remainingCount: 0

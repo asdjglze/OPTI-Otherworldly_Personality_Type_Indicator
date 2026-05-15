@@ -11,6 +11,7 @@ const router = express.Router();
 const sqliteDb = require('../services/sqlite-db');
 const calculator = require('../services/calculator');
 const dataService = require('../services/data');
+const logger = require('../services/logger');
 
 /**
  * 从请求中获取用户名
@@ -41,12 +42,13 @@ router.post('/auth/register', async (req, res) => {
         const result = await sqliteDb.register(username, password, inviteCode);
         
         if (result.success) {
+            logger.logUserAction(req, username, '用户注册');
             res.json({ success: true, message: '注册成功' });
         } else {
             res.status(400).json({ success: false, error: result.error });
         }
     } catch (error) {
-        console.error('注册失败:', error);
+        logger.logError(req, username, '注册失败', error.message, error.stack);
         res.status(500).json({ success: false, error: '服务器错误' });
     }
 });
@@ -70,6 +72,8 @@ router.post('/auth/login', async (req, res) => {
                 sameSite: 'lax'
             });
             
+            logger.logUserAction(req, username, '用户登录');
+            
             res.json({
                 success: true,
                 username: result.username,
@@ -79,7 +83,7 @@ router.post('/auth/login', async (req, res) => {
             res.status(401).json({ success: false, error: result.error });
         }
     } catch (error) {
-        console.error('登录失败:', error);
+        logger.logError(req, username, '登录失败', error.message, error.stack);
         res.status(500).json({ success: false, error: '服务器错误' });
     }
 });
@@ -93,10 +97,13 @@ router.post('/auth/logout', async (req, res) => {
         const token = req.cookies && req.cookies.auth_token;
         await sqliteDb.logout(token);
         
+        const username = await getUsername(req);
+        logger.logUserAction(req, username, '用户登出');
+        
         res.clearCookie('auth_token');
         res.json({ success: true, message: '已登出' });
     } catch (error) {
-        console.error('登出失败:', error);
+        logger.logError(req, username, '登出失败', error.message, error.stack);
         res.status(500).json({ success: false, error: '服务器错误' });
     }
 });
@@ -126,7 +133,7 @@ router.get('/auth/check', async (req, res) => {
             res.json({ success: false, loggedIn: false });
         }
     } catch (error) {
-        console.error('检查登录状态失败:', error);
+        logger.logError(req, null, '检查登录状态失败', error.message, error.stack);
         res.status(500).json({ success: false, error: '服务器错误' });
     }
 });
@@ -161,7 +168,7 @@ router.get('/user/results', async (req, res) => {
             count: simplifiedResults.length
         });
     } catch (error) {
-        console.error('获取答卷列表失败:', error);
+        logger.logError(req, username, '获取答卷列表失败', error.message, error.stack);
         res.status(500).json({ success: false, error: '服务器错误' });
     }
 });
@@ -179,15 +186,27 @@ router.post('/user/result', async (req, res) => {
         }
         
         const result = req.body;
+        
+        // 白名单校验题库版本，防止非正常手段提交禁用题库
+        const allowedQuestionSets = ['mbti-200', 'mbti-172', 'mbti-106', 'mbti-90', 'genshin-expert-60'];
+        if (result.questionSet && !allowedQuestionSets.includes(result.questionSet)) {
+            return res.status(403).json({
+                success: false,
+                error: '无效的题库版本'
+            });
+        }
+        
         const success = await sqliteDb.saveResult(username, result);
         
         if (success) {
+            const questionSetLabel = result.questionSet || '未知题库';
+            logger.logUserAction(req, username, '保存答卷结果', `题库=${questionSetLabel}`);
             res.json({ success: true, message: '答卷已保存' });
         } else {
             res.status(500).json({ success: false, error: '保存失败' });
         }
     } catch (error) {
-        console.error('保存答卷失败:', error);
+        logger.logError(req, username, '保存答卷失败', error.message, error.stack);
         res.status(500).json({ success: false, error: '服务器错误' });
     }
 });
@@ -302,7 +321,7 @@ router.get('/user/result/:index', async (req, res) => {
         
         res.json({ success: true, data: fullResult });
     } catch (error) {
-        console.error('获取答卷详情失败:', error);
+        logger.logError(req, username, '获取答卷详情失败', error.message, error.stack);
         res.status(500).json({ success: false, error: '服务器错误' });
     }
 });
@@ -338,7 +357,7 @@ router.get('/user/progress/check', async (req, res) => {
             } : null
         });
     } catch (error) {
-        console.error('检查进度失败:', error);
+        logger.logError(req, username, '检查进度失败', error.message, error.stack);
         res.json({ hasNormalProgress: false, hasAIProgress: false });
     }
 });
@@ -363,7 +382,7 @@ router.get('/user/progress', async (req, res) => {
             data: progress
         });
     } catch (error) {
-        console.error('获取普通答题进度失败:', error);
+        logger.logError(req, username, '获取普通答题进度失败', error.message, error.stack);
         res.status(500).json({ success: false, error: '服务器错误' });
     }
 });
@@ -385,12 +404,14 @@ router.post('/user/progress', async (req, res) => {
         const success = await sqliteDb.saveProgress(username, 'normal', progress);
         
         if (success) {
+            const questionSetLabel = progress.questionSet || '未知题库';
+            logger.logUserAction(req, username, '保存普通答题进度', `题库=${questionSetLabel}`);
             res.json({ success: true, message: '进度已保存' });
         } else {
             res.status(500).json({ success: false, error: '保存失败' });
         }
     } catch (error) {
-        console.error('保存普通答题进度失败:', error);
+        logger.logError(req, username, '保存普通答题进度失败', error.message, error.stack);
         res.status(500).json({ success: false, error: '服务器错误' });
     }
 });
@@ -415,7 +436,7 @@ router.get('/user/progress/ai', async (req, res) => {
             data: progress
         });
     } catch (error) {
-        console.error('获取AI答题进度失败:', error);
+        logger.logError(req, username, '获取AI答题进度失败', error.message, error.stack);
         res.status(500).json({ success: false, error: '服务器错误' });
     }
 });
@@ -435,12 +456,13 @@ router.post('/user/progress/ai', async (req, res) => {
         const success = await sqliteDb.saveProgress(username, 'ai', req.body);
         
         if (success) {
+            logger.logUserAction(req, username, '保存AI答题进度');
             res.json({ success: true, message: 'AI答题进度已保存' });
         } else {
             res.status(500).json({ success: false, error: '保存失败' });
         }
     } catch (error) {
-        console.error('保存AI答题进度失败:', error);
+        logger.logError(req, username, '保存AI答题进度失败', error.message, error.stack);
         res.status(500).json({ success: false, error: '服务器错误' });
     }
 });
@@ -460,7 +482,7 @@ router.delete('/user/progress', async (req, res) => {
         await sqliteDb.clearProgress(username);
         res.json({ success: true, message: '进度已清除' });
     } catch (error) {
-        console.error('清除答题进度失败:', error);
+        logger.logError(req, username, '清除答题进度失败', error.message, error.stack);
         res.status(500).json({ success: false, error: '服务器错误' });
     }
 });
@@ -484,7 +506,7 @@ router.get('/user/quota', async (req, res) => {
             remainingCount: remainingCount
         });
     } catch (error) {
-        console.error('获取配额失败:', error);
+        logger.logError(req, username, '获取配额失败', error.message, error.stack);
         res.json({ success: false, remainingCount: 0 });
     }
 });
@@ -558,6 +580,7 @@ router.get('/user/export/answers/:index', async (req, res) => {
         const results = await sqliteDb.getResults(username);
         const result = results[index];
         
+        logger.logUserAction(req, username, '导出答卷', `答卷序号=${index}`);
         if (!result) {
             return res.status(404).json({ success: false, error: '答卷不存在' });
         }
@@ -615,7 +638,7 @@ router.get('/user/export/answers/:index', async (req, res) => {
         
         res.json(exportData);
     } catch (error) {
-        console.error('导出答卷失败:', error);
+        logger.logError(req, username, '导出答卷失败', error.message, error.stack);
         res.status(500).json({ success: false, error: '服务器错误' });
     }
 });
@@ -639,6 +662,8 @@ router.get('/user/export/report/:index', async (req, res) => {
         if (!result) {
             return res.status(404).json({ success: false, error: '答卷不存在' });
         }
+        
+        logger.logUserAction(req, username, '导出分析报告', `答卷序号=${index}`);
         
         const fullResult = await sqliteDb.getResultDetail(username, index, result.isAIAnalysis);
         
@@ -900,8 +925,7 @@ router.get('/user/export/report/:index', async (req, res) => {
         res.setHeader('Content-Disposition', `attachment; filename="${asciiFileName}"`);
         res.send(md);
     } catch (error) {
-        console.error('导出报告失败:', error);
-        console.error('错误堆栈:', error.stack);
+        logger.logError(req, username, '导出报告失败', error.message, error.stack);
         res.status(500).json({ success: false, error: '服务器错误: ' + error.message });
     }
 });

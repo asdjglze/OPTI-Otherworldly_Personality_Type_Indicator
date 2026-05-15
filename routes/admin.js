@@ -8,6 +8,7 @@
 const express = require('express');
 const router = express.Router();
 const adminAuth = require('../services/admin-auth');
+const logger = require('../services/logger');
 
 /**
  * POST /api/admin/login
@@ -43,7 +44,7 @@ router.post('/login', (req, res) => {
             res.status(401).json({ success: false, error: result.error });
         }
     } catch (error) {
-        console.error('[管理员路由] 登录失败:', error);
+        logger.logError(req, username, '管理员登录失败', error.message, error.stack);
         res.status(500).json({ success: false, error: '服务器错误' });
     }
 });
@@ -60,7 +61,7 @@ router.post('/logout', (req, res) => {
         res.clearCookie('admin_token');
         res.json({ success: true, message: '已登出' });
     } catch (error) {
-        console.error('[管理员路由] 登出失败:', error);
+        logger.logError(req, null, '管理员登出失败', error.message, error.stack);
         res.status(500).json({ success: false, error: '服务器错误' });
     }
 });
@@ -90,7 +91,7 @@ router.get('/check', (req, res) => {
             res.json({ success: false, loggedIn: false });
         }
     } catch (error) {
-        console.error('[管理员路由] 检查登录状态失败:', error);
+        logger.logError(req, null, '管理员检查登录状态失败', error.message, error.stack);
         res.status(500).json({ success: false, error: '服务器错误' });
     }
 });
@@ -115,7 +116,7 @@ router.get('/list', (req, res) => {
             data: admins
         });
     } catch (error) {
-        console.error('[管理员路由] 获取管理员列表失败:', error);
+        logger.logError(req, verification?.username, '管理员获取列表失败', error.message, error.stack);
         res.status(500).json({ success: false, error: '服务器错误' });
     }
 });
@@ -152,7 +153,7 @@ router.post('/create', (req, res) => {
             res.status(400).json({ success: false, error: result.error });
         }
     } catch (error) {
-        console.error('[管理员路由] 创建管理员失败:', error);
+        logger.logError(req, verification?.username, '管理员创建失败', error.message, error.stack);
         res.status(500).json({ success: false, error: '服务器错误' });
     }
 });
@@ -190,7 +191,7 @@ router.post('/change-password', (req, res) => {
             res.status(400).json({ success: false, error: result.error });
         }
     } catch (error) {
-        console.error('[管理员路由] 修改密码失败:', error);
+        logger.logError(req, verification?.username, '管理员修改密码失败', error.message, error.stack);
         res.status(500).json({ success: false, error: '服务器错误' });
     }
 });
@@ -218,7 +219,7 @@ router.delete('/:adminId', (req, res) => {
             res.status(400).json({ success: false, error: result.error });
         }
     } catch (error) {
-        console.error('[管理员路由] 删除管理员失败:', error);
+        logger.logError(req, verification?.username, '管理员删除失败', error.message, error.stack);
         res.status(500).json({ success: false, error: '服务器错误' });
     }
 });

@@ -491,15 +491,23 @@ const UI = {
         if (modal) {
             modal.classList.add('show');
 
+            // 重置 tips 显示状态（普通答题显示 normal-test-tips）
+            const normalTips = document.getElementById('normal-test-tips');
+            const aiTips = document.getElementById('ai-test-tips');
+            if (normalTips) normalTips.style.display = 'block';
+            if (aiTips) aiTips.style.display = 'none';
+
             if (versionNameEl) {
                 if (GenshinMBTI.state.isQuickTest) {
                     versionNameEl.textContent = '快速测试（模拟答题）';
                 } else if (GenshinMBTI.state.pendingVersion) {
                     const versionNames = {
                         '200': '200题完整版',
+                        '172': '172题专业版',
+                        '106': '106题标准版',
                         '90': '93题标准版',
-                        '200-genshin': '200题原神高手版',
-                        '90-genshin': '93题原神标准版'
+                        '20': '20题快速版',
+                        'genshin-expert-60': '60题原神高手版'
                     };
                     versionNameEl.textContent = versionNames[GenshinMBTI.state.pendingVersion] || GenshinMBTI.state.pendingVersion;
                 }
@@ -742,9 +750,11 @@ const UI = {
                     this.startTest();
                 } else {
                     alert('题库加载失败，请刷新重试');
+                    this.showPage('welcome');
                 }
             } else {
                 alert('未找到答题进度，请重新开始测试');
+                this.showPage('welcome');
             }
         } else if (progressType === 'ai') {
             // 先切换页面
@@ -765,11 +775,17 @@ const UI = {
                     }
                 } else {
                     alert('未找到AI答题进度');
+                    if (window.AIAnalysis && window.AIAnalysis.renderQuestions) {
+                        window.AIAnalysis.renderQuestions();
+                    }
                 }
             } catch (e) {
                 this.showLoading(false);
                 console.error('加载AI进度失败:', e);
                 alert('加载AI进度失败，请刷新重试');
+                if (window.AIAnalysis && window.AIAnalysis.renderQuestions) {
+                    window.AIAnalysis.renderQuestions();
+                }
             }
         }
     },
@@ -780,27 +796,23 @@ const UI = {
     restartProgress: function () {
         const modal = document.getElementById('gender-modal');
         const progressType = modal ? modal.dataset.progressType : '';
+        const aiSubMode = modal ? modal.dataset.aiSubMode : '';
+        const aiCount = modal && modal.dataset.count ? parseInt(modal.dataset.count) : 10;
 
         // 清除进度由服务器端处理
 
         // 先重置弹窗内容为性别选择
         this.resetGenderModal();
 
-        // 根据类型显示相应的界面
         if (progressType === 'normal') {
-            // 普通答题：设置 pendingVersion 并显示性别选择弹窗
-            // 注意：需要恢复 pendingVersion，因为 resetGenderModal 会清除它
-            if (GenshinMBTI && GenshinMBTI.state) {
-                // 恢复默认版本
-                GenshinMBTI.state.pendingVersion = '200-genshin';
-            }
-            // 弹窗已经是性别选择内容，直接显示
+            // 普通答题：pendingVersion 已在 startTest 中设置，无需修改
             modal.classList.add('show');
         } else if (progressType === 'ai') {
-            // AI答题：隐藏弹窗后显示模式选择
-            this.hideGenderModal();
-            if (window.AIAnalysis) {
-                window.AIAnalysis.showModeSelectModal();
+            // AI答题：根据子模式直接显示对应的性别选择弹窗
+            if (aiSubMode === 'ai-quick') {
+                this.showGenderModalForAIQuick(aiCount);
+            } else {
+                this.showGenderModalForAI();
             }
         }
     },
@@ -943,6 +955,15 @@ const UI = {
         console.log('[showCalculatingPage] 答卷详情:', JSON.stringify(answers, null, 2));
         console.log('==============================');
 
+        var questionContainerEl = document.getElementById('question-container');
+        var savedTestPageHTML = questionContainerEl ? questionContainerEl.innerHTML : '';
+        var savedScrollY = window.scrollY;
+        var savedAnswers = AnswerPage.answers ? AnswerPage.answers.map(function (a) {
+            if (a && typeof a === 'object') return { questionId: a.questionId, coordinate: a.coordinate, optionA: a.optionA, optionB: a.optionB };
+            return a;
+        }) : null;
+        var savedCurrentIndex = AnswerPage.currentIndex;
+
         // 隐藏所有页面元素
         const pages = document.querySelectorAll('.page');
         pages.forEach(page => page.classList.remove('active'));
@@ -1075,6 +1096,14 @@ const UI = {
             console.log('[calculateResult] 开始计算结果...');
             try {
                 console.log('[calculateResult] 发送请求到 /api/submit');
+                
+                // 转换题库版本格式：'200' → 'mbti-200'
+                const rawVersion = GenshinMBTI.state?.questionVersion;
+                let finalVersion = rawVersion;
+                if (rawVersion && !rawVersion.startsWith('mbti-') && rawVersion !== 'genshin-expert-60') {
+                    finalVersion = 'mbti-' + rawVersion;
+                }
+                
                 const response = await fetch('/api/submit', {
                     method: 'POST',
                     headers: {
@@ -1083,7 +1112,7 @@ const UI = {
                     body: JSON.stringify({
                         answers: answers,
                         gender: GenshinMBTI.state.gender,
-                        questionVersion: GenshinMBTI.state?.questionVersion
+                        questionVersion: finalVersion
                     })
                 });
 
@@ -1115,6 +1144,24 @@ const UI = {
             self.preGenerateQRCode();
         };
 
+        var restoreTestPage = function (errorMsg) {
+            var container = document.getElementById('calculating-page-container');
+            if (container) container.remove();
+            self.showPage('test');
+            var qc = document.getElementById('question-container');
+            if (savedAnswers) {
+                AnswerPage.answers = savedAnswers;
+                AnswerPage.currentIndex = savedCurrentIndex;
+            }
+            if (qc && savedTestPageHTML) {
+                qc.innerHTML = savedTestPageHTML;
+                AnswerPage.bindEvents();
+                window.scrollTo(0, savedScrollY);
+            } else {
+                AnswerPage.renderQuestion(savedCurrentIndex || 0);
+            }
+            self.showFixedToast(errorMsg, 8000);
+        };
         const showResult = () => {
             console.log('[showResult] 开始显示结果, result:', result);
             if (result) {
@@ -1124,9 +1171,11 @@ const UI = {
                     console.log('[showResult] 结果显示完成');
                 } catch (e) {
                     console.error('[showResult] 显示结果失败:', e);
+                    restoreTestPage('结果加载失败，请重试');
                 }
             } else {
                 console.error('[showResult] result 为空，无法显示结果');
+                restoreTestPage('计算结果为空，请重试或联系管理员');
             }
         };
 
@@ -1240,21 +1289,52 @@ const UI = {
      * 
      * @param {string} message - 加载提示信息
      */
-    showLoading: function (message) {
+    showLoading: function (show, text) {
         const container = document.getElementById('question-container');
-        if (container) {
-            container.innerHTML = `
-                <div class="loading-container">
-                    <div class="element-loading">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                    <div class="loading-text">${message || '加载中...'}</div>
-                </div>
-            `;
+        if (!container) return;
+
+        if (show === false) {
+            const loadingEl = container.querySelector('.loading-container');
+            if (loadingEl) {
+                container.innerHTML = '';
+            }
+            return;
         }
+
+        const msg = typeof show === 'string' ? show : (text || '加载中...');
+        container.innerHTML = `
+            <div class="loading-container">
+                <div class="element-loading">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="loading-text">${msg}</div>
+            </div>
+        `;
+    },
+
+    /**
+     * 显示固定居中的提示弹窗（替代alert，不阻塞且用户可见）
+     * 
+     * @param {string} message - 提示文本
+     * @param {number} duration - 显示时长（毫秒），默认5000
+     */
+    showFixedToast: function (message, duration) {
+        var toast = document.getElementById('fixed-toast');
+        if (!toast) {
+            toast = document.createElement('div');
+            toast.id = 'fixed-toast';
+            toast.style.cssText = 'position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);z-index:99999;background:rgba(220,50,50,0.92);color:#fff;padding:16px 32px;border-radius:8px;font-size:16px;text-align:center;max-width:80vw;box-shadow:0 4px 20px rgba(220,50,50,0.4);display:none;pointer-events:auto;';
+            document.body.appendChild(toast);
+        }
+        toast.textContent = message;
+        toast.style.display = 'block';
+        if (toast._timer) clearTimeout(toast._timer);
+        toast._timer = setTimeout(function () {
+            toast.style.display = 'none';
+        }, duration || 5000);
     },
 
     /**
@@ -2518,6 +2598,11 @@ const UI = {
             visionEl.textContent = character.vision_cn || '-';
         }
 
+        const visionLabelEl = document.getElementById('character-vision-label');
+        if (visionLabelEl) {
+            visionLabelEl.textContent = character.vision_label || '神之眼';
+        }
+
         const weaponEl = document.getElementById('character-weapon');
         if (weaponEl) {
             weaponEl.textContent = character.weapon_type || '-';
@@ -2578,6 +2663,11 @@ const UI = {
         const mobileVisionEl = document.getElementById('character-mobile-vision');
         if (mobileVisionEl) {
             mobileVisionEl.textContent = character.vision_cn || '-';
+        }
+
+        const mobileVisionLabelEl = document.getElementById('character-mobile-vision-label');
+        if (mobileVisionLabelEl) {
+            mobileVisionLabelEl.textContent = character.vision_label || '神之眼';
         }
 
         const mobileWeaponEl = document.getElementById('character-mobile-weapon');
@@ -4315,7 +4405,8 @@ const UI = {
         // 快速检查是否有进度（不加载完整数据）
         const progressCheck = await this.checkProgressQuick();
         if (progressCheck.hasAIProgress && progressCheck.aiProgressMeta) {
-            // 显示断点续答提示（使用元数据）
+            const modal = document.getElementById('gender-modal');
+            if (modal) modal.dataset.aiSubMode = 'ai';
             this.showProgressPrompt(progressCheck.aiProgressMeta, 'ai');
         } else {
             this.showGenderModalForAI();
@@ -4340,7 +4431,11 @@ const UI = {
         // 检查是否有保存的进度
         const progress = await this.checkAIProgress();
         if (progress) {
-            // 显示断点续答提示
+            const modal = document.getElementById('gender-modal');
+            if (modal) {
+                modal.dataset.aiSubMode = 'ai-quick';
+                modal.dataset.count = count;
+            }
             this.showProgressPrompt(progress, 'ai');
         } else {
             this.showGenderModalForAIQuick(count);
@@ -4360,14 +4455,12 @@ const UI = {
             modal.dataset.count = count;
             const title = modal.querySelector('.gender-modal-title');
             if (title) {
-                if (count === 5) {
-                    title.textContent = '快速人格解析';
-                } else if (count === 10) {
-                    title.textContent = '基础人格解析';
+                if (count === 10) {
+                    title.textContent = '人格投射评估';
                 } else if (count === 25) {
-                    title.textContent = '完整人格解析';
+                    title.textContent = '人格投射深度解析';
                 } else {
-                    title.textContent = '人格解析';
+                    title.textContent = '情境投射人格测验';
                 }
             }
             const versionDiv = document.getElementById('gender-modal-version');
@@ -4537,7 +4630,7 @@ const UI = {
             modal.dataset.mode = 'ai';
             const title = modal.querySelector('.gender-modal-title');
             if (title) {
-                title.textContent = '大模型深度分析';
+                title.textContent = '情境投射人格测验';
             }
             const versionDiv = document.getElementById('gender-modal-version');
             if (versionDiv) {

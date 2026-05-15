@@ -1,0 +1,1329 @@
+{
+    "code": 0,
+    "data": {
+        "id": "4",
+        "name": "MBTI性格测试（60题）- 原神高手版",
+        "list": [
+            {
+                "id": 1,
+                "name": "如果可以的话，在联机模式中，你更愿意和熟悉的朋友组队，而不是主动加入陌生人的队伍",
+                "type": "S",
+                "infoname": "MBTI性格测试（60题）- 原神高手版",
+                "option": [
+                    {
+                        "id": 1,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 1,
+                        "character_type": "I"
+                    },
+                    {
+                        "id": 2,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 1,
+                        "character_type": "E"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "你喜欢或希望参加原神相关的线下玩家聚会（如漫展、同城面基）",
+                "type": "S",
+                "infoname": "MBTI性格测试（60题）- 原神高手版",
+                "option": [
+                    {
+                        "id": 3,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 2,
+                        "character_type": "E"
+                    },
+                    {
+                        "id": 4,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 2,
+                        "character_type": "I"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "更让你幸福满足的是帮助萌新、带别人打副本，而不是自己刷出极品圣遗物或打通深渊",
+                "type": "S",
+                "infoname": "MBTI性格测试（60题）- 原神高手版",
+                "option": [
+                    {
+                        "id": 5,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 3,
+                        "character_type": "E"
+                    },
+                    {
+                        "id": 6,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 3,
+                        "character_type": "I"
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "打联机副本时，你通常避免主动带队，或不愿意在队伍中充当指挥型角色",
+                "type": "S",
+                "infoname": "MBTI性格测试（60题）- 原神高手版",
+                "option": [
+                    {
+                        "id": 7,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 4,
+                        "character_type": "I"
+                    },
+                    {
+                        "id": 8,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 4,
+                        "character_type": "E"
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "name": "你喜欢看玩家社区里关于游戏内容的争论",
+                "type": "S",
+                "infoname": "MBTI性格测试（60题）- 原神高手版",
+                "option": [
+                    {
+                        "id": 9,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 5,
+                        "character_type": "E"
+                    },
+                    {
+                        "id": 10,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 5,
+                        "character_type": "I"
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "name": "抽到想要的角色时，即使内心很激动，你也不会让别人知道",
+                "type": "S",
+                "infoname": "MBTI性格测试（60题）- 原神高手版",
+                "option": [
+                    {
+                        "id": 11,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 6,
+                        "character_type": "I"
+                    },
+                    {
+                        "id": 12,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 6,
+                        "character_type": "E"
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "name": "在游戏好友中，你通常是主动约人联机、发起活动的那个人",
+                "type": "S",
+                "infoname": "MBTI性格测试（60题）- 原神高手版",
+                "option": [
+                    {
+                        "id": 13,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 7,
+                        "character_type": "E"
+                    },
+                    {
+                        "id": 14,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 7,
+                        "character_type": "I"
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "name": "你更喜欢一个人探索地图、做任务，而不是和别人一起玩",
+                "type": "S",
+                "infoname": "MBTI性格测试（60题）- 原神高手版",
+                "option": [
+                    {
+                        "id": 15,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 8,
+                        "character_type": "I"
+                    },
+                    {
+                        "id": 16,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 8,
+                        "character_type": "E"
+                    }
+                ]
+            },
+            {
+                "id": 9,
+                "name": "在联机或社区中，你会主动夸赞其他玩家的角色或操作",
+                "type": "S",
+                "infoname": "MBTI性格测试（60题）- 原神高手版",
+                "option": [
+                    {
+                        "id": 17,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 9,
+                        "character_type": "E"
+                    },
+                    {
+                        "id": 18,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 9,
+                        "character_type": "I"
+                    }
+                ]
+            },
+            {
+                "id": 10,
+                "name": "遇到也玩原神的新朋友时，你通常",
+                "type": "S",
+                "infoname": "MBTI性格测试（60题）- 原神高手版",
+                "option": [
+                    {
+                        "id": 19,
+                        "code": "A",
+                        "name": "聊起游戏来话比对方多",
+                        "question_id": 10,
+                        "character_type": "E"
+                    },
+                    {
+                        "id": 20,
+                        "code": "B",
+                        "name": "听对方说的时候更多",
+                        "question_id": 10,
+                        "character_type": "I"
+                    }
+                ]
+            },
+            {
+                "id": 11,
+                "name": "去漫展时，你更倾向于",
+                "type": "S",
+                "infoname": "MBTI性格测试（60题）- 原神高手版",
+                "option": [
+                    {
+                        "id": 21,
+                        "code": "A",
+                        "name": "和一两个熟悉的朋友一起逛",
+                        "question_id": 11,
+                        "character_type": "I"
+                    },
+                    {
+                        "id": 22,
+                        "code": "B",
+                        "name": "参与各种集体活动",
+                        "question_id": 11,
+                        "character_type": "E"
+                    }
+                ]
+            },
+            {
+                "id": 12,
+                "name": "当我参加一个原神玩家线下聚会时，我一般是这样的状态",
+                "type": "S",
+                "infoname": "MBTI性格测试（60题）- 原神高手版",
+                "option": [
+                    {
+                        "id": 23,
+                        "code": "A",
+                        "name": "越聊越兴奋，可能待到最后一个走",
+                        "question_id": 12,
+                        "character_type": "E"
+                    },
+                    {
+                        "id": 24,
+                        "code": "B",
+                        "name": "活动刚开始就想回家，觉得累",
+                        "question_id": 12,
+                        "character_type": "I"
+                    }
+                ]
+            },
+            {
+                "id": 13,
+                "name": "刚认识我的人，对我玩原神这件事的了解程度是",
+                "type": "S",
+                "infoname": "MBTI性格测试（60题）- 原神高手版",
+                "option": [
+                    {
+                        "id": 25,
+                        "code": "A",
+                        "name": "很快就能知道我喜欢玩原神",
+                        "question_id": 13,
+                        "character_type": "E"
+                    },
+                    {
+                        "id": 26,
+                        "code": "B",
+                        "name": "只有和我真正熟识后才会知道",
+                        "question_id": 13,
+                        "character_type": "I"
+                    }
+                ]
+            },
+            {
+                "id": 14,
+                "name": "刚认识的朋友，能否很快知道你平时喜欢玩原神？",
+                "type": "S",
+                "infoname": "MBTI性格测试（60题）- 原神高手版",
+                "option": [
+                    {
+                        "id": 27,
+                        "code": "A",
+                        "name": "马上可以",
+                        "question_id": 14,
+                        "character_type": "E"
+                    },
+                    {
+                        "id": 28,
+                        "code": "B",
+                        "name": "要待他们真正了解你之后才知道",
+                        "question_id": 14,
+                        "character_type": "I"
+                    }
+                ]
+            },
+            {
+                "id": 15,
+                "name": "你会倾向",
+                "type": "S",
+                "infoname": "MBTI性格测试（60题）- 原神高手版",
+                "option": [
+                    {
+                        "id": 29,
+                        "code": "A",
+                        "name": "自己写的游戏心得或攻略被人评论认可，即使自己觉得还有不足",
+                        "question_id": 15,
+                        "character_type": "E"
+                    },
+                    {
+                        "id": 30,
+                        "code": "B",
+                        "name": "默默整理资料、维护维基，为游戏社区做贡献，即使别人不知道这是你做的",
+                        "question_id": 15,
+                        "character_type": "I"
+                    }
+                ]
+            },
+            {
+                "id": 16,
+                "name": "你喜欢阅读游戏剧情和CG，并对结局做出自己的分析",
+                "type": "S",
+                "infoname": "MBTI性格测试（60题）- 原神高手版",
+                "option": [
+                    {
+                        "id": 31,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 16,
+                        "character_type": "N"
+                    },
+                    {
+                        "id": 32,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 16,
+                        "character_type": "S"
+                    }
+                ]
+            },
+            {
+                "id": 17,
+                "name": "原神中有太多好玩的事，以至于经常难以决定下一步该做什么",
+                "type": "S",
+                "infoname": "MBTI性格测试（60题）- 原神高手版",
+                "option": [
+                    {
+                        "id": 33,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 17,
+                        "character_type": "N"
+                    },
+                    {
+                        "id": 34,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 17,
+                        "character_type": "S"
+                    }
+                ]
+            },
+            {
+                "id": 18,
+                "name": "你喜欢尝试培养新角色或学习新玩法，但练成后又很快感到厌倦",
+                "type": "S",
+                "infoname": "MBTI性格测试（60题）- 原神高手版",
+                "option": [
+                    {
+                        "id": 35,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 18,
+                        "character_type": "N"
+                    },
+                    {
+                        "id": 36,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 18,
+                        "character_type": "S"
+                    }
+                ]
+            },
+            {
+                "id": 19,
+                "name": "你更喜欢看到游戏玩法的讨论，而非游戏剧情、设定、世界观的猜测分析",
+                "type": "S",
+                "infoname": "MBTI性格测试（60题）- 原神高手版",
+                "option": [
+                    {
+                        "id": 37,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 19,
+                        "character_type": "S"
+                    },
+                    {
+                        "id": 38,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 19,
+                        "character_type": "N"
+                    }
+                ]
+            },
+            {
+                "id": 20,
+                "name": "你专门去找原神的官方/同人美图做壁纸",
+                "type": "S",
+                "infoname": "MBTI性格测试（60题）- 原神高手版",
+                "option": [
+                    {
+                        "id": 39,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 20,
+                        "character_type": "N"
+                    },
+                    {
+                        "id": 40,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 20,
+                        "character_type": "S"
+                    }
+                ]
+            },
+            {
+                "id": 21,
+                "name": "在没有金钱成本担忧的情况下，你还是更倾向于钻研几种少数的玩法，而不是尝试各种各样的组合",
+                "type": "S",
+                "infoname": "MBTI性格测试（60题）- 原神高手版",
+                "option": [
+                    {
+                        "id": 41,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 21,
+                        "character_type": "S"
+                    },
+                    {
+                        "id": 42,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 21,
+                        "character_type": "N"
+                    }
+                ]
+            },
+            {
+                "id": 22,
+                "name": "你是否会花大量时间仔细研究那些与自己观点截然不同的角色解读或配队思路？",
+                "type": "S",
+                "infoname": "MBTI性格测试（60题）- 原神高手版",
+                "option": [
+                    {
+                        "id": 43,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 22,
+                        "character_type": "S"
+                    },
+                    {
+                        "id": 44,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 22,
+                        "character_type": "N"
+                    }
+                ]
+            },
+            {
+                "id": 23,
+                "name": "你很少琢磨原神的背景故事或世界观设定背后的哲学意义",
+                "type": "S",
+                "infoname": "MBTI性格测试（60题）- 原神高手版",
+                "option": [
+                    {
+                        "id": 45,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 23,
+                        "character_type": "S"
+                    },
+                    {
+                        "id": 46,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 23,
+                        "character_type": "N"
+                    }
+                ]
+            },
+            {
+                "id": 24,
+                "name": "你觉得花时间琢磨游戏里的世界观或哲学隐喻是浪费时间",
+                "type": "S",
+                "infoname": "MBTI性格测试（60题）- 原神高手版",
+                "option": [
+                    {
+                        "id": 47,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 24,
+                        "character_type": "S"
+                    },
+                    {
+                        "id": 48,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 24,
+                        "character_type": "N"
+                    }
+                ]
+            },
+            {
+                "id": 25,
+                "name": "每次版本更新前，你会仔细阅读更新公告了解所有细节，还是只扫一眼看看大概有什么新内容？",
+                "type": "S",
+                "infoname": "MBTI性格测试（60题）- 原神高手版",
+                "option": [
+                    {
+                        "id": 49,
+                        "code": "A",
+                        "name": "仔细阅读细节",
+                        "question_id": 25,
+                        "character_type": "S"
+                    },
+                    {
+                        "id": 50,
+                        "code": "B",
+                        "name": "扫一眼看整体",
+                        "question_id": 25,
+                        "character_type": "N"
+                    }
+                ]
+            },
+            {
+                "id": 26,
+                "name": "当约会进行到较为放松的氛围时，对方开始聊起原神，此时我更愿意谈论",
+                "type": "S",
+                "infoname": "MBTI性格测试（60题）- 原神高手版",
+                "option": [
+                    {
+                        "id": 51,
+                        "code": "A",
+                        "name": "未来版本可能会出的新角色、新地图",
+                        "question_id": 26,
+                        "character_type": "N"
+                    },
+                    {
+                        "id": 52,
+                        "code": "B",
+                        "name": "今天在游戏里刚完成的任务、刚发现的宝箱",
+                        "question_id": 26,
+                        "character_type": "S"
+                    }
+                ]
+            },
+            {
+                "id": 27,
+                "name": "假如你是正在带萌新，你会更倾向于教",
+                "type": "S",
+                "infoname": "MBTI性格测试（60题）- 原神高手版",
+                "option": [
+                    {
+                        "id": 53,
+                        "code": "A",
+                        "name": "具体的操作技巧、地图点位、材料收集",
+                        "question_id": 27,
+                        "character_type": "S"
+                    },
+                    {
+                        "id": 54,
+                        "code": "B",
+                        "name": "角色的机制原理、配队逻辑、伤害计算",
+                        "question_id": 27,
+                        "character_type": "N"
+                    }
+                ]
+            },
+            {
+                "id": 28,
+                "name": "在游戏社区里，哪种玩家更吸引你？",
+                "type": "S",
+                "infoname": "MBTI性格测试（60题）- 原神高手版",
+                "option": [
+                    {
+                        "id": 55,
+                        "code": "A",
+                        "name": "能分析新版本走向、预判角色强度的",
+                        "question_id": 28,
+                        "character_type": "N"
+                    },
+                    {
+                        "id": 56,
+                        "code": "B",
+                        "name": "对现有地图和资源分布了如指掌的",
+                        "question_id": 28,
+                        "character_type": "S"
+                    }
+                ]
+            },
+            {
+                "id": 29,
+                "name": "做配队、养成这种玩家都会做的事，你比较喜欢",
+                "type": "S",
+                "infoname": "MBTI性格测试（60题）- 原神高手版",
+                "option": [
+                    {
+                        "id": 57,
+                        "code": "A",
+                        "name": "按照主流攻略推荐的方法去做",
+                        "question_id": 29,
+                        "character_type": "S"
+                    },
+                    {
+                        "id": 58,
+                        "code": "B",
+                        "name": "构想一套自己的想法",
+                        "question_id": 29,
+                        "character_type": "N"
+                    }
+                ]
+            },
+            {
+                "id": 30,
+                "name": "你会更愿意跟哪类玩家做朋友？",
+                "type": "S",
+                "infoname": "MBTI性格测试（60题）- 原神高手版",
+                "option": [
+                    {
+                        "id": 59,
+                        "code": "A",
+                        "name": "经常提出新配队、新思路的",
+                        "question_id": 30,
+                        "character_type": "N"
+                    },
+                    {
+                        "id": 60,
+                        "code": "B",
+                        "name": "遵循常规实用玩法、脚踏实地的",
+                        "question_id": 30,
+                        "character_type": "S"
+                    }
+                ]
+            },
+            {
+                "id": 31,
+                "name": "在讨论配队或角色强度时，你容易看出别人阵容的不足并直接指出",
+                "type": "S",
+                "infoname": "MBTI性格测试（60题）- 原神高手版",
+                "option": [
+                    {
+                        "id": 61,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 31,
+                        "character_type": "T"
+                    },
+                    {
+                        "id": 62,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 31,
+                        "character_type": "F"
+                    }
+                ]
+            },
+            {
+                "id": 32,
+                "name": "你认为如果人们更多地依赖理性而不是他们的感受，原神的社会风评会变得更美好",
+                "type": "S",
+                "infoname": "MBTI性格测试（60题）- 原神高手版",
+                "option": [
+                    {
+                        "id": 63,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 32,
+                        "character_type": "T"
+                    },
+                    {
+                        "id": 64,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 32,
+                        "character_type": "F"
+                    }
+                ]
+            },
+            {
+                "id": 33,
+                "name": "你容易理解和同情游戏中的角色，哪怕他的人生经历与你完全不同",
+                "type": "S",
+                "infoname": "MBTI性格测试（60题）- 原神高手版",
+                "option": [
+                    {
+                        "id": 65,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 33,
+                        "character_type": "F"
+                    },
+                    {
+                        "id": 66,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 33,
+                        "character_type": "T"
+                    }
+                ]
+            },
+            {
+                "id": 34,
+                "name": "你经常难以理解游戏中角色的情感动机",
+                "type": "S",
+                "infoname": "MBTI性格测试（60题）- 原神高手版",
+                "option": [
+                    {
+                        "id": 67,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 34,
+                        "character_type": "T"
+                    },
+                    {
+                        "id": 68,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 34,
+                        "character_type": "F"
+                    }
+                ]
+            },
+            {
+                "id": 35,
+                "name": "如果可以，你更愿意将稀有资源让给队友，在你认为他更需要它的时候",
+                "type": "S",
+                "infoname": "MBTI性格测试（60题）- 原神高手版",
+                "option": [
+                    {
+                        "id": 69,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 35,
+                        "character_type": "F"
+                    },
+                    {
+                        "id": 70,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 35,
+                        "character_type": "T"
+                    }
+                ]
+            },
+            {
+                "id": 36,
+                "name": "当我需要决定是否抽某个角色时",
+                "type": "S",
+                "infoname": "MBTI性格测试（60题）- 原神高手版",
+                "option": [
+                    {
+                        "id": 71,
+                        "code": "A",
+                        "name": "我会自己分析角色强度、配队逻辑，权衡利弊后决定",
+                        "question_id": 36,
+                        "character_type": "T"
+                    },
+                    {
+                        "id": 72,
+                        "code": "B",
+                        "name": "我会想了解其他人是怎么看的，希望能和大家达成共识",
+                        "question_id": 36,
+                        "character_type": "F"
+                    }
+                ]
+            },
+            {
+                "id": 37,
+                "name": "当与一个人交往时，我更希望",
+                "type": "S",
+                "infoname": "MBTI性格测试（60题）- 原神高手版",
+                "option": [
+                    {
+                        "id": 73,
+                        "code": "A",
+                        "name": "对方能理解我在游戏里的喜怒哀乐",
+                        "question_id": 37,
+                        "character_type": "F"
+                    },
+                    {
+                        "id": 74,
+                        "code": "B",
+                        "name": "对方能和我理性讨论游戏里的各种设定和玩法",
+                        "question_id": 37,
+                        "character_type": "T"
+                    }
+                ]
+            },
+            {
+                "id": 38,
+                "name": "如果我在游戏里投入很多感情的角色在剧情中离开/牺牲，永远无法在游戏中看到他/她的时候",
+                "type": "S",
+                "infoname": "MBTI性格测试（60题）- 原神高手版",
+                "option": [
+                    {
+                        "id": 75,
+                        "code": "A",
+                        "name": "我会很难抽身，情绪上要缓很久才能过去",
+                        "question_id": 38,
+                        "character_type": "F"
+                    },
+                    {
+                        "id": 76,
+                        "code": "B",
+                        "name": "虽然会难过，但理性上接受了就会向前看",
+                        "question_id": 38,
+                        "character_type": "T"
+                    }
+                ]
+            },
+            {
+                "id": 39,
+                "name": "被夸赞时，哪句评价让你更受用？",
+                "type": "S",
+                "infoname": "MBTI性格测试（60题）- 原神高手版",
+                "option": [
+                    {
+                        "id": 77,
+                        "code": "A",
+                        "name": "你操作真厉害，思路清晰",
+                        "question_id": 39,
+                        "character_type": "T"
+                    },
+                    {
+                        "id": 78,
+                        "code": "B",
+                        "name": "你人真好，愿意带萌新",
+                        "question_id": 39,
+                        "character_type": "F"
+                    }
+                ]
+            },
+            {
+                "id": 40,
+                "name": "你更希望别人怎么评价你？",
+                "type": "S",
+                "infoname": "MBTI性格测试（60题）- 原神高手版",
+                "option": [
+                    {
+                        "id": 79,
+                        "code": "A",
+                        "name": "是个重感情、有温度的玩家",
+                        "question_id": 40,
+                        "character_type": "F"
+                    },
+                    {
+                        "id": 80,
+                        "code": "B",
+                        "name": "是个冷静、有逻辑的玩家",
+                        "question_id": 40,
+                        "character_type": "T"
+                    }
+                ]
+            },
+            {
+                "id": 41,
+                "name": "在讨论原神时，你更想了解其他玩家的哪方面？",
+                "type": "S",
+                "infoname": "MBTI性格测试（60题）- 原神高手版",
+                "option": [
+                    {
+                        "id": 81,
+                        "code": "A",
+                        "name": "他们怎么玩、怎么配队的想法",
+                        "question_id": 41,
+                        "character_type": "T"
+                    },
+                    {
+                        "id": 82,
+                        "code": "B",
+                        "name": "他们对游戏剧情、人物的内心感受",
+                        "question_id": 41,
+                        "character_type": "F"
+                    }
+                ]
+            },
+            {
+                "id": 42,
+                "name": "在游戏中遇到了难题，你通常会怎么做？",
+                "type": "S",
+                "infoname": "MBTI性格测试（60题）- 原神高手版",
+                "option": [
+                    {
+                        "id": 83,
+                        "code": "A",
+                        "name": "参考攻略，用已证明有效的方法解决",
+                        "question_id": 42,
+                        "character_type": "F"
+                    },
+                    {
+                        "id": 84,
+                        "code": "B",
+                        "name": "自己分析，针对性地调整思路",
+                        "question_id": 42,
+                        "character_type": "T"
+                    }
+                ]
+            },
+            {
+                "id": 43,
+                "name": "你喜欢自己的哪种性格",
+                "type": "S",
+                "infoname": "MBTI性格测试（60题）- 原神高手版",
+                "option": [
+                    {
+                        "id": 85,
+                        "code": "A",
+                        "name": "抽卡沉船也能平常心",
+                        "question_id": 43,
+                        "character_type": "T"
+                    },
+                    {
+                        "id": 86,
+                        "code": "B",
+                        "name": "容易为角色剧情动容",
+                        "question_id": 43,
+                        "character_type": "F"
+                    }
+                ]
+            },
+            {
+                "id": 44,
+                "name": "和固排打游戏时，您比较在乎",
+                "type": "S",
+                "infoname": "MBTI性格测试（60题）- 原神高手版",
+                "option": [
+                    {
+                        "id": 87,
+                        "code": "A",
+                        "name": "他玩的是否开心",
+                        "question_id": 44,
+                        "character_type": "F"
+                    },
+                    {
+                        "id": 88,
+                        "code": "B",
+                        "name": "他被分配到的资源是否合理",
+                        "question_id": 44,
+                        "character_type": "T"
+                    }
+                ]
+            },
+            {
+                "id": 45,
+                "name": "您觉得人最糟糕的是",
+                "type": "S",
+                "infoname": "MBTI性格测试（60题）- 原神高手版",
+                "option": [
+                    {
+                        "id": 89,
+                        "code": "A",
+                        "name": "不带萌新还嫌人家菜",
+                        "question_id": 45,
+                        "character_type": "F"
+                    },
+                    {
+                        "id": 90,
+                        "code": "B",
+                        "name": "讨论配队死活不听分析",
+                        "question_id": 45,
+                        "character_type": "T"
+                    }
+                ]
+            },
+            {
+                "id": 46,
+                "name": "你有一个各方面都非常喜欢但在当前版本强度低的角色，会难以换下他吗？",
+                "type": "S",
+                "infoname": "MBTI性格测试（60题）- 原神高手版",
+                "option": [
+                    {
+                        "id": 91,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 46,
+                        "character_type": "J"
+                    },
+                    {
+                        "id": 92,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 46,
+                        "character_type": "P"
+                    }
+                ]
+            },
+            {
+                "id": 47,
+                "name": "如果原神降临现实世界，在挑战深境螺旋时，你会根据每层敌人的元素属性准备多套不同的队伍阵容吗？",
+                "type": "S",
+                "infoname": "MBTI性格测试（60题）- 原神高手版",
+                "option": [
+                    {
+                        "id": 93,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 47,
+                        "character_type": "J"
+                    },
+                    {
+                        "id": 94,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 47,
+                        "character_type": "P"
+                    }
+                ]
+            },
+            {
+                "id": 48,
+                "name": "遇到非常喜欢的新角色，你总是抽到手再研究强度和配队",
+                "type": "S",
+                "infoname": "MBTI性格测试（60题）- 原神高手版",
+                "option": [
+                    {
+                        "id": 95,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 48,
+                        "character_type": "P"
+                    },
+                    {
+                        "id": 96,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 48,
+                        "character_type": "J"
+                    }
+                ]
+            },
+            {
+                "id": 49,
+                "name": "你对操作或游戏理解不如你的玩家容易感到不耐烦",
+                "type": "S",
+                "infoname": "MBTI性格测试（60题）- 原神高手版",
+                "option": [
+                    {
+                        "id": 97,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 49,
+                        "character_type": "J"
+                    },
+                    {
+                        "id": 98,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 49,
+                        "character_type": "P"
+                    }
+                ]
+            },
+            {
+                "id": 50,
+                "name": "每次游戏版本更新或加入新区域，你总能很快适应新的机制和环境",
+                "type": "S",
+                "infoname": "MBTI性格测试（60题）- 原神高手版",
+                "option": [
+                    {
+                        "id": 99,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 50,
+                        "character_type": "P"
+                    },
+                    {
+                        "id": 100,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 50,
+                        "character_type": "J"
+                    }
+                ]
+            },
+            {
+                "id": 51,
+                "name": "你喜欢每天上线前先想好今天要完成哪些任务",
+                "type": "S",
+                "infoname": "MBTI性格测试（60题）- 原神高手版",
+                "option": [
+                    {
+                        "id": 101,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 51,
+                        "character_type": "J"
+                    },
+                    {
+                        "id": 102,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 51,
+                        "character_type": "P"
+                    }
+                ]
+            },
+            {
+                "id": 52,
+                "name": "你玩游戏更倾向于想玩就玩、集中肝一阵，而不是每天固定上线做日常",
+                "type": "S",
+                "infoname": "MBTI性格测试（60题）- 原神高手版",
+                "option": [
+                    {
+                        "id": 103,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 52,
+                        "character_type": "P"
+                    },
+                    {
+                        "id": 104,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 52,
+                        "character_type": "J"
+                    }
+                ]
+            },
+            {
+                "id": 53,
+                "name": "你做任务时，会严格按照指引一步一步做完，不会跳着做或者中途去做其他任务",
+                "type": "S",
+                "infoname": "MBTI性格测试（60题）- 原神高手版",
+                "option": [
+                    {
+                        "id": 105,
+                        "code": "A",
+                        "name": "是",
+                        "question_id": 53,
+                        "character_type": "J"
+                    },
+                    {
+                        "id": 106,
+                        "code": "B",
+                        "name": "否",
+                        "question_id": 53,
+                        "character_type": "P"
+                    }
+                ]
+            },
+            {
+                "id": 54,
+                "name": "每次版本更新前，你会提前规划好要抽什么角色、刷什么材料，还是随缘上线想玩什么就玩什么？",
+                "type": "S",
+                "infoname": "MBTI性格测试（60题）- 原神高手版",
+                "option": [
+                    {
+                        "id": 107,
+                        "code": "A",
+                        "name": "随缘玩",
+                        "question_id": 54,
+                        "character_type": "P"
+                    },
+                    {
+                        "id": 108,
+                        "code": "B",
+                        "name": "提前规划",
+                        "question_id": 54,
+                        "character_type": "J"
+                    }
+                ]
+            },
+            {
+                "id": 55,
+                "name": "面对游戏中的限时活动，你必须要规划时间才能完成时，你通常",
+                "type": "S",
+                "infoname": "MBTI性格测试（60题）- 原神高手版",
+                "option": [
+                    {
+                        "id": 109,
+                        "code": "A",
+                        "name": "喜欢按计划完成，觉得这样很愉快",
+                        "question_id": 55,
+                        "character_type": "J"
+                    },
+                    {
+                        "id": 110,
+                        "code": "B",
+                        "name": "觉得被时间束缚有些不愉快",
+                        "question_id": 55,
+                        "character_type": "P"
+                    }
+                ]
+            },
+            {
+                "id": 56,
+                "name": "当我专注打深渊时",
+                "type": "S",
+                "infoname": "MBTI性格测试（60题）- 原神高手版",
+                "option": [
+                    {
+                        "id": 111,
+                        "code": "A",
+                        "name": "需要不时停下来休息一下",
+                        "question_id": 56,
+                        "character_type": "J"
+                    },
+                    {
+                        "id": 112,
+                        "code": "B",
+                        "name": "不希望任何人打扰我",
+                        "question_id": 56,
+                        "character_type": "P"
+                    }
+                ]
+            },
+            {
+                "id": 57,
+                "name": "当你要在一个星期内挑战完成某个复杂的游戏成就，你在开始的时候会",
+                "type": "S",
+                "infoname": "MBTI性格测试（60题）- 原神高手版",
+                "option": [
+                    {
+                        "id": 113,
+                        "code": "A",
+                        "name": "把要做的任务依次列出来，按计划完成",
+                        "question_id": 57,
+                        "character_type": "J"
+                    },
+                    {
+                        "id": 114,
+                        "code": "B",
+                        "name": "直接开玩，边玩边看",
+                        "question_id": 57,
+                        "character_type": "P"
+                    }
+                ]
+            },
+            {
+                "id": 58,
+                "name": "首次面对游戏里的高难挑战，你更认同哪句话？",
+                "type": "S",
+                "infoname": "MBTI性格测试（60题）- 原神高手版",
+                "option": [
+                    {
+                        "id": 115,
+                        "code": "A",
+                        "name": "直接上就对了",
+                        "question_id": 58,
+                        "character_type": "P"
+                    },
+                    {
+                        "id": 116,
+                        "code": "B",
+                        "name": "思考清楚再打",
+                        "question_id": 58,
+                        "character_type": "J"
+                    }
+                ]
+            },
+            {
+                "id": 59,
+                "name": "面对游戏版本更新，你比较喜欢",
+                "type": "S",
+                "infoname": "MBTI性格测试（60题）- 原神高手版",
+                "option": [
+                    {
+                        "id": 117,
+                        "code": "A",
+                        "name": "先观望别人怎么玩，再决定自己的计划",
+                        "question_id": 59,
+                        "character_type": "P"
+                    },
+                    {
+                        "id": 118,
+                        "code": "B",
+                        "name": "提前研究前瞻信息，早早做好规划",
+                        "question_id": 59,
+                        "character_type": "J"
+                    }
+                ]
+            },
+            {
+                "id": 60,
+                "name": "你认为按照每日委托和活动表做事",
+                "type": "S",
+                "infoname": "MBTI性格测试（60题）- 原神高手版",
+                "option": [
+                    {
+                        "id": 119,
+                        "code": "A",
+                        "name": "偶尔需要，但大多时候不喜欢这么做",
+                        "question_id": 60,
+                        "character_type": "P"
+                    },
+                    {
+                        "id": 120,
+                        "code": "B",
+                        "name": "大多数情况下是有帮助而且是你喜欢做的",
+                        "question_id": 60,
+                        "character_type": "J"
+                    }
+                ]
+            }
+        ]
+    }
+}

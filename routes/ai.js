@@ -10,6 +10,7 @@ const router = express.Router();
 const path = require('path');
 const fs = require('fs');
 const { getAvailableModels, getSystemDefaultModel } = require('../config/model-config');
+const logger = require('../services/logger');
 
 /**
  * 获取可用AI模型列表
@@ -29,7 +30,7 @@ router.get('/ai-models', (req, res) => {
             }
         });
     } catch (error) {
-        console.error('[AI路由] 获取模型列表失败:', error);
+        logger.logError(req, null, '获取模型列表失败', error.message, error.stack);
         res.json({
             success: false,
             error: '获取模型列表失败'
@@ -48,7 +49,7 @@ function loadQuestionPool() {
         const data = fs.readFileSync(filePath, 'utf-8');
         return JSON.parse(data);
     } catch (e) {
-        console.error('[AI路由] 加载题目池失败:', e);
+        console.error('[AI路由] 加载题目池失败:', e.message);
         return [];
     }
 }
@@ -100,7 +101,7 @@ router.get('/ai-questions', (req, res) => {
             }
         });
     } catch (error) {
-        console.error('[AI路由] 获取题目失败:', error);
+        logger.logError(req, null, '获取AI题目失败', error.message, error.stack);
         res.json({
             success: false,
             error: '获取题目失败'
@@ -133,7 +134,7 @@ router.post('/ai-questions/replace', (req, res) => {
             }
         });
     } catch (error) {
-        console.error('[AI路由] 换题失败:', error);
+        logger.logError(req, null, 'AI换题失败', error.message, error.stack);
         res.json({
             success: false,
             error: '换题失败'

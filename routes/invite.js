@@ -10,6 +10,7 @@ const express = require('express');
 const router = express.Router();
 const inviteCodeService = require('../services/invite-code');
 const adminAuth = require('../services/admin-auth');
+const logger = require('../services/logger');
 
 /**
  * 验证管理员权限中间件
@@ -55,7 +56,7 @@ router.post('/create', requireAdmin, (req, res) => {
             res.status(500).json({ success: false, error: result.error });
         }
     } catch (error) {
-        console.error('[邀请码管理] 创建失败:', error);
+        logger.logError(req, req.admin?.username, '邀请码创建失败', error.message, error.stack);
         res.status(500).json({ success: false, error: '服务器错误' });
     }
 });
@@ -89,7 +90,7 @@ router.post('/create-batch', requireAdmin, (req, res) => {
             res.status(500).json({ success: false, error: result.error });
         }
     } catch (error) {
-        console.error('[邀请码管理] 批量创建失败:', error);
+        logger.logError(req, req.admin?.username, '邀请码批量创建失败', error.message, error.stack);
         res.status(500).json({ success: false, error: '服务器错误' });
     }
 });
@@ -108,7 +109,7 @@ router.get('/list', requireAdmin, (req, res) => {
             count: codes.length
         });
     } catch (error) {
-        console.error('[邀请码管理] 获取列表失败:', error);
+        logger.logError(req, req.admin?.username, '邀请码获取列表失败', error.message, error.stack);
         res.status(500).json({ success: false, error: '服务器错误' });
     }
 });
@@ -130,7 +131,7 @@ router.delete('/:codeId', requireAdmin, (req, res) => {
             res.status(400).json({ success: false, error: result.error });
         }
     } catch (error) {
-        console.error('[邀请码管理] 删除失败:', error);
+        logger.logError(req, req.admin?.username, '邀请码删除失败', error.message, error.stack);
         res.status(500).json({ success: false, error: '服务器错误' });
     }
 });
@@ -148,7 +149,7 @@ router.get('/stats', requireAdmin, (req, res) => {
             data: stats
         });
     } catch (error) {
-        console.error('[邀请码管理] 获取统计失败:', error);
+        logger.logError(req, req.admin?.username, '邀请码获取统计失败', error.message, error.stack);
         res.status(500).json({ success: false, error: '服务器错误' });
     }
 });
@@ -173,7 +174,7 @@ router.post('/verify', (req, res) => {
             error: result.error || null
         });
     } catch (error) {
-        console.error('[邀请码管理] 验证失败:', error);
+        logger.logError(req, null, '邀请码验证失败', error.message, error.stack);
         res.json({ valid: false, error: '验证失败' });
     }
 });

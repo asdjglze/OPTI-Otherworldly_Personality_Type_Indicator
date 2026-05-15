@@ -66,7 +66,8 @@
     "url": "https://baike.mihoyo.com/ys/obc/content/59/detail?bbs_presentation_style=no_header",
     "card": "assets/characters/Jean_card.png",
     "gender": "女",
-    "mobile_card": "assets/characters/mobile_cards/Jean_mobile_card.png"
+    "mobile_card": "assets/characters/mobile_cards/Jean_mobile_card.png",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_002",
@@ -85,7 +86,8 @@
     "weapon_type": "弓",
     "constellation": "小兔座",
     "title": "飞行冠军",
-    "vision_cn": "火元素"
+    "vision_cn": "火元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_003",
@@ -104,7 +106,8 @@
     "weapon_type": "法器",
     "constellation": "沙漏座",
     "title": "蔷薇魔女",
-    "vision_cn": "雷元素"
+    "vision_cn": "雷元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_004",
@@ -123,7 +126,8 @@
     "weapon_type": "单手剑",
     "constellation": "孔雀羽座",
     "title": "寒风剑士",
-    "vision_cn": "冰元素"
+    "vision_cn": "冰元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_005",
@@ -142,7 +146,8 @@
     "weapon_type": "法器",
     "constellation": "金杯座",
     "title": "闪耀偶像",
-    "vision_cn": "水元素"
+    "vision_cn": "水元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_006",
@@ -161,7 +166,8 @@
     "weapon_type": "双手剑",
     "constellation": "夜枭座",
     "title": "晨曦的暗面",
-    "vision_cn": "火元素"
+    "vision_cn": "火元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_007",
@@ -180,7 +186,8 @@
     "weapon_type": "双手剑",
     "constellation": "小狼座",
     "title": "狼少年",
-    "vision_cn": "雷元素"
+    "vision_cn": "雷元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_008",
@@ -249,7 +256,8 @@
     "vision_cn": "冰元素",
     "card": "assets/characters/Venti_card.png",
     "gender": "男",
-    "mobile_card": "assets/characters/mobile_cards/Venti_mobile_card.png"
+    "mobile_card": "assets/characters/mobile_cards/Venti_mobile_card.png",
+    "vision_label": "神之心"
   },
   {
     "id": "character_009",
@@ -318,7 +326,8 @@
     "url": "https://baike.mihoyo.com/ys/obc/content/55/detail?bbs_presentation_style=no_header",
     "card": "assets/characters/Klee_card.png",
     "gender": "女",
-    "mobile_card": "assets/characters/mobile_cards/Klee_mobile_card.png"
+    "mobile_card": "assets/characters/mobile_cards/Klee_mobile_card.png",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_010",
@@ -337,7 +346,8 @@
     "weapon_type": "单手剑",
     "constellation": "险路座",
     "title": "命运试金石",
-    "vision_cn": "火元素"
+    "vision_cn": "火元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_011",
@@ -356,7 +366,8 @@
     "weapon_type": "双手剑",
     "constellation": "心护座",
     "title": "未授勋之花",
-    "vision_cn": "岩元素"
+    "vision_cn": "岩元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_012",
@@ -375,7 +386,8 @@
     "weapon_type": "弓",
     "constellation": "幻鸦座",
     "title": "断罪皇女！！",
-    "vision_cn": "雷元素"
+    "vision_cn": "雷元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_013",
@@ -394,7 +406,8 @@
     "weapon_type": "法器",
     "constellation": "烧瓶座",
     "title": "无害甜度",
-    "vision_cn": "风元素"
+    "vision_cn": "风元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_014",
@@ -463,7 +476,8 @@
     "url": "https://baike.mihoyo.com/ys/obc/content/1057/detail?bbs_presentation_style=no_header",
     "card": "assets/characters/Mona_card.png",
     "gender": "女",
-    "mobile_card": "assets/characters/mobile_cards/Mona_mobile_card.png"
+    "mobile_card": "assets/characters/mobile_cards/Mona_mobile_card.png",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_015",
@@ -482,7 +496,8 @@
     "weapon_type": "",
     "constellation": "",
     "title": "",
-    "vision_cn": "冰元素"
+    "vision_cn": "冰元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_016",
@@ -551,7 +566,8 @@
     "url": "https://baike.mihoyo.com/ys/obc/content/1360/detail?bbs_presentation_style=no_header",
     "card": "assets/characters/Albedo_card.png",
     "gender": "男",
-    "mobile_card": "assets/characters/mobile_cards/Albedo_mobile_card.png"
+    "mobile_card": "assets/characters/mobile_cards/Albedo_mobile_card.png",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_017",
@@ -570,7 +586,8 @@
     "weapon_type": "长柄武器",
     "constellation": "荆冠座",
     "title": "棘冠恩典",
-    "vision_cn": "冰元素"
+    "vision_cn": "冰元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_018",
@@ -589,7 +606,8 @@
     "weapon_type": "双手剑",
     "constellation": "浪沫座",
     "title": "浪沫的旋舞",
-    "vision_cn": "冰元素"
+    "vision_cn": "冰元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_019",
@@ -608,7 +626,8 @@
     "weapon_type": "弓",
     "constellation": "诺拉勇者座",
     "title": "异界的救世主",
-    "vision_cn": "冰元素"
+    "vision_cn": "冰元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_020",
@@ -627,7 +646,8 @@
     "weapon_type": "长柄武器",
     "constellation": "林鸽座",
     "title": "晴霜的标绘",
-    "vision_cn": "冰元素"
+    "vision_cn": "冰元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_021",
@@ -646,7 +666,8 @@
     "weapon_type": "单手剑",
     "constellation": "礼赞歌座",
     "title": "颂礼祝祭",
-    "vision_cn": "水元素"
+    "vision_cn": "水元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_022",
@@ -715,7 +736,8 @@
     "vision_cn": "火元素",
     "card": "assets/characters/Durin_card.png",
     "gender": "男",
-    "mobile_card": "assets/characters/mobile_cards/Durin_mobile_card.png"
+    "mobile_card": "assets/characters/mobile_cards/Durin_mobile_card.png",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_023",
@@ -784,7 +806,8 @@
     "vision_cn": "冰元素",
     "card": "assets/characters/Varka_card.png",
     "gender": "男",
-    "mobile_card": "assets/characters/mobile_cards/Varka_mobile_card.png"
+    "mobile_card": "assets/characters/mobile_cards/Varka_mobile_card.png",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_024",
@@ -887,7 +910,8 @@
     "vision_cn": "风元素",
     "card": "assets/characters/Xiao_card.png",
     "gender": "男",
-    "mobile_card": "assets/characters/mobile_cards/Xiao_mobile_card.png"
+    "mobile_card": "assets/characters/mobile_cards/Xiao_mobile_card.png",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_025",
@@ -906,7 +930,8 @@
     "weapon_type": "双手剑",
     "constellation": "南天海山座",
     "title": "无冕的龙王",
-    "vision_cn": "雷元素"
+    "vision_cn": "雷元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_026",
@@ -925,7 +950,8 @@
     "weapon_type": "法器",
     "constellation": "玑衡仪座",
     "title": "掩月天权",
-    "vision_cn": "水元素"
+    "vision_cn": "水元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_027",
@@ -944,7 +970,8 @@
     "weapon_type": "长柄武器",
     "constellation": "长杓座",
     "title": "万民百味",
-    "vision_cn": "火元素"
+    "vision_cn": "火元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_028",
@@ -963,7 +990,8 @@
     "weapon_type": "单手剑",
     "constellation": "锦织座",
     "title": "少年春衫薄",
-    "vision_cn": "水元素"
+    "vision_cn": "水元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_029",
@@ -1033,7 +1061,8 @@
     "vision_cn": "冰元素",
     "card": "assets/characters/Chongyun_card.png",
     "gender": "男",
-    "mobile_card": "assets/characters/mobile_cards/Chongyun_mobile_card.png"
+    "mobile_card": "assets/characters/mobile_cards/Chongyun_mobile_card.png",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_030",
@@ -1102,7 +1131,8 @@
     "vision_cn": "雷元素",
     "card": "assets/characters/Keqing_card.png",
     "gender": "女",
-    "mobile_card": "assets/characters/mobile_cards/Keqing_mobile_card.png"
+    "mobile_card": "assets/characters/mobile_cards/Keqing_mobile_card.png",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_031",
@@ -1171,7 +1201,8 @@
     "vision_cn": "冰元素",
     "card": "assets/characters/Qiqi_card.png",
     "gender": "女",
-    "mobile_card": "assets/characters/mobile_cards/Qiqi_mobile_card.png"
+    "mobile_card": "assets/characters/mobile_cards/Qiqi_mobile_card.png",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_032",
@@ -1241,7 +1272,8 @@
     "vision_cn": "冰元素",
     "card": "assets/characters/Tartaglia_card.png",
     "gender": "男",
-    "mobile_card": "assets/characters/mobile_cards/Tartaglia_mobile_card.png"
+    "mobile_card": "assets/characters/mobile_cards/Tartaglia_mobile_card.png",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_033",
@@ -1311,7 +1343,8 @@
     "url": "https://baike.mihoyo.com/ys/obc/content/1290/detail?bbs_presentation_style=no_header",
     "card": "assets/characters/Zhongli_card.png",
     "gender": "男",
-    "mobile_card": "assets/characters/mobile_cards/Zhongli_mobile_card.png"
+    "mobile_card": "assets/characters/mobile_cards/Zhongli_mobile_card.png",
+    "vision_label": "神之心"
   },
   {
     "id": "character_034",
@@ -1330,7 +1363,8 @@
     "weapon_type": "双手剑",
     "constellation": "红檀四弦座",
     "title": "燥热旋律",
-    "vision_cn": "火元素"
+    "vision_cn": "火元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_035",
@@ -1349,7 +1383,8 @@
     "weapon_type": "弓",
     "constellation": "仙麟座",
     "title": "循循守月",
-    "vision_cn": "冰元素"
+    "vision_cn": "冰元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_036",
@@ -1368,7 +1403,8 @@
     "weapon_type": "长柄武器",
     "constellation": "引蝶座",
     "title": "雪霁梅香",
-    "vision_cn": "火元素"
+    "vision_cn": "火元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_037",
@@ -1387,7 +1423,8 @@
     "weapon_type": "法器",
     "constellation": "法兽座",
     "title": "智明无邪",
-    "vision_cn": "火元素"
+    "vision_cn": "火元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_038",
@@ -1406,7 +1443,8 @@
     "weapon_type": "长柄武器",
     "constellation": "愁疏座",
     "title": "孤辰茕怀",
-    "vision_cn": "冰元素"
+    "vision_cn": "冰元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_039",
@@ -1425,7 +1463,8 @@
     "weapon_type": "长柄武器",
     "constellation": "虹章座",
     "title": "红毹婵娟",
-    "vision_cn": "岩元素"
+    "vision_cn": "岩元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_040",
@@ -1444,7 +1483,8 @@
     "weapon_type": "弓",
     "constellation": "幽客座",
     "title": "兰生幽谷",
-    "vision_cn": "水元素"
+    "vision_cn": "水元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_041",
@@ -1463,7 +1503,8 @@
     "weapon_type": "长柄武器",
     "constellation": "木樨座",
     "title": "仙蕊玲珑",
-    "vision_cn": "草元素"
+    "vision_cn": "草元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_042",
@@ -1555,7 +1596,8 @@
     "vision_cn": "水元素",
     "card": "assets/characters/Baizhu_card.png",
     "gender": "男",
-    "mobile_card": "assets/characters/mobile_cards/Baizhu_mobile_card.png"
+    "mobile_card": "assets/characters/mobile_cards/Baizhu_mobile_card.png",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_043",
@@ -1574,7 +1616,8 @@
     "weapon_type": "法器",
     "constellation": "闲鹤座",
     "title": "鸾音鹤信",
-    "vision_cn": "水元素"
+    "vision_cn": "水元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_044",
@@ -1593,7 +1636,8 @@
     "weapon_type": "双手剑",
     "constellation": "醒狮座",
     "title": "骏猊頕首",
-    "vision_cn": "火元素"
+    "vision_cn": "火元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_045",
@@ -1612,7 +1656,8 @@
     "weapon_type": "法器",
     "constellation": "玄燕座",
     "title": "翦玉编春",
-    "vision_cn": "冰元素"
+    "vision_cn": "冰元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_046",
@@ -1631,7 +1676,8 @@
     "weapon_type": "单手剑",
     "constellation": "白驹座",
     "title": "驹隙隐泉",
-    "vision_cn": "水元素"
+    "vision_cn": "水元素",
+    "vision_label": "月之轮"
   },
   {
     "id": "character_047",
@@ -1650,7 +1696,8 @@
     "weapon_type": "单手剑",
     "constellation": "雪鹤座",
     "title": "白鹭霜华",
-    "vision_cn": "冰元素"
+    "vision_cn": "冰元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_048",
@@ -1720,7 +1767,8 @@
     "vision_cn": "冰元素",
     "card": "assets/characters/Kazuha_card.png",
     "gender": "男",
-    "mobile_card": "assets/characters/mobile_cards/Kazuha_mobile_card.png"
+    "mobile_card": "assets/characters/mobile_cards/Kazuha_mobile_card.png",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_049",
@@ -1739,7 +1787,8 @@
     "weapon_type": "弓箭",
     "constellation": "琉金座",
     "title": "琉焰华舞",
-    "vision_cn": "火元素"
+    "vision_cn": "火元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_050",
@@ -1758,7 +1807,8 @@
     "weapon_type": "双手剑",
     "constellation": "小貉座",
     "title": "忍里之貉",
-    "vision_cn": "雷元素"
+    "vision_cn": "雷元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_051",
@@ -1777,7 +1827,8 @@
     "weapon_type": "长柄武器",
     "constellation": "天下人座",
     "title": "一心净土",
-    "vision_cn": "雷元素"
+    "vision_cn": "雷元素",
+    "vision_label": "神之心"
   },
   {
     "id": "character_052",
@@ -1796,7 +1847,8 @@
     "weapon_type": "弓",
     "constellation": "羽团扇座",
     "title": "黑羽鸣镝",
-    "vision_cn": "雷元素"
+    "vision_cn": "雷元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_053",
@@ -1815,7 +1867,8 @@
     "weapon_type": "法器",
     "constellation": "眠龙座",
     "title": "真珠之智",
-    "vision_cn": "火元素"
+    "vision_cn": "火元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_054",
@@ -1885,7 +1938,8 @@
     "vision_cn": "火元素",
     "card": "assets/characters/Thoma_card.png",
     "gender": "男",
-    "mobile_card": "assets/characters/mobile_cards/Thoma_mobile_card.png"
+    "mobile_card": "assets/characters/mobile_cards/Thoma_mobile_card.png",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_055",
@@ -1955,7 +2009,8 @@
     "vision_cn": "雷元素",
     "card": "assets/characters/AratakiItto_card.png",
     "gender": "男",
-    "mobile_card": "assets/characters/mobile_cards/AratakiItto_mobile_card.png"
+    "mobile_card": "assets/characters/mobile_cards/AratakiItto_mobile_card.png",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_056",
@@ -1974,7 +2029,8 @@
     "weapon_type": "弓",
     "constellation": "柴犬座",
     "title": "戎犬锵锵",
-    "vision_cn": "岩元素"
+    "vision_cn": "岩元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_057",
@@ -2044,7 +2100,8 @@
     "vision_cn": "雷元素",
     "card": "assets/characters/YaeMiko_card.png",
     "gender": "女",
-    "mobile_card": "assets/characters/mobile_cards/YaeMiko_mobile_card.png"
+    "mobile_card": "assets/characters/mobile_cards/YaeMiko_mobile_card.png",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_058",
@@ -2063,7 +2120,8 @@
     "weapon_type": "单手剑",
     "constellation": "神守柏座",
     "title": "磐祭叶守",
-    "vision_cn": "水元素"
+    "vision_cn": "水元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_059",
@@ -2082,7 +2140,8 @@
     "weapon_type": "单手剑",
     "constellation": "烦恼刈座",
     "title": "烦恼刈除",
-    "vision_cn": "雷元素"
+    "vision_cn": "雷元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_060",
@@ -2101,7 +2160,8 @@
     "weapon_type": "法器",
     "constellation": "幼鹿座",
     "title": "心朝乂安",
-    "vision_cn": "冰元素"
+    "vision_cn": "冰元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_061",
@@ -2120,7 +2180,8 @@
     "weapon_type": "单手剑",
     "constellation": "箱筥座",
     "title": "檐宇猫游",
-    "vision_cn": "雷元素"
+    "vision_cn": "雷元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_062",
@@ -2139,7 +2200,8 @@
     "weapon_type": "法器",
     "constellation": "貘枕座",
     "title": "绮梦缱绻",
-    "vision_cn": "冰元素"
+    "vision_cn": "冰元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_063",
@@ -2158,7 +2220,8 @@
     "weapon_type": "弓",
     "constellation": "郭狐座",
     "title": "浅蔚轻行",
-    "vision_cn": "草元素"
+    "vision_cn": "草元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_064",
@@ -2177,7 +2240,8 @@
     "weapon_type": "弓",
     "constellation": "薮猫座",
     "title": "萃念初蘖",
-    "vision_cn": "草元素"
+    "vision_cn": "草元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_065",
@@ -2247,7 +2311,8 @@
     "vision_cn": "雷元素",
     "card": "assets/characters/Dori_card.png",
     "gender": "女",
-    "mobile_card": "assets/characters/mobile_cards/Dori_mobile_card.png"
+    "mobile_card": "assets/characters/mobile_cards/Dori_mobile_card.png",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_066",
@@ -2266,7 +2331,8 @@
     "weapon_type": "长柄武器",
     "constellation": "金狼座",
     "title": "缄秘的裁遣",
-    "vision_cn": "雷元素"
+    "vision_cn": "雷元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_067",
@@ -2285,7 +2351,8 @@
     "weapon_type": "长柄武器",
     "constellation": "箭盾座",
     "title": "浮金的誓愿",
-    "vision_cn": "水元素"
+    "vision_cn": "水元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_068",
@@ -2346,7 +2413,8 @@
     "vision_cn": "水元素",
     "card": "assets/characters/Nilou_card.png",
     "gender": "女",
-    "mobile_card": "assets/characters/mobile_cards/Nilou_mobile_card.png"
+    "mobile_card": "assets/characters/mobile_cards/Nilou_mobile_card.png",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_069",
@@ -2365,7 +2433,8 @@
     "weapon_type": "法器",
     "constellation": "智慧主座",
     "title": "白草净华",
-    "vision_cn": "草元素"
+    "vision_cn": "草元素",
+    "vision_label": "神之心"
   },
   {
     "id": "character_070",
@@ -2384,7 +2453,8 @@
     "weapon_type": "单手剑",
     "constellation": "夜莺座",
     "title": "绮思晚星",
-    "vision_cn": "冰元素"
+    "vision_cn": "冰元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_071",
@@ -2403,7 +2473,8 @@
     "weapon_type": "法器",
     "constellation": "浪客座",
     "title": "久世浮倾",
-    "vision_cn": "风元素"
+    "vision_cn": "风元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_072",
@@ -2422,7 +2493,8 @@
     "weapon_type": "弓",
     "constellation": "蔓藤花饰座",
     "title": "机逐封秘",
-    "vision_cn": "风元素"
+    "vision_cn": "风元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_073",
@@ -2441,7 +2513,8 @@
     "weapon_type": "单手剑",
     "constellation": "天隼座",
     "title": "诲韬诤言",
-    "vision_cn": "草元素"
+    "vision_cn": "草元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_074",
@@ -2510,7 +2583,8 @@
     "vision_cn": "火元素",
     "card": "assets/characters/Dehya_card.png",
     "gender": "女",
-    "mobile_card": "assets/characters/mobile_cards/Dehya_mobile_card.png"
+    "mobile_card": "assets/characters/mobile_cards/Dehya_mobile_card.png",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_075",
@@ -2602,7 +2676,8 @@
     "vision_cn": "雷元素",
     "card": "assets/characters/Kaveh_card.png",
     "gender": "男",
-    "mobile_card": "assets/characters/mobile_cards/Kaveh_mobile_card.png"
+    "mobile_card": "assets/characters/mobile_cards/Kaveh_mobile_card.png",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_076",
@@ -2621,7 +2696,8 @@
     "weapon_type": "弓",
     "constellation": "圣名环座",
     "title": "衡明知度",
-    "vision_cn": "雷元素"
+    "vision_cn": "雷元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_077",
@@ -2640,7 +2716,8 @@
     "weapon_type": "弓",
     "constellation": "黑斑猫座",
     "title": "惑光幻戏",
-    "vision_cn": "火元素"
+    "vision_cn": "火元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_078",
@@ -2659,7 +2736,8 @@
     "weapon_type": "单手剑",
     "constellation": "白尾猫座",
     "title": "丽影绮行",
-    "vision_cn": "冰元素"
+    "vision_cn": "冰元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_079",
@@ -2678,7 +2756,8 @@
     "weapon_type": "双手剑",
     "constellation": "机巧座",
     "title": "潜怀遐梦",
-    "vision_cn": "冰元素"
+    "vision_cn": "冰元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_080",
@@ -2747,7 +2826,8 @@
     "vision_cn": "水元素",
     "card": "assets/characters/Neuvillette_card.png",
     "gender": "男",
-    "mobile_card": "assets/characters/mobile_cards/Neuvillette_mobile_card.png"
+    "mobile_card": "assets/characters/mobile_cards/Neuvillette_mobile_card.png",
+    "vision_label": "古龙大权"
   },
   {
     "id": "character_081",
@@ -2817,7 +2897,8 @@
     "vision_cn": "冰元素",
     "card": "assets/characters/Wriothesley_card.png",
     "gender": "男",
-    "mobile_card": "assets/characters/mobile_cards/Wriothesley_mobile_card.png"
+    "mobile_card": "assets/characters/mobile_cards/Wriothesley_mobile_card.png",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_082",
@@ -2836,7 +2917,8 @@
     "weapon_type": "法器",
     "constellation": "真视镜座",
     "title": "朗镜索真",
-    "vision_cn": "冰元素"
+    "vision_cn": "冰元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_083",
@@ -2855,7 +2937,8 @@
     "weapon_type": "单手剑",
     "constellation": "司颂座",
     "title": "不休独舞",
-    "vision_cn": "水元素"
+    "vision_cn": "水元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_084",
@@ -2874,7 +2957,8 @@
     "weapon_type": "双手剑",
     "constellation": "野蔷薇座",
     "title": "明花蔓舵",
-    "vision_cn": "冰元素"
+    "vision_cn": "冰元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_085",
@@ -2893,7 +2977,8 @@
     "weapon_type": "长柄武器",
     "constellation": "剑铳座",
     "title": "明律决罚",
-    "vision_cn": "火元素"
+    "vision_cn": "火元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_086",
@@ -2912,7 +2997,8 @@
     "weapon_type": "单手剑",
     "constellation": "丝切铗座",
     "title": "鸣雷的裁锦师",
-    "vision_cn": "风元素"
+    "vision_cn": "风元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_087",
@@ -2982,7 +3068,8 @@
     "vision_cn": "火元素",
     "card": "assets/characters/Arlecchino_card.png",
     "gender": "女",
-    "mobile_card": "assets/characters/mobile_cards/Arlecchino_mobile_card.png"
+    "mobile_card": "assets/characters/mobile_cards/Arlecchino_mobile_card.png",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_088",
@@ -3001,7 +3088,8 @@
     "weapon_type": "单手剑",
     "constellation": "迅捷剑座",
     "title": "秉烛狝影",
-    "vision_cn": "水元素"
+    "vision_cn": "水元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_089",
@@ -3020,7 +3108,8 @@
     "weapon_type": "弓",
     "constellation": "海精座",
     "title": "龙女妙变",
-    "vision_cn": "水元素"
+    "vision_cn": "水元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_090",
@@ -3039,7 +3128,8 @@
     "weapon_type": "长柄武器",
     "constellation": "香氛瓶座",
     "title": "千缕之踪",
-    "vision_cn": "草元素"
+    "vision_cn": "草元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_091",
@@ -3058,7 +3148,8 @@
     "weapon_type": "长柄武器",
     "constellation": "香糕塔座",
     "title": "明绚千韵",
-    "vision_cn": "冰元素"
+    "vision_cn": "冰元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_092",
@@ -3127,7 +3218,8 @@
     "vision_cn": "水元素",
     "card": "assets/characters/Mualani_card.png",
     "gender": "女",
-    "mobile_card": "assets/characters/mobile_cards/Mualani_mobile_card.png"
+    "mobile_card": "assets/characters/mobile_cards/Mualani_mobile_card.png",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_093",
@@ -3146,7 +3238,8 @@
     "weapon_type": "长柄武器",
     "constellation": "鼠兔座",
     "title": "斑金矿朴",
-    "vision_cn": "火元素"
+    "vision_cn": "火元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_094",
@@ -3165,7 +3258,8 @@
     "weapon_type": "双手剑",
     "constellation": "幻瑞兽座",
     "title": "回火之狩",
-    "vision_cn": "火元素"
+    "vision_cn": "火元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_095",
@@ -3235,7 +3329,8 @@
     "vision_cn": "冰元素",
     "card": "assets/characters/Xilonen_card.png",
     "gender": "女",
-    "mobile_card": "assets/characters/mobile_cards/Xilonen_mobile_card.png"
+    "mobile_card": "assets/characters/mobile_cards/Xilonen_mobile_card.png",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_096",
@@ -3254,7 +3349,8 @@
     "weapon_type": "弓",
     "constellation": "神鹫座",
     "title": "巡宇翦定",
-    "vision_cn": "风元素"
+    "vision_cn": "风元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_097",
@@ -3273,7 +3369,8 @@
     "weapon_type": "弓",
     "constellation": "夜蝠座",
     "title": "深黯的谜烟",
-    "vision_cn": "火元素"
+    "vision_cn": "火元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_098",
@@ -3292,7 +3389,8 @@
     "weapon_type": "法器",
     "constellation": "石心镜座",
     "title": "白星黑曜",
-    "vision_cn": "冰元素"
+    "vision_cn": "冰元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_099",
@@ -3361,7 +3459,8 @@
     "vision_cn": "火元素",
     "card": "assets/characters/Mavuika_card.png",
     "gender": "女",
-    "mobile_card": "assets/characters/mobile_cards/Mavuika_mobile_card.png"
+    "mobile_card": "assets/characters/mobile_cards/Mavuika_mobile_card.png",
+    "vision_label": "神之心"
   },
   {
     "id": "character_100",
@@ -3431,7 +3530,8 @@
     "vision_cn": "火元素",
     "card": "assets/characters/Varesa_card.png",
     "gender": "女",
-    "mobile_card": "assets/characters/mobile_cards/Varesa_mobile_card.png"
+    "mobile_card": "assets/characters/mobile_cards/Varesa_mobile_card.png",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_101",
@@ -3450,7 +3550,8 @@
     "weapon_type": "长柄武器",
     "constellation": "牨龙座",
     "title": "熔石百炼",
-    "vision_cn": "雷元素"
+    "vision_cn": "雷元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_102",
@@ -3469,7 +3570,8 @@
     "weapon_type": "法器",
     "constellation": "佩链座",
     "title": "蔚风引灵",
-    "vision_cn": "风元素"
+    "vision_cn": "风元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_103",
@@ -3538,7 +3640,8 @@
     "vision_cn": "水元素",
     "card": "assets/characters/Skirk_card.png",
     "gender": "女",
-    "mobile_card": "assets/characters/mobile_cards/Skirk_mobile_card.png"
+    "mobile_card": "assets/characters/mobile_cards/Skirk_mobile_card.png",
+    "vision_label": "蛇之七变"
   },
   {
     "id": "character_104",
@@ -3557,7 +3660,8 @@
     "weapon_type": "长柄武器",
     "constellation": "香荚兰座",
     "title": "轰隆雷鸣波",
-    "vision_cn": "雷元素"
+    "vision_cn": "雷元素",
+    "vision_label": "月之轮"
   },
   {
     "id": "character_105",
@@ -3626,7 +3730,8 @@
     "vision_cn": "水元素",
     "card": "assets/characters/Lauma_card.png",
     "gender": "女",
-    "mobile_card": "assets/characters/mobile_cards/Lauma_mobile_card.png"
+    "mobile_card": "assets/characters/mobile_cards/Lauma_mobile_card.png",
+    "vision_label": "月之轮"
   },
   {
     "id": "character_106",
@@ -3645,7 +3750,8 @@
     "weapon_type": "长柄武器",
     "constellation": "夜行灯座",
     "title": "诡灯陌影",
-    "vision_cn": "火元素"
+    "vision_cn": "火元素",
+    "vision_label": "月之轮"
   },
   {
     "id": "character_107",
@@ -3664,7 +3770,8 @@
     "weapon_type": "双手剑",
     "constellation": "砰砰盒座",
     "title": "妙械咣咣铛",
-    "vision_cn": "水元素"
+    "vision_cn": "水元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_108",
@@ -3683,7 +3790,8 @@
     "weapon_type": "法器",
     "constellation": "游棋座",
     "title": "湮沙的秘闻",
-    "vision_cn": "草元素"
+    "vision_cn": "草元素",
+    "vision_label": "月之轮"
   },
   {
     "id": "character_109",
@@ -3702,7 +3810,8 @@
     "weapon_type": "弓",
     "constellation": "莓果座",
     "title": "系风攘影",
-    "vision_cn": "冰元素"
+    "vision_cn": "冰元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_110",
@@ -3771,7 +3880,8 @@
     "vision_cn": "冰元素",
     "card": "assets/characters/Columbina_card.png",
     "gender": "女",
-    "mobile_card": "assets/characters/mobile_cards/Columbina_mobile_card.png"
+    "mobile_card": "assets/characters/mobile_cards/Columbina_mobile_card.png",
+    "vision_label": "三相月临"
   },
   {
     "id": "character_111",
@@ -3780,7 +3890,8 @@
     "assets": {
       "avatar": "assets/characters/avatars/旅行者·火.png",
       "icon": "assets/characters/badges/pyro.png"
-    }
+    },
+    "vision_label": "元素属性"
   },
   {
     "id": "character_112",
@@ -3789,7 +3900,8 @@
     "assets": {
       "avatar": "assets/characters/avatars/旅行者·水.png",
       "icon": "assets/characters/badges/cryo.png"
-    }
+    },
+    "vision_label": "元素属性"
   },
   {
     "id": "character_113",
@@ -3798,7 +3910,8 @@
     "assets": {
       "avatar": "assets/characters/avatars/旅行者·草.png",
       "icon": "assets/characters/badges/pyro.png"
-    }
+    },
+    "vision_label": "元素属性"
   },
   {
     "id": "character_114",
@@ -3807,7 +3920,8 @@
     "assets": {
       "avatar": "assets/characters/avatars/旅行者·雷.png",
       "icon": "assets/characters/badges/electro.png"
-    }
+    },
+    "vision_label": "元素属性"
   },
   {
     "id": "character_115",
@@ -3816,7 +3930,8 @@
     "assets": {
       "avatar": "assets/characters/avatars/旅行者·岩.png",
       "icon": "assets/characters/badges/electro.png"
-    }
+    },
+    "vision_label": "元素属性"
   },
   {
     "id": "character_116",
@@ -3825,7 +3940,8 @@
     "assets": {
       "avatar": "assets/characters/avatars/旅行者·风.png",
       "icon": "assets/characters/badges/cryo.png"
-    }
+    },
+    "vision_label": "元素属性"
   },
   {
     "id": "character_117",
@@ -3844,7 +3960,8 @@
     "weapon_type": "长柄武器",
     "constellation": "金莺座",
     "title": "魇夜燃芯",
-    "vision_cn": "岩元素"
+    "vision_cn": "岩元素",
+    "vision_label": "神之眼"
   },
   {
     "id": "character_118",
@@ -3853,7 +3970,8 @@
     "assets": {
       "avatar": "",
       "icon": ""
-    }
+    },
+    "vision_label": "元素属性"
   },
   {
     "id": "character_119",
@@ -3862,6 +3980,7 @@
     "assets": {
       "avatar": "",
       "icon": ""
-    }
+    },
+    "vision_label": "元素属性"
   }
 ]

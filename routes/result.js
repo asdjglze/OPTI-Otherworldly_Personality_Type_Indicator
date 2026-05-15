@@ -11,6 +11,7 @@ const resultService = require('../services/result');
 const sqliteDb = require('../services/sqlite-db');
 const calculator = require('../services/calculator');
 const dataService = require('../services/data');
+const logger = require('../services/logger');
 
 /**
  * 从请求中获取用户名
@@ -48,6 +49,16 @@ router.post('/submit', async (req, res) => {
             });
         }
         
+        // 白名单校验题库版本，防止非正常手段提交禁用题库
+        const allowedQuestionSets = ['mbti-200', 'mbti-172', 'mbti-106', 'mbti-90', 'genshin-expert-60'];
+        const finalQuestionSet = questionVersion || 'mbti-200';
+        if (!allowedQuestionSets.includes(finalQuestionSet)) {
+            return res.status(403).json({
+                success: false,
+                error: '无效的题库版本'
+            });
+        }
+        
         const result = resultService.submit(answers, gender, questionVersion);
         
         // 获取登录用户
@@ -73,13 +84,16 @@ router.post('/submit', async (req, res) => {
             }
         }
         
+        const questionSetLabel = finalQuestionSet === 'genshin-expert-60' ? '原神专家60题' : finalQuestionSet;
+        logger.logUserAction(req, username, '提交答卷', `题库=${questionSetLabel}`);
+        
         res.json({
             success: true,
             data: result
         });
         
     } catch (error) {
-        console.error('提交答案失败:', error);
+        logger.logError(req, username, '提交答案失败', error.message, error.stack);
         res.status(500).json({
             success: false,
             error: '服务器处理失败'
@@ -122,7 +136,7 @@ router.post('/direct-view', (req, res) => {
         });
         
     } catch (error) {
-        console.error('直接查看结果失败:', error);
+        logger.logError(req, null, '直接查看结果失败', error.message, error.stack);
         res.status(500).json({
             success: false,
             error: '服务器处理失败'

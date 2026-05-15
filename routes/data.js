@@ -8,6 +8,7 @@
 const express = require('express');
 const router = express.Router();
 const dataService = require('../services/data');
+const logger = require('../services/logger');
 
 /**
  * GET /api/init
@@ -25,7 +26,7 @@ router.get('/init', (req, res) => {
         res.json(initData);
         
     } catch (error) {
-        console.error('获取初始化数据失败:', error);
+        logger.logError(req, null, '获取初始化数据失败', error.message, error.stack);
         res.status(500).json({
             success: false,
             error: '获取初始化数据失败'
